@@ -1,0 +1,16 @@
+{
+  "name": "marketscan",
+  "version": "0.1.0",
+  "description": "Is this marketplace software still maintained? Maintenance signals for WordPress plugins and VS Code extensions.",
+  "type": "module",
+  "bin": { "marketscan": "src/index.mjs" },
+  "main": "src/index.mjs",
+  "exports": { ".": "./src/index.mjs", "./health": "./src/health.mjs" },
+  "engines": { "node": ">=18" },
+  "files": ["src", "README.md"],
+  "keywords": ["wordpress", "vscode", "marketplace", "abandoned", "unmaintained", "plugin", "extension", "maintenance"],
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/odedmoshe/marketscan.git" },
+  "homepage": "https://github.com/odedmoshe/marketscan#readme",
+  "scripts": { "test": "node --test" }
+}
