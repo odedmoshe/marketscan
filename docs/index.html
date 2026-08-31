@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Three software marketplaces measured directly - WordPress, VS Code and Shopify - to answer whether anything new can still get discovered in them. Primary data, n=3,664.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://odedmoshe.github.io/marketscan/">
+<meta property="og:title" content="The Distribution Census">
+<meta property="og:description" content="Three software marketplaces, measured directly. Can anything new still get discovered in them?">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://odedmoshe.github.io/marketscan/">
+<style>*{box-sizing:border-box}html,body{margin:0}img{max-width:100%}</style>
+<title>The Distribution Census</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,400;0,500;0,600;1,6..72,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+
+<style>
+:root{
+  --paper:#EDF0F3;
+  --card:#F7F9FA;
+  --ink:#0F1720;
+  --ink-2:#4E5A66;
+  --ink-3:#7A8794;
+  --rule:#CBD4DC;
+  --rule-2:#DDE4EA;
+  --accent:#1B4E8C;      /* structure, incumbency, organisations */
+  --decay:#9C452A;       /* neglect, abandonment */
+  --ok:#0E6E5E;
+  --serif:'Newsreader',Georgia,'Times New Roman',serif;
+  --sans:'IBM Plex Sans',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --mono:'IBM Plex Mono',ui-monospace,'SF Mono',Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#0C1218; --card:#131C24; --ink:#DEE6ED; --ink-2:#98A6B3; --ink-3:#6C7C8A;
+    --rule:#26323D; --rule-2:#1C2731; --accent:#7FAEE8; --decay:#E08A6A; --ok:#4FBFA8;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0C1218; --card:#131C24; --ink:#DEE6ED; --ink-2:#98A6B3; --ink-3:#6C7C8A;
+  --rule:#26323D; --rule-2:#1C2731; --accent:#7FAEE8; --decay:#E08A6A; --ok:#4FBFA8;
+}
+
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);
+  font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased}
+
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px 96px}
+.col{max-width:660px}
+
+/* ---- masthead ---- */
+header.top{border-bottom:2px solid var(--ink);margin-bottom:44px;padding:52px 0 26px}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--ink-3);display:flex;flex-wrap:wrap;gap:18px;margin-bottom:26px}
+h1{font-family:var(--serif);font-weight:400;font-size:clamp(44px,8vw,86px);line-height:.98;
+  letter-spacing:-.022em;margin:0 0 20px;text-wrap:balance}
+.standfirst{font-family:var(--serif);font-size:clamp(19px,2.4vw,24px);line-height:1.45;
+  color:var(--ink-2);max-width:640px;margin:0;font-weight:300}
+
+/* ---- key numbers ---- */
+.figures{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));
+  gap:1px;background:var(--rule);border:1px solid var(--rule);margin:0 0 52px}
+.fig{background:var(--card);padding:22px 20px 20px}
+.fig .n{font-family:var(--serif);font-size:46px;line-height:1;letter-spacing:-.02em;
+  font-variant-numeric:tabular-nums}
+.fig .n.d{color:var(--decay)}
+.fig .k{font-family:var(--mono);font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--ink-3);margin-top:11px}
+.fig .s{font-size:13.5px;color:var(--ink-2);margin-top:7px;line-height:1.45}
+
+h2{font-family:var(--serif);font-weight:500;font-size:clamp(27px,3.6vw,36px);line-height:1.12;
+  letter-spacing:-.015em;margin:60px 0 6px;text-wrap:balance}
+h3{font-family:var(--mono);font-size:11px;letter-spacing:.15em;text-transform:uppercase;
+  color:var(--accent);margin:44px 0 12px;font-weight:500}
+.dek{color:var(--ink-3);font-size:16px;margin:0 0 22px;font-style:italic;font-family:var(--serif)}
+p{margin:0 0 18px}
+.col p{max-width:66ch}
+strong{font-weight:600}
+em.q{font-style:italic;color:var(--ink-2)}
+code{font-family:var(--mono);font-size:.88em;background:var(--card);
+  border:1px solid var(--rule-2);border-radius:3px;padding:1px 5px}
+
+/* ---- data blocks ---- */
+.block{margin:30px 0 34px;overflow-x:auto}
+table{border-collapse:collapse;width:100%;min-width:560px;font-size:14.5px}
+th{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-3);text-align:left;font-weight:500;padding:0 14px 9px 0;
+  border-bottom:1px solid var(--ink)}
+td{padding:11px 14px 11px 0;border-bottom:1px solid var(--rule-2);vertical-align:top}
+td.n{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+tr:last-child td{border-bottom:none}
+.bar{display:block;height:9px;background:var(--accent);border-radius:1px;min-width:2px}
+.bar.d{background:var(--decay)}
+.who{font-weight:500}
+.how{color:var(--ink-2);font-size:13.5px}
+
+/* ---- cohort comparison ---- */
+.cohorts{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:22px;margin:28px 0 36px}
+.cohort{border:1px solid var(--rule);background:var(--card);padding:20px}
+.cohort .lab{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-3);margin-bottom:12px}
+.cohort .big{font-family:var(--serif);font-size:52px;line-height:1;letter-spacing:-.02em;
+  font-variant-numeric:tabular-nums}
+.cohort .cap{font-size:13.5px;color:var(--ink-2);margin-top:9px;line-height:1.45}
+.track{height:7px;background:var(--rule);margin-top:16px;border-radius:1px;overflow:hidden}
+.track span{display:block;height:100%;background:var(--accent)}
+.cohort.now .big{color:var(--decay)}
+.cohort.now .track span{background:var(--decay)}
+
+/* ---- pull quote ---- */
+.pull{border-left:3px solid var(--decay);padding:4px 0 4px 22px;margin:34px 0}
+.pull p{font-family:var(--serif);font-size:22px;line-height:1.38;color:var(--ink);margin:0 0 9px;
+  font-weight:400;max-width:34ch}
+.pull cite{font-family:var(--mono);font-size:10.5px;letter-spacing:.11em;text-transform:uppercase;
+  color:var(--ink-3);font-style:normal}
+
+/* ---- caveats ---- */
+.caveats{border:1px solid var(--rule);background:var(--card);padding:26px 28px;margin:52px 0 0}
+.caveats h3{margin-top:0;color:var(--decay)}
+.caveats ul{margin:0;padding-left:19px}
+.caveats li{margin-bottom:13px;font-size:14.5px;color:var(--ink-2);max-width:74ch}
+.caveats li:last-child{margin-bottom:0}
+.caveats b{color:var(--ink);font-weight:600}
+
+footer{margin-top:66px;padding-top:22px;border-top:1px solid var(--rule);
+  font-family:var(--mono);font-size:11.5px;color:var(--ink-3);line-height:1.85}
+</style>
+
+</head>
+<body>
+<div class="wrap">
+
+<header class="top">
+  <div class="eyebrow">
+    <span>Primary data</span><span>3 marketplaces</span><span>n = 3,664</span><span>August 2026</span>
+  </div>
+  <h1>The Distribution Census</h1>
+  <p class="standfirst">Three software marketplaces, measured directly rather than read about. The question was simple: can something new still get found here? The answer is not the one the marketplaces imply.</p>
+</header>
+
+<div class="figures">
+  <div class="fig">
+    <div class="n d">9%</div>
+    <div class="k">WordPress</div>
+    <div class="s">of plugins reaching 50k installs since 2023 were independent. The rest arrived with an audience.</div>
+  </div>
+  <div class="fig">
+    <div class="n">37%</div>
+    <div class="k">VS Code</div>
+    <div class="s">of new entrants are independent — down from 73% before 2023. Open, and closing.</div>
+  </div>
+  <div class="fig">
+    <div class="n d">34.7%</div>
+    <div class="k">Shopify</div>
+    <div class="s">of apps rated 4.8★ or higher still sit under 25 reviews. Being good does not get you found.</div>
+  </div>
+</div>
+
+<div class="col">
+<h2>What was actually measured</h2>
+<p class="dek">Everything below comes from the marketplaces' own public endpoints.</p>
+
+<p>The usual way to answer &ldquo;is this marketplace worth entering&rdquo; is to read other people's blog posts about other people's outcomes. That is survivorship bias with a citation. So instead: 2,000 WordPress plugins from the wp.org API, 1,199 VS Code extensions from the gallery API the editor itself queries, and 465 Shopify apps crawled from the store's sitemap in file order rather than from category pages &mdash; which is the difference between a sample of the store and a sample of its winners.</p>
+
+<p>One methodological note that changed a conclusion. My first pass at classifying VS Code publishers worked by recognising company names, which is recall, and recall is how you end up confidently wrong. The gallery API publishes <code>isDomainVerified</code> &mdash; verifying a domain requires controlling one, and organisations do it while individuals mostly do not. Mechanical, checkable, and independent of what I happen to know.</p>
+</div>
+
+<h2>WordPress: the directory is not the distribution</h2>
+<p class="dek">71,064 plugins. Free to list. No review fee. The best possible case for &ldquo;marketplaces distribute&rdquo;.</p>
+
+<div class="col">
+<p>Forty-six plugins added since January 2023 have reached 50,000 active installs or more. Publisher attribution was taken from the API's own <code>author</code> field, not from memory. Here is who they belong to.</p>
+</div>
+
+<div class="block">
+<table>
+  <thead><tr><th style="width:34%">Who</th><th style="width:8%">n</th><th style="width:18%"></th><th>How they actually got there</th></tr></thead>
+  <tbody>
+    <tr><td class="who">Existing large portfolios</td><td class="n">21</td><td><span class="bar" style="width:100%"></span></td><td class="how">Cross-promotion into an install base they already owned — Softaculous 6, Elementor 5, Brainstorm Force 5, Awesome Motive 4, AIOSEO 1</td></tr>
+    <tr><td class="who">The platform itself</td><td class="n">12</td><td><span class="bar" style="width:57%"></span></td><td class="how">WP Performance Team, WooCommerce, WordPress.org, Automattic</td></tr>
+    <tr><td class="who">Established companies entering</td><td class="n">5</td><td><span class="bar" style="width:24%"></span></td><td class="how">Omnisend, LatePoint, WP All Import, erecht24, OneTap — they brought an audience with them</td></tr>
+    <tr><td class="who">Hosting companies</td><td class="n">4</td><td><span class="bar" style="width:19%"></span></td><td class="how">Bundled or auto-installed onto customer sites — Hostinger, SiteGround, XServer</td></tr>
+    <tr><td class="who" style="color:var(--decay)">Plausibly independent</td><td class="n">4</td><td><span class="bar d" style="width:19%"></span></td><td class="how">And all four already sold Elementor or Gutenberg addons. None were really cold.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="col">
+<p>Not one entrant reached scale on directory search alone. The directory is also ossifying: counting the top 2,000 plugins by the year they were added gives roughly <strong>180 per year for 2016&ndash;2018</strong>, <strong>68 per year for 2021&ndash;2022</strong>, and <strong>29 per year for 2023&ndash;2026</strong>.</p>
+
+<div class="pull">
+  <p>The directory is not the distribution. Hosting deals and portfolio cross-promotion are. The directory is where they get cashed in.</p>
+  <cite>Conclusion after the second marketplace showed the same shape</cite>
+</div>
+
+<p>A second thing fell out of the same data, filed as an observation rather than an opportunity: among plugins with very large install bases, the worst-rated are overwhelmingly <strong>first-party integrations from large companies</strong>. WooCommerce Tax sits at 2.0★ across 105 ratings on 500k installs; Meta for WooCommerce at 2.1★ on 400k; WordPress Importer at 3.1★ on two million, with <em class="q">zero percent</em> of its support threads resolved. People install them because they are official, not because they are good.</p>
+</div>
+
+<h2>VS Code: the one door still open</h2>
+<p class="dek">134,919 extensions. Developers as users. Reputation travelling through GitHub rather than hosting deals.</p>
+
+<div class="col">
+<p>This was the test that could break the thesis, and it partly did. Of 112 extensions first released since January 2023 that reached the top slice by installs, 63% belong to domain-verified organisations &mdash; but <strong>37% do not</strong>. Against WordPress's 9%, that is roughly four times more open to independent entry.</p>
+
+<p>Then the same measurement, applied to the cohort that arrived earlier:</p>
+</div>
+
+<div class="cohorts">
+  <div class="cohort">
+    <div class="lab">Released before 2023</div>
+    <div class="big">73%</div>
+    <div class="track"><span style="width:73%"></span></div>
+    <div class="cap">of extensions in the top slice come from unverified — largely independent — publishers.</div>
+  </div>
+  <div class="cohort now">
+    <div class="lab">Released 2023 onward</div>
+    <div class="big">37%</div>
+    <div class="track"><span style="width:37%"></span></div>
+    <div class="cap">The independent share of new entrants has halved in three years.</div>
+  </div>
+</div>
+
+<div class="col">
+<p>The door is open and closing. And what came through it is narrow: essentially everything independent that reached scale is either <strong>free open-source developer tooling</strong> &mdash; Biome, BasedPyright, Pretty TypeScript Errors, opencode, DevDb &mdash; or an AI assistant wrapper. The clearest cold start in any of the three marketplaces is Cline, which went from a standing start in 2024 to 5.2M installs and is now domain-verified, because it became a company.</p>
+
+<p>Which leaves the uncomfortable part. The channel that still works distributes <em class="q">free</em> things. Almost none of the independent winners charge for the extension itself. This is a route to adoption, not to revenue, and anyone planning on the latter has to put it somewhere other than the artefact being adopted.</p>
+</div>
+
+<h2>Shopify: quality is not the constraint</h2>
+<p class="dek">465 apps sampled from the sitemap, not from the category pages that show only winners.</p>
+
+<div class="col">
+<p>The store's own numbers settle an argument that usually gets settled by anecdote. <strong>45.6% of apps sit under 25 reviews</strong> &mdash; the threshold below which listings are widely reported to convert at 1&ndash;2% rather than 5&ndash;8%. That alone is unremarkable; long tails are long.</p>
+
+<p>The finding is what happens when you filter for the good ones. Among apps with at least five reviews, 45.8% are rated 4.8★ or higher &mdash; and <strong>34.7% of those excellent apps are themselves under 25 reviews</strong>. A third of the genuinely good software in the store never gets discovered.</p>
+
+<div class="pull">
+  <p>If a third of excellent apps stay invisible, then quality is not the binding constraint. Discovery is.</p>
+  <cite>The whole question, answered from the store's own data</cite>
+</div>
+
+<p>The surrounding economics are consistent with a market where being found is the scarce thing: <strong>96.1%</strong> of apps offer a free plan or free install, the median paid tier is <strong>$20/month</strong>, and only 15.1% carry the &ldquo;Built for Shopify&rdquo; badge. Fifty-three developers in the sample ship more than one app, led by POWR.io and Eniture Technology at fifteen apiece.</p>
+</div>
+
+<h2>What this adds up to</h2>
+
+<div class="col">
+<p>Three marketplaces, measured independently, produce one shape. Discovery is captured by parties who arrived with an audience &mdash; a hosting relationship, an existing portfolio, a platform to promote from. The marketplace is not where distribution is acquired. It is the settlement layer where distribution acquired elsewhere is converted into installs.</p>
+
+<p>The single exception is developer tooling that is free and open source, and that exception is measurably narrowing.</p>
+
+<p>There is a corollary worth stating plainly, because it is the part that costs people years: building a better product is not a distribution strategy in any of these three places. The Shopify data says a third of the best apps are invisible. The WordPress data says not one independent entrant broke through on search. If you are choosing where to spend a year, the question to answer first is not <em class="q">what should I build</em> &mdash; it is <em class="q">which of these doors is open to me specifically</em>.</p>
+</div>
+
+<div class="caveats">
+  <h3>What would make this wrong</h3>
+  <ul>
+    <li><b>VS Code install counts are inflated</b> and not comparable across marketplaces — auto-updates and bundling both increment them. Only the within-marketplace cohort comparison is load-bearing here.</li>
+    <li><b><code>isDomainVerified</code> overstates independence.</b> Alibaba Cloud, Tencent Cloud, Moonshot AI and Eclipse are organisations that have not verified a domain. Read 37% as a ceiling, not a point estimate.</li>
+    <li><b>WordPress install counts are bucketed</b> by the directory itself — it reports <code>300,000</code>, never <code>312,481</code> — so thresholds near a bucket edge are approximate.</li>
+    <li><b>Two figures in an earlier draft of this work were wrong and are corrected here.</b> A parser bug read review counts from a page's sidebar, attributing other apps' numbers to the app being measured; extraction now reads labelled fields and is checked against four independently verified apps before any number is used. Separately, the &ldquo;4.8★ or higher&rdquo; share was published at ~37% on a 65-app sample and is <b>45.8%</b> at 465 — under-powered rather than corrupted.</li>
+    <li><b>One figure was withdrawn rather than corrected.</b> &ldquo;The top 10 apps hold 65% of all reviews&rdquo; became 57.9% at the larger sample, because the top 10 of 465 is mechanically a smaller slice than the top 10 of 65. It was measuring the sample, not the market. Nothing computed on fewer than ~200 records appears here.</li>
+    <li><b>These are three marketplaces, not all of them.</b> Chrome Web Store, Figma, Obsidian and Slack are unmeasured, and each has a different discovery mechanism that could plausibly behave differently.</li>
+  </ul>
+</div>
+
+<footer>
+  Sources: <span style="color:var(--ink-2)">api.wordpress.org/plugins/info/1.2</span> · <span style="color:var(--ink-2)">marketplace.visualstudio.com gallery API</span> · <span style="color:var(--ink-2)">apps.shopify.com sitemap + listing pages</span><br>
+  Collected August 2026. Public, key-free endpoints; crawling limited to what robots.txt permits. Collection code and per-figure derivations retained.
+</footer>
+
+</div>
+
+</body>
+</html>
