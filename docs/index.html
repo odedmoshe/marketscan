@@ -128,6 +128,129 @@ footer{margin-top:66px;padding-top:22px;border-top:1px solid var(--rule);
   font-family:var(--mono);font-size:11.5px;color:var(--ink-3);line-height:1.85}
 </style>
 
+<!-- structured-data:start -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "The Distribution Census: four software marketplaces measured",
+  "description": "Primary data on discovery and maintenance across four software marketplaces. Includes the complete WordPress plugin directory (all 71,091 listings) with the date each plugin was added and the date it last shipped, plus samples of the VS Code Marketplace, the Shopify App Store and the Chrome Web Store. Collected from each marketplace’s own public endpoints. Every published figure is recomputed from the stored data by a script in the repository.",
+  "url": "https://odedmoshe.github.io/marketscan/",
+  "sameAs": "https://github.com/odedmoshe/marketscan",
+  "license": "https://opensource.org/licenses/MIT",
+  "isAccessibleForFree": true,
+  "creator": {
+    "@type": "Person",
+    "name": "Oded Moshe",
+    "url": "https://github.com/odedmoshe"
+  },
+  "dateModified": "2026-08-31",
+  "temporalCoverage": "2004-12-13/2026-08-31",
+  "keywords": [
+    "WordPress plugins",
+    "plugin directory",
+    "software marketplace",
+    "app store discovery",
+    "abandoned software",
+    "VS Code extensions",
+    "Shopify apps",
+    "Chrome extensions",
+    "software maintenance"
+  ],
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "dateAdded",
+      "description": "When the listing first appeared in the marketplace"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "lastUpdated",
+      "description": "When the listing last shipped a release"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "activeInstalls",
+      "description": "Install base, bucketed by the marketplace itself; a floor rather than a count"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "rating",
+      "description": "Average user rating and the number of ratings behind it"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "author",
+      "description": "Publisher as the marketplace reports it; does not resolve corporate ownership"
+    }
+  ],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "wp-directory.json",
+      "description": "Every plugin in the WordPress directory, with the date added and the date of last release (71,091 records)",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://raw.githubusercontent.com/odedmoshe/marketscan/main/data/wp-directory.json"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "wp-plugins.json",
+      "description": "The 2,000 most popular WordPress plugins, with support-thread resolution rates (2,000 records)",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://raw.githubusercontent.com/odedmoshe/marketscan/main/data/wp-plugins.json"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "vsx-extensions.json",
+      "description": "VS Code Marketplace extensions, with publisher domain verification (1,199 records)",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://raw.githubusercontent.com/odedmoshe/marketscan/main/data/vsx-extensions.json"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "shopify-cohort.json",
+      "description": "Shopify apps sampled from the sitemap, with launch dates (1,575 records)",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://raw.githubusercontent.com/odedmoshe/marketscan/main/data/shopify-cohort.json"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "app-details.json",
+      "description": "Shopify apps with pricing tiers and review counts (465 records)",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://raw.githubusercontent.com/odedmoshe/marketscan/main/data/app-details.json"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "chrome-extensions.json",
+      "description": "Chrome Web Store extensions sampled from the sitemap (500 records)",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://raw.githubusercontent.com/odedmoshe/marketscan/main/data/chrome-extensions.json"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "The Distribution Census",
+  "description": "Four software marketplaces measured directly to answer whether anything new can still get discovered in them. In the WordPress directory the median plugin that reached 10,000 installs since 2024 belonged to an author who already had 420,000.",
+  "url": "https://odedmoshe.github.io/marketscan/",
+  "author": {
+    "@type": "Person",
+    "name": "Oded Moshe",
+    "url": "https://github.com/odedmoshe"
+  },
+  "datePublished": "2026-08-30",
+  "dateModified": "2026-08-31",
+  "isBasedOn": {
+    "@id": "https://odedmoshe.github.io/marketscan/"
+  },
+  "license": "https://opensource.org/licenses/MIT"
+}
+</script>
+<!-- structured-data:end -->
 </head>
 <body>
 <div class="wrap">
