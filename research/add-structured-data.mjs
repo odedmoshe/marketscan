@@ -22,7 +22,10 @@ import { readFileSync, writeFileSync } from 'node:fs';
 const DRY = process.argv.includes('--dry');
 const PAGE = new URL('../docs/index.html', import.meta.url);
 const SITEMAP = new URL('../docs/sitemap.xml', import.meta.url);
-const SITE = 'https://odedmoshe.github.io/marketscan/';
+// The canonical home is the owned domain; this copy is served from GitHub
+// Pages but points every identifier at plugincensus.com so search engines
+// consolidate on the domain rather than splitting the signal between two.
+const SITE = 'https://plugincensus.com/';
 const RAW = 'https://raw.githubusercontent.com/odedmoshe/marketscan/main/data/';
 
 const count = (f) => {

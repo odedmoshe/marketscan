@@ -97,11 +97,11 @@ const page = `<!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="${list.length} WordPress plugins with more than ${MIN_INSTALLS.toLocaleString()} active installs that have not shipped a release in over two years. Measured from the whole directory, ${today}.">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="https://odedmoshe.github.io/marketscan/abandoned.html">
+<link rel="canonical" href="https://plugincensus.com/abandoned">
 <meta property="og:title" content="Popular WordPress plugins that stopped shipping">
 <meta property="og:description" content="${list.length} plugins with ${MIN_INSTALLS.toLocaleString()}+ installs and no release in two years. Median silence ${medianSilence} months; the longest is ${oldest ? oldest.mo : 0} months on ${oldest ? oldest.i.toLocaleString() : 0} sites.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://odedmoshe.github.io/marketscan/abandoned.html">
+<meta property="og:url" content="https://plugincensus.com/abandoned">
 <style>*{box-sizing:border-box}html,body{margin:0}img{max-width:100%}</style>
 <title>Popular WordPress plugins that stopped shipping</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
