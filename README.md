@@ -49,15 +49,26 @@ nothing in the marketplace is incentivised to tell you.
 
 ## The research this came out of
 
-[**The Distribution Census**](https://odedmoshe.github.io/marketscan/) — three
+[**The Distribution Census**](https://odedmoshe.github.io/marketscan/) — four
 marketplaces measured directly to answer whether anything new can still get
-discovered in them. 2,000 WordPress plugins, 1,199 VS Code extensions, 465
-Shopify apps. ([markdown version](RESEARCH.md))
+discovered in them. ([markdown version](RESEARCH.md))
 
-- 46 WordPress plugins reached 50k installs since 2023. **Four were independent**,
-  and all four already sold Elementor or Gutenberg addons.
+The WordPress part is not a sample. It is **all 71,091 plugins** in the
+directory, with the date each was added and the date each last shipped.
+
+- **Distribution is inherited.** 95 plugins added since January 2024 have
+  reached 10,000 installs. The median one belonged to an author who *already
+  had* **420,000 installs** across their other plugins. Nothing on that list
+  got there from a standing start.
+- **Submissions have roughly quintupled in eighteen months** — 460 new plugins
+  in January 2025, 2,495 in July 2026 — while the share reaching anyone
+  collapsed. 22.7% of the 2019 cohort still has zero installs; 80.7% of the
+  2026 cohort does.
+- **58.8% of the whole directory has had no release in twelve months**, against
+  13.8% of the top 2,000. The head is maintained; the directory is not.
 - The independent share of new VS Code entrants **halved**, 73% → 37%, in three years.
-- **34.7%** of Shopify apps rated 4.8★ or higher still sit under 25 reviews.
+- On Shopify, **3%** of apps launched in the last two years have reached 25
+  reviews, against 28% of those launched earlier.
 
 Everything is reproducible: the collectors and the raw datasets are in
 [`research/`](research/) and [`data/`](data/). `node research/verify-census.mjs`
