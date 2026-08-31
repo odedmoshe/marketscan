@@ -12,12 +12,13 @@
  *     so anything derived from it is a ceiling, never a point estimate.
  */
 
+import { request } from '../http.mjs';
+
 const ENDPOINT = 'https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery';
 
 const HEADERS = {
   Accept: 'application/json;api-version=3.0-preview.1',
   'Content-Type': 'application/json',
-  'User-Agent': 'marketscan/0.1 (+maintenance signals for marketplace software)',
 };
 
 // filterType 7 = exact extension name; 8 = target platform. sortBy 4 = installs.
@@ -50,7 +51,7 @@ function shape(e) {
 }
 
 async function post(body) {
-  const res = await fetch(ENDPOINT, { method: 'POST', headers: HEADERS, body });
+  const res = await request(ENDPOINT, { method: 'POST', headers: HEADERS, body });
   if (!res.ok) throw new Error(`vscode: HTTP ${res.status}`);
   return res.json();
 }

@@ -6,8 +6,9 @@
  * That combination is why the abandonment signal is sharpest here.
  */
 
+import { request } from '../http.mjs';
+
 const API = 'https://api.wordpress.org/plugins/info/1.2/';
-const UA = { 'User-Agent': 'marketscan/0.1 (+maintenance signals for marketplace software)' };
 
 /** The API takes PHP-style bracket params and they must be percent-encoded. */
 function qs(params) {
@@ -50,9 +51,7 @@ function shape(p) {
 }
 
 export async function lookup(slug) {
-  const res = await fetch(`${API}?${qs({ action: 'plugin_information', 'request[slug]': slug })}`, {
-    headers: UA,
-  });
+  const res = await request(`${API}?${qs({ action: 'plugin_information', 'request[slug]': slug })}`);
 
   // A slug the directory does not serve is the single most important result this
   // tool can return — a plugin pulled for a security issue looks exactly like a
@@ -82,9 +81,8 @@ export async function lookup(slug) {
 export async function popular({ pages = 10, perPage = 100 } = {}) {
   const out = new Map();
   for (let page = 1; page <= pages; page++) {
-    const res = await fetch(
+    const res = await request(
       `${API}?${qs({ action: 'query_plugins', 'request[browse]': 'popular', 'request[page]': page, 'request[per_page]': perPage })}`,
-      { headers: UA },
     );
     if (!res.ok) throw new Error(`wordpress: HTTP ${res.status} on page ${page}`);
     const d = await res.json();

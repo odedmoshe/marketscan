@@ -38,9 +38,10 @@ alive forever. That is why the free datasets that do exist go stale: the best
 public Shopify app dataset still says "regularly updated" in its README and
 carries a `dateModified` of November 2024.
 
-Meanwhile the exposure is real and measurable. **10% of the twelve hundred most
-popular WordPress plugins have had no release in a year.** An abandoned listing
-still converts, so nothing in the marketplace is incentivised to tell you.
+Meanwhile the exposure is real and measurable. **13.8% of the 2,000 most popular
+WordPress plugins have had no release in a year** — reproduce it with
+`marketscan wp --abandoned --pages 20`. An abandoned listing still converts, so
+nothing in the marketplace is incentivised to tell you.
 
 [deps.dev]: https://deps.dev
 [ecosyste.ms]: https://ecosyste.ms
@@ -70,9 +71,49 @@ telemetry. Every source is a public, documented, key-free endpoint.
 Check one thing:
 
 ```sh
-marketscan wp woocommerce-pdf-invoices-packing-slips
-marketscan vsx ms-python.python
+marketscan wp   woocommerce-pdf-invoices-packing-slips
+marketscan vsx  ms-python.python
+marketscan shop judgeme
+marketscan cr   ddkjiahejlhfcafbddmgiahcphecmpfh
 ```
+
+Check a whole list — the actual job, if you look after more than one site:
+
+```sh
+marketscan audit plugins.txt
+```
+
+```
+Audit — plugins.txt
+  5 listings checked
+
+  ABANDONED  41mo  Limit Login Attempts                wp:limit-login-attempts
+  ABANDONED  61mo  Easy Google Fonts                   wp:easy-google-fonts
+  UNKNOWN       -  Judge.me Product Reviews App        shop:judgeme
+  ACTIVE      0mo  Akismet Anti-spam                   wp:akismet
+  ACTIVE      0mo  Python                              vsx:ms-python.python
+  SKIPPED          line 7: unknown marketplace "figma"
+
+  2 of 5 abandoned or delisted.
+```
+
+The manifest is one entry per line; `#` comments and blank lines are ignored:
+
+```
+wp:limit-login-attempts
+vsx:ms-python.python
+shop:judgeme
+cr:ddkjiahejlhfcafbddmgiahcphecmpfh
+```
+
+**`audit` exits 1 if anything is `ABANDONED` or `DELISTED`**, so it drops
+straight into CI or a cron job. `STALE` deliberately does *not* fail the build —
+twelve months is normal for a small, finished plugin, and a check that cries
+wolf gets switched off within a week. Add `--json` for machine-readable output.
+
+A malformed line is reported by line number and skipped; a listing that fails to
+respond is reported as an error and the audit continues. One bad entry never
+stops a run of forty.
 
 Find what is popular and unmaintained:
 
@@ -123,6 +164,19 @@ raise the highlighted warning.
 |---|---|---|
 | WordPress.org | `api.wordpress.org` plugin API | Installed counts are bucketed by the directory (`300k`, not `312,481`) |
 | VS Code | the public gallery API the editor itself queries | Install counts are inflated by auto-updates and bundling; compare within this marketplace only |
+| Shopify | schema.org JSON-LD embedded in the listing page | **No last-updated date exists**, so listings grade `UNKNOWN` and there is no `--abandoned` view |
+| Chrome Web Store | server-rendered listing HTML | User counts are heavily rounded by the store (`18,000,000`); a rating is served without a ratings count; no endpoint enumerates popular extensions, so lookups only |
+
+### On Shopify grading `UNKNOWN`
+
+That is a fact about the store, not a gap in this tool. The App Store publishes
+no last-updated or launch date anywhere in the listing markup, so a maintenance
+grade cannot be computed honestly. Review volume and whether the listing still
+resolves are the only signals it exposes, and those are what you get.
+
+Inventing a grade from something adjacent — last review date, say — would
+produce a number that looks like the others and means something different. The
+whole tool is worth less if one column silently changes definition.
 
 `isDomainVerified` on a VS Code publisher is reported as `unverified publisher`
 where it applies. Treat it as a proxy for "is an organisation", not a fact —
@@ -140,9 +194,21 @@ verdict({ lastUpdated: '2023-04-02', installs: 300000 });
 
 ## Contributing
 
-The obvious gaps are Chrome Web Store, Figma, Obsidian and Shopify. Each needs a
-crawler rather than an API, which is the whole reason none of them are indexed
-anywhere — so each is real work and each is welcome.
+The obvious gaps are Figma and Obsidian. Neither has a public API, which is the
+whole reason neither is indexed anywhere.
+
+Shopify and Chrome are worth reading first if you are adding one. Neither has an
+API, and both were assumed to need a headless browser. Neither does: Shopify
+embeds schema.org JSON-LD server-side, and Chrome server-renders its fields as
+plain text. Check what the server actually returns before reaching for a
+browser — it is more than people assume.
+
+Two traps found the hard way, both in `src/sources/chrome.mjs`:
+
+- A removed Chrome extension does **not** 404. It answers `200` and redirects to
+  the store homepage, so existence must be checked against the final URL.
+- Match against visible text, never raw HTML. The first probe of the Chrome
+  store "found" an updated date that was a string inside inline JavaScript.
 
 Run the tests with `npm test`. The grading logic is the only place in this tool
 that makes a judgement, so it is the only place that can be quietly wrong; it is
