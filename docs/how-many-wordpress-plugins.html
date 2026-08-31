@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="71,132 plugins, counted from the wordpress.org API on 2026-08-31 — not an estimate. 41.3% have shipped a release in the last year; 50.2% have not shipped in two.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://plugincensus.com/how-many-wordpress-plugins">
+<meta property="og:title" content="How many WordPress plugins are there? 71,132, counted">
+<meta property="og:description" content="Counted from the directory itself on 2026-08-31, with how many are still maintained — which is the part the usual answer leaves out.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://plugincensus.com/how-many-wordpress-plugins">
+<style>*{box-sizing:border-box}html,body{margin:0}img{max-width:100%}</style>
+<title>How many WordPress plugins are there?</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,400;0,500;0,600;1,6..72,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>*{box-sizing:border-box}html,body{margin:0}img{max-width:100%}</style>
+<style>
+:root{
+  --paper:#EDF0F3;
+  --card:#F7F9FA;
+  --ink:#0F1720;
+  --ink-2:#4E5A66;
+  --ink-3:#7A8794;
+  --rule:#CBD4DC;
+  --rule-2:#DDE4EA;
+  --accent:#1B4E8C;      /* structure, incumbency, organisations */
+  --decay:#9C452A;       /* neglect, abandonment */
+  --ok:#0E6E5E;
+  --serif:'Newsreader',Georgia,'Times New Roman',serif;
+  --sans:'IBM Plex Sans',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --mono:'IBM Plex Mono',ui-monospace,'SF Mono',Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#0C1218; --card:#131C24; --ink:#DEE6ED; --ink-2:#98A6B3; --ink-3:#6C7C8A;
+    --rule:#26323D; --rule-2:#1C2731; --accent:#7FAEE8; --decay:#E08A6A; --ok:#4FBFA8;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0C1218; --card:#131C24; --ink:#DEE6ED; --ink-2:#98A6B3; --ink-3:#6C7C8A;
+  --rule:#26323D; --rule-2:#1C2731; --accent:#7FAEE8; --decay:#E08A6A; --ok:#4FBFA8;
+}
+
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);
+  font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased}
+
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px 96px}
+.col{max-width:660px}
+
+/* ---- masthead ---- */
+header.top{border-bottom:2px solid var(--ink);margin-bottom:44px;padding:52px 0 26px}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--ink-3);display:flex;flex-wrap:wrap;gap:18px;margin-bottom:26px}
+h1{font-family:var(--serif);font-weight:400;font-size:clamp(44px,8vw,86px);line-height:.98;
+  letter-spacing:-.022em;margin:0 0 20px;text-wrap:balance}
+.standfirst{font-family:var(--serif);font-size:clamp(19px,2.4vw,24px);line-height:1.45;
+  color:var(--ink-2);max-width:640px;margin:0;font-weight:300}
+
+/* ---- key numbers ---- */
+.figures{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));
+  gap:1px;background:var(--rule);border:1px solid var(--rule);margin:0 0 52px}
+.fig{background:var(--card);padding:22px 20px 20px}
+.fig .n{font-family:var(--serif);font-size:46px;line-height:1;letter-spacing:-.02em;
+  font-variant-numeric:tabular-nums}
+.fig .n.d{color:var(--decay)}
+.fig .k{font-family:var(--mono);font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--ink-3);margin-top:11px}
+.fig .s{font-size:13.5px;color:var(--ink-2);margin-top:7px;line-height:1.45}
+
+h2{font-family:var(--serif);font-weight:500;font-size:clamp(27px,3.6vw,36px);line-height:1.12;
+  letter-spacing:-.015em;margin:60px 0 6px;text-wrap:balance}
+h3{font-family:var(--mono);font-size:11px;letter-spacing:.15em;text-transform:uppercase;
+  color:var(--accent);margin:44px 0 12px;font-weight:500}
+.dek{color:var(--ink-3);font-size:16px;margin:0 0 22px;font-style:italic;font-family:var(--serif)}
+p{margin:0 0 18px}
+.col p{max-width:66ch}
+strong{font-weight:600}
+em.q{font-style:italic;color:var(--ink-2)}
+code{font-family:var(--mono);font-size:.88em;background:var(--card);
+  border:1px solid var(--rule-2);border-radius:3px;padding:1px 5px}
+
+/* ---- data blocks ---- */
+.block{margin:30px 0 34px;overflow-x:auto}
+table{border-collapse:collapse;width:100%;min-width:560px;font-size:14.5px}
+th{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-3);text-align:left;font-weight:500;padding:0 14px 9px 0;
+  border-bottom:1px solid var(--ink)}
+td{padding:11px 14px 11px 0;border-bottom:1px solid var(--rule-2);vertical-align:top}
+td.n{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+tr:last-child td{border-bottom:none}
+.bar{display:block;height:9px;background:var(--accent);border-radius:1px;min-width:2px}
+.bar.d{background:var(--decay)}
+.who{font-weight:500}
+.how{color:var(--ink-2);font-size:13.5px}
+
+/* ---- cohort comparison ---- */
+.cohorts{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:22px;margin:28px 0 36px}
+.cohort{border:1px solid var(--rule);background:var(--card);padding:20px}
+.cohort .lab{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-3);margin-bottom:12px}
+.cohort .big{font-family:var(--serif);font-size:52px;line-height:1;letter-spacing:-.02em;
+  font-variant-numeric:tabular-nums}
+.cohort .cap{font-size:13.5px;color:var(--ink-2);margin-top:9px;line-height:1.45}
+.track{height:7px;background:var(--rule);margin-top:16px;border-radius:1px;overflow:hidden}
+.track span{display:block;height:100%;background:var(--accent)}
+.cohort.now .big{color:var(--decay)}
+.cohort.now .track span{background:var(--decay)}
+
+/* ---- pull quote ---- */
+.pull{border-left:3px solid var(--decay);padding:4px 0 4px 22px;margin:34px 0}
+.pull p{font-family:var(--serif);font-size:22px;line-height:1.38;color:var(--ink);margin:0 0 9px;
+  font-weight:400;max-width:34ch}
+.pull cite{font-family:var(--mono);font-size:10.5px;letter-spacing:.11em;text-transform:uppercase;
+  color:var(--ink-3);font-style:normal}
+
+/* ---- caveats ---- */
+.caveats{border:1px solid var(--rule);background:var(--card);padding:26px 28px;margin:52px 0 0}
+.caveats h3{margin-top:0;color:var(--decay)}
+.caveats ul{margin:0;padding-left:19px}
+.caveats li{margin-bottom:13px;font-size:14.5px;color:var(--ink-2);max-width:74ch}
+.caveats li:last-child{margin-bottom:0}
+.caveats b{color:var(--ink);font-weight:600}
+
+footer{margin-top:66px;padding-top:22px;border-top:1px solid var(--rule);
+  font-family:var(--mono);font-size:11.5px;color:var(--ink-3);line-height:1.85}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="top">
+  <div class="eyebrow"><span>Counted, not estimated</span><span>2026-08-31</span><span>source: wordpress.org API</span></div>
+  <h1>How many WordPress plugins are there?</h1>
+  <p class="standfirst"><strong>71,132</strong> — counted one by one from the directory's own API on 2026-08-31, not taken from a stats page.</p>
+</header>
+
+<div class="cohorts">
+  <div class="cohort">
+    <div class="lab">In the directory</div>
+    <div class="big">71,132</div>
+    <div class="cap">every plugin wordpress.org will serve, enumerated in full.</div>
+  </div>
+  <div class="cohort">
+    <div class="lab">Shipped in the last year</div>
+    <div class="big">41.3%</div>
+    <div class="cap">29,369 plugins. This is the number that usually goes missing from the answer.</div>
+  </div>
+  <div class="cohort now">
+    <div class="lab">Silent for two years</div>
+    <div class="big">50.2%</div>
+    <div class="cap">35,729 plugins are still listed and installable with nobody shipping fixes.</div>
+  </div>
+</div>
+
+<div class="col">
+<h3>The count depends on how you ask</h3>
+<p>The directory's API returns a different total depending on which listing you page through: browsing by <em>newest</em> reports a larger population than browsing by <em>popular</em>, and the gap is several thousand plugins. The difference is the plugins with no install base at all &mdash; a popularity ranking has nothing to sort them by, so it does not rank them.</p>
+<p>The number at the top of this page is a count of everything found by enumerating both orderings and removing duplicates. Anyone quoting a single round figure is almost certainly quoting the smaller one without knowing it.</p>
+</div>
+
+<h2>How many of them does anyone use?</h2>
+<p class="dek">Install counts are reported by the directory in buckets, so each figure is a floor.</p>
+
+<div class="block">
+<table>
+  <thead><tr><th style="width:34%">Active installs</th><th style="width:16%">Plugins</th><th>Share of the directory</th></tr></thead>
+  <tbody>
+    <tr><td>none reported</td><td class="n">24,203</td><td class="n">34%</td></tr>
+    <tr><td>1,000 or more</td><td class="n">7,019</td><td class="n">9.9%</td></tr>
+    <tr><td>10,000 or more</td><td class="n">2,199</td><td class="n">3.1%</td></tr>
+    <tr><td>100,000 or more</td><td class="n">467</td><td class="n">0.7%</td></tr>
+    <tr><td>1,000,000 or more</td><td class="n">67</td><td class="n">0.1%</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="col">
+<p><strong>34% of the directory has no reported install base at all</strong>, and only 9.9% has reached a thousand. The headline number is real, but as a measure of what is available to actually use it is wildly generous.</p>
+</div>
+
+<h2>How many are added each year?</h2>
+<p class="dek">By the year each currently-listed plugin was added. Plugins later removed are not here, so earlier years are undercounted.</p>
+
+<div class="block">
+<table>
+  <thead><tr><th style="width:20%">Added</th><th style="width:16%">Plugins</th><th></th></tr></thead>
+  <tbody>
+    <tr><td>2016</td><td class="n">4,211</td><td><span class="bar" style="width:34%"></span></td></tr>
+    <tr><td>2017</td><td class="n">3,844</td><td><span class="bar" style="width:31%"></span></td></tr>
+    <tr><td>2018</td><td class="n">3,693</td><td><span class="bar" style="width:30%"></span></td></tr>
+    <tr><td>2019</td><td class="n">3,744</td><td><span class="bar" style="width:30%"></span></td></tr>
+    <tr><td>2020</td><td class="n">4,130</td><td><span class="bar" style="width:33%"></span></td></tr>
+    <tr><td>2021</td><td class="n">3,481</td><td><span class="bar" style="width:28%"></span></td></tr>
+    <tr><td>2022</td><td class="n">3,233</td><td><span class="bar" style="width:26%"></span></td></tr>
+    <tr><td>2023</td><td class="n">1,866</td><td><span class="bar" style="width:15%"></span></td></tr>
+    <tr><td>2024</td><td class="n">3,325</td><td><span class="bar" style="width:27%"></span></td></tr>
+    <tr><td>2025</td><td class="n">6,030</td><td><span class="bar" style="width:49%"></span></td></tr>
+    <tr><td>2026 <span style="color:var(--ink-3)">(part year)</span></td><td class="n">12,428</td><td><span class="bar d" style="width:100%"></span></td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="col">
+<p>Submissions have risen sharply. January 2025 took in 460 new plugins; July 2026 took in 2,495. What is causing that is not in this data and is not asserted here &mdash; the timing coincides with code generation becoming nearly free, and that remains a hypothesis. What the data does support is that the share of new plugins reaching any users at all has fallen just as steeply, which is set out in <a href="./">the census</a>.</p>
+</div>
+
+<h2>How many plugins is too many?</h2>
+<div class="col">
+<p>This gets asked alongside the first question and deserves a straight answer: <strong>there is no number.</strong> Twenty well-maintained plugins will do less harm than three that stopped shipping in 2021. What matters is what each one does on every page load, and whether anyone is still fixing it.</p>
+<p>That second half is checkable. <a href="/scan">The scanner</a> reads the plugins a WordPress page declares in its own asset URLs and grades each by how long since its last release &mdash; free, no signup. The 35,729 plugins above that have gone quiet include <a href="/abandoned">plugins on hundreds of thousands of sites</a>.</p>
+</div>
+
+<div class="caveats">
+  <h3>Method</h3>
+  <ul>
+    <li><b>Source:</b> <code>api.wordpress.org/plugins/info/1.2</code>, enumerated in full rather than sampled, on 2026-08-31. Two passes over two orderings, deduplicated by slug.</li>
+    <li><b>Install counts are bucketed by the directory</b> — it reports <code>300,000</code>, never <code>312,481</code>. Every figure here is therefore a floor.</li>
+    <li><b>"Shipped" means a release.</b> A maintainer may be answering support or reviewing patches without cutting one, and some plugins are simply finished. This measures releases because that is what the directory publishes.</li>
+    <li><b>Yearly figures count survivors.</b> A plugin added in 2017 and since removed is not in the directory today, so earlier years are undercounted and the rise is steeper than it looks, not shallower.</li>
+    <li><b>Everything here is reproducible.</b> The collector and the raw data are in <a href="https://github.com/odedmoshe/marketscan">the repository</a>.</li>
+  </ul>
+</div>
+
+<footer>
+  Part of <a href="./">The Distribution Census</a> &middot; <a href="/abandoned">plugins that stopped shipping</a> &middot; <a href="/scan">check a site</a><br>
+  Counted 2026-08-31. Public, key-free endpoints; crawling limited to what robots.txt permits.
+</footer>
+
+</div>
+</body>
+</html>

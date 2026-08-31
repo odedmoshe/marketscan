@@ -188,7 +188,7 @@ footer{margin-top:66px;padding-top:22px;border-top:1px solid var(--rule);
     {
       "@type": "DataDownload",
       "name": "wp-directory.json",
-      "description": "Every plugin in the WordPress directory, with the date added and the date of last release (71,091 records)",
+      "description": "Every plugin in the WordPress directory, with the date added and the date of last release (71,132 records)",
       "encodingFormat": "application/json",
       "contentUrl": "https://raw.githubusercontent.com/odedmoshe/marketscan/main/data/wp-directory.json"
     },
@@ -209,7 +209,7 @@ footer{margin-top:66px;padding-top:22px;border-top:1px solid var(--rule);
     {
       "@type": "DataDownload",
       "name": "shopify-cohort.json",
-      "description": "Shopify apps sampled from the sitemap, with launch dates (1,650 records)",
+      "description": "Shopify apps sampled from the sitemap, with launch dates (1,857 records)",
       "encodingFormat": "application/json",
       "contentUrl": "https://raw.githubusercontent.com/odedmoshe/marketscan/main/data/shopify-cohort.json"
     },
@@ -328,7 +328,7 @@ footer{margin-top:66px;padding-top:22px;border-top:1px solid var(--rule);
 
 <!-- population-section:start -->
 <h2>The whole directory, not the head</h2>
-<p class="dek">The section above measures the top 2,000 plugins. This one measures 71,091 of them &mdash; 100% of the directory &mdash; because the interesting question was always about the other 97%.</p>
+<p class="dek">The section above measures the top 2,000 plugins. This one measures 71,132 of them &mdash; 100.1% of the directory &mdash; because the interesting question was always about the other 97%.</p>
 
 <div class="col">
 <p>A popular-head sample can only answer questions about the head. &ldquo;Can a plugin published today reach anyone&rdquo; is a question about the tail, so the directory was enumerated rather than sampled: <code>query_plugins</code> pages the whole thing 100 at a time, and every record carries the date it was <em>added</em> as well as the date it was last <em>updated</em>.</p>
@@ -339,13 +339,13 @@ footer{margin-top:66px;padding-top:22px;border-top:1px solid var(--rule);
 <div class="cohorts">
   <div class="cohort">
     <div class="lab">The directory, not the head</div>
-    <div class="big">58.8%</div>
+    <div class="big">58.7%</div>
     <div class="cap">of collected plugins have had no release in twelve months. The top-2,000 figure is 13.8%. The head is maintained; the directory is not.</div>
   </div>
   <div class="cohort now">
     <div class="lab">Added since January 2024</div>
     <div class="big">0.4%</div>
-    <div class="cap">of those 21,742 plugins have reached 10,000 installs &mdash; 95 of them, in two and a half years.</div>
+    <div class="cap">of those 21,783 plugins have reached 10,000 installs &mdash; 95 of them, in two and a half years.</div>
   </div>
   <div class="cohort">
     <div class="lab">What those 95 started with</div>
@@ -367,10 +367,10 @@ footer{margin-top:66px;padding-top:22px;border-top:1px solid var(--rule);
     <tr><td>2020</td><td class="n">4,130</td><td class="n">584</td><td class="n">23.2%</td></tr>
     <tr><td>2021</td><td class="n">3,481</td><td class="n">434</td><td class="n">27.9%</td></tr>
     <tr><td>2022</td><td class="n">3,233</td><td class="n">351</td><td class="n">30.5%</td></tr>
-    <tr><td>2023</td><td class="n">1,866</td><td class="n">178</td><td class="n">31.1%</td></tr>
-    <tr><td>2024</td><td class="n">3,324</td><td class="n">223</td><td class="n">38.9%</td></tr>
+    <tr><td>2023</td><td class="n">1,866</td><td class="n">177</td><td class="n">31.1%</td></tr>
+    <tr><td>2024</td><td class="n">3,325</td><td class="n">223</td><td class="n">38.9%</td></tr>
     <tr><td>2025</td><td class="n">6,030</td><td class="n">146</td><td class="n">50.3%</td></tr>
-    <tr><td>2026 <span style="color:var(--ink-3)">(8 months)</span></td><td class="n">12,388</td><td class="n">55</td><td class="n" style="color:var(--decay)">80.7%</td></tr>
+    <tr><td>2026 <span style="color:var(--ink-3)">(8 months)</span></td><td class="n">12,428</td><td class="n">55</td><td class="n" style="color:var(--decay)">80.8%</td></tr>
   </tbody>
 </table>
 </div>
@@ -415,6 +415,8 @@ footer{margin-top:66px;padding-top:22px;border-top:1px solid var(--rule);
 <p>There is a second reading, less comfortable and equally supported. Several of the largest recent entrants carry ratings that would sink an independent plugin: 1.5&#9733;, 1.6&#9733;, 1.7&#9733;, 2.1&#9733;, all on hundreds of thousands of installs. Those are plugins bundled by hosts or pushed by platforms onto sites whose owners did not choose them. At the top of the recent cohort, install count and merit have come apart completely.</p>
 
 <p>The same dataset answers a question site owners ask more often than developers do, so it has its own page: <a href="abandoned.html"><strong>176 plugins with 10,000+ installs that have not shipped in two years</strong></a>. Median silence on that list is 51 months. The longest is 158 months, on 30,000 sites.</p>
+
+<p>Two figures from this section get asked as questions on their own, so they have their own page: <a href="how-many-wordpress-plugins.html"><strong>how many WordPress plugins there are</strong></a> &mdash; counted rather than estimated &mdash; and how many of them are still being maintained.</p>
 
 <p>And if the question is about a particular site rather than the directory as a whole, <a href="https://plugincensus.com/scan"><strong>the scanner</strong></a> reads the plugin slugs a WordPress page already declares in its own asset URLs and checks each one against the directory. Free, no signup. It only sees plugins that load assets on the page it is given, so a clean result is not a clean bill of health &mdash; caching and bundling plugins merge those assets and hide the rest.</p>
 </div>
@@ -572,10 +574,10 @@ footer{margin-top:66px;padding-top:22px;border-top:1px solid var(--rule);
     <li><b>The Chrome collector initially mislabelled removed extensions as live.</b> A removed extension does not 404: it keeps a <code>/detail/</code> URL under the slug <code>empty-title</code> and is served a generic shell. 22 of 500 were affected. They are now counted as delisted, both the collector and the study reclassify them, and the figures above are post-fix.</li>
     <li><b>These are four marketplaces, not all of them.</b> Figma, Obsidian and Slack are unmeasured, and each has a different discovery mechanism that could plausibly behave differently.</li>
 <!-- caveats-v2:start -->
-    <li><b>The WordPress population figures cover 71,091 of the directory's 71,091 listings (100%), not all of them.</b> Enumeration needs two passes over two different orderings because <code>browse=popular</code> both repeats and skips at depth, and because it ranks only 66,998 of the 71,091 — omitting, by construction, the plugins with no install base. The residual gap is concentrated in older, low-install listings, which is the direction that makes the staleness figure a <em>floor</em> rather than a ceiling.</li>
+    <li><b>The WordPress population figures cover 71,132 of the directory's 71,091 listings (100.1%), not all of them.</b> Enumeration needs two passes over two different orderings because <code>browse=popular</code> both repeats and skips at depth, and because it ranks only 66,998 of the 71,091 — omitting, by construction, the plugins with no install base. The residual gap is concentrated in older, low-install listings, which is the direction that makes the staleness figure a <em>floor</em> rather than a ceiling.</li>
     <li><b>The author field does not resolve corporate ownership.</b> Plugins are grouped by the API's <code>author</code> string, so a conglomerate publishing under several brand names is counted as several independent authors. <em>Search &amp; Replace Everything by WPCode</em> is an Awesome Motive property that this method scores as a first-time author. Every such miss inflates the independent count, so &ldquo;19 breakthroughs from authors with nothing behind them&rdquo; is an upper bound.</li>
     <li><b>The zero-install column has a recency confound and it is not fully removable.</b> Newer plugins have had less time to accumulate installs, so part of the rise is mechanical. The comparison that carries weight is the 2024 cohort at 38.9%, which has had eighteen months to two and a half years, against the 2019 cohort at 22.7%. The monthly submission counts have no such confound.</li>
-    <li><b>A third figure has been withdrawn.</b> &ldquo;Only 15.1% carry the Built for Shopify badge&rdquo; does not survive re-measurement — a whole-store sample returns 83.7%, and thirty apps re-checked from the original sample disagreed on fourteen, always in the same direction. It is withdrawn rather than corrected because the collector that produced it was never saved, so the disagreement cannot be diagnosed. <b>Every collector behind the figures on this page is now in <code>research/</code> in the repository</b>, which is the actual fix.</li>
+    <li><b>A third figure has been withdrawn.</b> &ldquo;Only 15.1% carry the Built for Shopify badge&rdquo; does not survive re-measurement — a whole-store sample returns 84.2%, and thirty apps re-checked from the original sample disagreed on fourteen, always in the same direction. It is withdrawn rather than corrected because the collector that produced it was never saved, so the disagreement cannot be diagnosed. <b>Every collector behind the figures on this page is now in <code>research/</code> in the repository</b>, which is the actual fix.</li>
 <!-- caveats-v2:end -->
   </ul>
 </div>
