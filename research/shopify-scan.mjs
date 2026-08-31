@@ -34,7 +34,8 @@
  * as the count that lands in each category, which the study script reports
  * alongside every figure rather than hiding.
  *
- * Politeness: one connection, sequential, ~1.2s apart, resumable, hard cap.
+ * Politeness: one connection, sequential, 2s apart, resumable, hard cap, and
+ * exponential backoff on 429/503 — see get() for why both halves matter.
  * robots.txt permits listing pages (it disallows /internal/, /services/ and
  * search URLs, none of which are touched here).
  *
@@ -46,7 +47,9 @@ import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 const SAMPLE = Number(process.argv[2] || 2500);
 const SEED = Number(process.argv[3] || 20260831);
 const OUT = new URL('../data/shopify-cohort.json', import.meta.url);
-const DELAY_MS = 1200;
+// Raised from 1200 after the store started returning 429s. Politeness here is
+// not just manners: the collector depends on this site continuing to answer.
+const DELAY_MS = 2000;
 const UA = 'marketscan-research/0.2 (marketplace maintenance study; +https://github.com/odedmoshe/marketscan)';
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -58,12 +61,42 @@ function lcg(seed) {
   return () => ((s = (Math.imul(s, 1664525) + 1013904223) >>> 0) / 4294967296);
 }
 
-async function get(url, timeout = 25000) {
+/**
+ * One request, backing off when told to.
+ *
+ * The first long run of this collector earned 68 HTTP 429s. Two things were
+ * wrong and both are fixed here.
+ *
+ * A 429 is the server asking for less, and the only correct response is to
+ * wait — for `Retry-After` when it is given, and for a doubling delay when it
+ * is not. Carrying on at the same rate is how a polite collector becomes a
+ * problem for the site it depends on.
+ *
+ * And a 429 must never be *stored*. It says nothing about the app, only about
+ * how fast we were going, but the caller persists whatever comes back and a
+ * resume then skips that app forever. A transient failure recorded as a result
+ * is a permanent hole in the sample that nothing will ever fill.
+ */
+async function get(url, timeout = 25000, attempt = 0) {
   const res = await fetch(url, {
     headers: { 'User-Agent': UA },
     redirect: 'follow',
     signal: AbortSignal.timeout(timeout),
   });
+
+  if (res.status === 429 || res.status === 503) {
+    if (attempt >= 5) {
+      const e = new Error(`still ${res.status} after ${attempt} backoffs`);
+      e.transient = true;
+      throw e;
+    }
+    const retryAfter = Number(res.headers.get('retry-after'));
+    const wait = Number.isFinite(retryAfter) && retryAfter > 0 ? retryAfter * 1000 : DELAY_MS * 2 ** (attempt + 3);
+    console.error(`  ${res.status} — backing off ${Math.round(wait / 1000)}s (attempt ${attempt + 1})`);
+    await sleep(wait);
+    return get(url, timeout, attempt + 1);
+  }
+
   return { status: res.status, finalUrl: res.url, text: await res.text() };
 }
 
@@ -201,7 +234,14 @@ async function main() {
         store[handle] = parseListing(res.text, handle);
       }
     } catch (e) {
-      store[handle] = { handle, error: e.message, seen: today };
+      // A transient failure is not a fact about the app, so it is not written
+      // down. Leaving the key absent means the next run picks it up again; the
+      // alternative is a permanent hole in the sample.
+      if (e.transient) {
+        console.error(`  ${handle}: ${e.message} — leaving unrecorded for a later run`);
+      } else {
+        store[handle] = { handle, error: e.message, seen: today };
+      }
       failed++;
     }
 

@@ -72,8 +72,12 @@ const tableRows = list
       `    <tr>` +
       `<td class="n"${r.mo >= 48 ? ' style="color:var(--decay)"' : ''}>${r.mo}mo</td>` +
       `<td class="n">${r.i.toLocaleString()}</td>` +
-      `<td><a href="https://wordpress.org/plugins/${esc(r.s)}/" rel="nofollow noopener">${esc(r.name)}</a>` +
-      `<br><span class="how">${esc(r.author)}</span></td>` +
+      // Links to our own lookup rather than to wordpress.org: the listing there
+      // shows a date with no interpretation and no maintained alternatives,
+      // which are the two things a reader of this table actually wants next.
+      // Absolute so the GitHub Pages copy works; the sync makes it relative.
+      `<td><a href="https://plugincensus.com/p/${esc(r.s)}">${esc(r.name)}</a>` +
+      `<br><span class="how">${esc(r.author)} &middot; <a href="https://wordpress.org/plugins/${esc(r.s)}/" rel="nofollow noopener">listing</a></span></td>` +
       `<td class="n">${rating}</td>` +
       `<td class="n">${support}</td>` +
       `</tr>`
