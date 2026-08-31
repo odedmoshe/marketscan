@@ -49,9 +49,10 @@ nothing in the marketplace is incentivised to tell you.
 
 ## The research this came out of
 
-[**The Distribution Census**](RESEARCH.md) — three marketplaces measured
-directly to answer whether anything new can still get discovered in them.
-2,000 WordPress plugins, 1,199 VS Code extensions, 465 Shopify apps.
+[**The Distribution Census**](https://odedmoshe.github.io/marketscan/) — three
+marketplaces measured directly to answer whether anything new can still get
+discovered in them. 2,000 WordPress plugins, 1,199 VS Code extensions, 465
+Shopify apps. ([markdown version](RESEARCH.md))
 
 - 46 WordPress plugins reached 50k installs since 2023. **Four were independent**,
   and all four already sold Elementor or Gutenberg addons.
