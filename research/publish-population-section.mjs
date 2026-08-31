@@ -137,6 +137,25 @@ Object.assign(tokens, {
   Z2019: zeroBy['2019'],
 });
 
+// --- the companion page ------------------------------------------------------
+//
+// Recomputed here with the same filter build-graveyard.mjs uses, rather than
+// read off that page or remembered from a console line. Two files describing
+// one list is exactly where a number goes stale unnoticed.
+
+const grave = dated
+  .filter((r) => r.i >= 10000 && monthsSince(r.up) >= 24)
+  .map((r) => ({ mo: monthsSince(r.up), i: r.i }));
+const graveSil = grave.map((g) => g.mo).sort((a, b) => a - b);
+const graveMax = grave.reduce((a, b) => (b.mo > a.mo ? b : a), grave[0]);
+
+Object.assign(tokens, {
+  GRAVEYARD_N: grave.length,
+  GRAVEYARD_MED: graveSil[Math.floor(graveSil.length / 2)],
+  GRAVEYARD_MAX: graveMax.mo,
+  GRAVEYARD_MAX_INSTALLS: graveMax.i.toLocaleString(),
+});
+
 console.log('computed tokens:');
 for (const [k, v] of Object.entries(tokens)) {
   console.log(`  ${k.padEnd(14)} ${k === 'COHORT_TABLE' ? `<${cohortRows.length} rows>` : v}`);

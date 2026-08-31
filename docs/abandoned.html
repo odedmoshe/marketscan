@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="176 WordPress plugins with more than 10,000 active installs that have not shipped a release in over two years. Measured from the whole directory, 2026-08-31.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://odedmoshe.github.io/marketscan/abandoned.html">
+<meta property="og:title" content="Popular WordPress plugins that stopped shipping">
+<meta property="og:description" content="176 plugins with 10,000+ installs and no release in two years. Median silence 51 months; the longest is 158 months on 30,000 sites.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://odedmoshe.github.io/marketscan/abandoned.html">
+<style>*{box-sizing:border-box}html,body{margin:0}img{max-width:100%}</style>
+<title>Popular WordPress plugins that stopped shipping</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,400;0,500;0,600;1,6..72,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>*{box-sizing:border-box}html,body{margin:0}img{max-width:100%}</style>
+<style>
+:root{
+  --paper:#EDF0F3;
+  --card:#F7F9FA;
+  --ink:#0F1720;
+  --ink-2:#4E5A66;
+  --ink-3:#7A8794;
+  --rule:#CBD4DC;
+  --rule-2:#DDE4EA;
+  --accent:#1B4E8C;      /* structure, incumbency, organisations */
+  --decay:#9C452A;       /* neglect, abandonment */
+  --ok:#0E6E5E;
+  --serif:'Newsreader',Georgia,'Times New Roman',serif;
+  --sans:'IBM Plex Sans',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --mono:'IBM Plex Mono',ui-monospace,'SF Mono',Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#0C1218; --card:#131C24; --ink:#DEE6ED; --ink-2:#98A6B3; --ink-3:#6C7C8A;
+    --rule:#26323D; --rule-2:#1C2731; --accent:#7FAEE8; --decay:#E08A6A; --ok:#4FBFA8;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0C1218; --card:#131C24; --ink:#DEE6ED; --ink-2:#98A6B3; --ink-3:#6C7C8A;
+  --rule:#26323D; --rule-2:#1C2731; --accent:#7FAEE8; --decay:#E08A6A; --ok:#4FBFA8;
+}
+
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);
+  font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased}
+
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px 96px}
+.col{max-width:660px}
+
+/* ---- masthead ---- */
+header.top{border-bottom:2px solid var(--ink);margin-bottom:44px;padding:52px 0 26px}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--ink-3);display:flex;flex-wrap:wrap;gap:18px;margin-bottom:26px}
+h1{font-family:var(--serif);font-weight:400;font-size:clamp(44px,8vw,86px);line-height:.98;
+  letter-spacing:-.022em;margin:0 0 20px;text-wrap:balance}
+.standfirst{font-family:var(--serif);font-size:clamp(19px,2.4vw,24px);line-height:1.45;
+  color:var(--ink-2);max-width:640px;margin:0;font-weight:300}
+
+/* ---- key numbers ---- */
+.figures{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));
+  gap:1px;background:var(--rule);border:1px solid var(--rule);margin:0 0 52px}
+.fig{background:var(--card);padding:22px 20px 20px}
+.fig .n{font-family:var(--serif);font-size:46px;line-height:1;letter-spacing:-.02em;
+  font-variant-numeric:tabular-nums}
+.fig .n.d{color:var(--decay)}
+.fig .k{font-family:var(--mono);font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--ink-3);margin-top:11px}
+.fig .s{font-size:13.5px;color:var(--ink-2);margin-top:7px;line-height:1.45}
+
+h2{font-family:var(--serif);font-weight:500;font-size:clamp(27px,3.6vw,36px);line-height:1.12;
+  letter-spacing:-.015em;margin:60px 0 6px;text-wrap:balance}
+h3{font-family:var(--mono);font-size:11px;letter-spacing:.15em;text-transform:uppercase;
+  color:var(--accent);margin:44px 0 12px;font-weight:500}
+.dek{color:var(--ink-3);font-size:16px;margin:0 0 22px;font-style:italic;font-family:var(--serif)}
+p{margin:0 0 18px}
+.col p{max-width:66ch}
+strong{font-weight:600}
+em.q{font-style:italic;color:var(--ink-2)}
+code{font-family:var(--mono);font-size:.88em;background:var(--card);
+  border:1px solid var(--rule-2);border-radius:3px;padding:1px 5px}
+
+/* ---- data blocks ---- */
+.block{margin:30px 0 34px;overflow-x:auto}
+table{border-collapse:collapse;width:100%;min-width:560px;font-size:14.5px}
+th{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-3);text-align:left;font-weight:500;padding:0 14px 9px 0;
+  border-bottom:1px solid var(--ink)}
+td{padding:11px 14px 11px 0;border-bottom:1px solid var(--rule-2);vertical-align:top}
+td.n{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+tr:last-child td{border-bottom:none}
+.bar{display:block;height:9px;background:var(--accent);border-radius:1px;min-width:2px}
+.bar.d{background:var(--decay)}
+.who{font-weight:500}
+.how{color:var(--ink-2);font-size:13.5px}
+
+/* ---- cohort comparison ---- */
+.cohorts{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:22px;margin:28px 0 36px}
+.cohort{border:1px solid var(--rule);background:var(--card);padding:20px}
+.cohort .lab{font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-3);margin-bottom:12px}
+.cohort .big{font-family:var(--serif);font-size:52px;line-height:1;letter-spacing:-.02em;
+  font-variant-numeric:tabular-nums}
+.cohort .cap{font-size:13.5px;color:var(--ink-2);margin-top:9px;line-height:1.45}
+.track{height:7px;background:var(--rule);margin-top:16px;border-radius:1px;overflow:hidden}
+.track span{display:block;height:100%;background:var(--accent)}
+.cohort.now .big{color:var(--decay)}
+.cohort.now .track span{background:var(--decay)}
+
+/* ---- pull quote ---- */
+.pull{border-left:3px solid var(--decay);padding:4px 0 4px 22px;margin:34px 0}
+.pull p{font-family:var(--serif);font-size:22px;line-height:1.38;color:var(--ink);margin:0 0 9px;
+  font-weight:400;max-width:34ch}
+.pull cite{font-family:var(--mono);font-size:10.5px;letter-spacing:.11em;text-transform:uppercase;
+  color:var(--ink-3);font-style:normal}
+
+/* ---- caveats ---- */
+.caveats{border:1px solid var(--rule);background:var(--card);padding:26px 28px;margin:52px 0 0}
+.caveats h3{margin-top:0;color:var(--decay)}
+.caveats ul{margin:0;padding-left:19px}
+.caveats li{margin-bottom:13px;font-size:14.5px;color:var(--ink-2);max-width:74ch}
+.caveats li:last-child{margin-bottom:0}
+.caveats b{color:var(--ink);font-weight:600}
+
+footer{margin-top:66px;padding-top:22px;border-top:1px solid var(--rule);
+  font-family:var(--mono);font-size:11.5px;color:var(--ink-3);line-height:1.85}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="top">
+  <div class="eyebrow">
+    <span>From the whole directory</span><span>71,091 plugins</span><span>176 listed here</span><span>2026-08-31</span>
+  </div>
+  <h1>Popular plugins that stopped shipping</h1>
+  <p class="standfirst">Every WordPress plugin with more than 10,000 active installs whose last release was over two years ago. Not a sample &mdash; this is the complete list, from all 71,091 plugins in the directory.</p>
+</header>
+
+<div class="col">
+<p>An abandoned plugin does not announce itself. It keeps working, it keeps its star rating, and its listing page carries no warning &mdash; a listing that still converts has no reason to add one. The dashboard tells you when an update is available. It never tells you that no update has come in three years.</p>
+
+<p>That matters most for the plugins nobody thinks about: the login limiter, the backup runner, the form handler. Installed once, then trusted indefinitely. The longest entry on this list was last touched <strong>158 months ago</strong> and is still running on 30,000 sites.</p>
+</div>
+
+<div class="cohorts">
+  <div class="cohort">
+    <div class="lab">On this list</div>
+    <div class="big">176</div>
+    <div class="cap">plugins with 10,000+ installs and no release in two years.</div>
+  </div>
+  <div class="cohort now">
+    <div class="lab">Sites running them</div>
+    <div class="big">5.2M</div>
+    <div class="cap">summed install buckets. The directory reports installs in buckets, so this is a floor rather than a count.</div>
+  </div>
+  <div class="cohort">
+    <div class="lab">Median silence</div>
+    <div class="big">51mo</div>
+    <div class="cap">4.3 years. 93 of the 176 have been silent for four years or more.</div>
+  </div>
+</div>
+
+<div class="col">
+<h3>What this does and does not mean</h3>
+<p><strong>This measures maintenance, not quality.</strong> A small, finished plugin that genuinely needed no changes in three years appears here and may still be the right choice. The grade is the start of a judgement, not the end of one.</p>
+<p>What it does mean is that if a vulnerability is found in one of these tomorrow, there is no evidence anyone is there to fix it. That is the risk being described &mdash; not that the software is bad, but that it is unattended.</p>
+</div>
+
+<div class="block">
+<table>
+  <thead><tr>
+    <th style="width:11%">Silent for</th>
+    <th style="width:13%">Installs</th>
+    <th>Plugin</th>
+    <th style="width:10%">Rating</th>
+    <th style="width:14%">Support resolved</th>
+  </tr></thead>
+  <tbody>
+    <tr><td class="n">25mo</td><td class="n">400,000</td><td><a href="https://wordpress.org/plugins/template-kit-import/" rel="nofollow noopener">Template Kit – Import</a><br><span class="how">envato</span></td><td class="n">3.4&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">41mo</td><td class="n">300,000</td><td><a href="https://wordpress.org/plugins/limit-login-attempts/" rel="nofollow noopener">Limit Login Attempts</a><br><span class="how">Automattic</span></td><td class="n">4.6&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">25mo</td><td class="n">300,000</td><td><a href="https://wordpress.org/plugins/health-check/" rel="nofollow noopener">Health Check &amp; Troubleshooting</a><br><span class="how">WordPress.org</span></td><td class="n">3.6&#9733;</td><td class="n">0%</td></tr>
+    <tr><td class="n">38mo</td><td class="n">200,000</td><td><a href="https://wordpress.org/plugins/layout-grid/" rel="nofollow noopener">Layout Grid Block</a><br><span class="how">Automattic</span></td><td class="n">4.7&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">63mo</td><td class="n">100,000</td><td><a href="https://wordpress.org/plugins/addquicktag/" rel="nofollow noopener">AddQuicktag</a><br><span class="how">Frank Bueltge</span></td><td class="n">4.7&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">61mo</td><td class="n">100,000</td><td><a href="https://wordpress.org/plugins/easy-google-fonts/" rel="nofollow noopener">Easy Google Fonts</a><br><span class="how">Sunny Johal</span></td><td class="n">4.6&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">40mo</td><td class="n">100,000</td><td><a href="https://wordpress.org/plugins/wp-downgrade/" rel="nofollow noopener">WP Downgrade | Specific Core Version</a><br><span class="how">Reisetiger</span></td><td class="n">4.8&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">29mo</td><td class="n">100,000</td><td><a href="https://wordpress.org/plugins/woosidebars/" rel="nofollow noopener">WooSidebars</a><br><span class="how">WooThemes</span></td><td class="n">3.9&#9733;</td><td class="n">0%</td></tr>
+    <tr><td class="n">24mo</td><td class="n">100,000</td><td><a href="https://wordpress.org/plugins/search-and-replace/" rel="nofollow noopener">Search &amp; Replace</a><br><span class="how">WP Media</span></td><td class="n">4.3&#9733;</td><td class="n">0%</td></tr>
+    <tr><td class="n">41mo</td><td class="n">80,000</td><td><a href="https://wordpress.org/plugins/q2w3-fixed-widget/" rel="nofollow noopener">Fixed Widget and Sticky Elements for WordPress</a><br><span class="how">monetizemore</span></td><td class="n">4.7&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">36mo</td><td class="n">80,000</td><td><a href="https://wordpress.org/plugins/disable-json-api/" rel="nofollow noopener">Disable REST API</a><br><span class="how">Dave McHale</span></td><td class="n">4.8&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">36mo</td><td class="n">80,000</td><td><a href="https://wordpress.org/plugins/heartbeat-control/" rel="nofollow noopener">Heartbeat Control</a><br><span class="how">WP Media</span></td><td class="n">4.2&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">28mo</td><td class="n">80,000</td><td><a href="https://wordpress.org/plugins/backupwordpress/" rel="nofollow noopener">BackUpWordPress</a><br><span class="how">Tom Willmot</span></td><td class="n">4.7&#9733;</td><td class="n">0%</td></tr>
+    <tr><td class="n" style="color:var(--decay)">63mo</td><td class="n">70,000</td><td><a href="https://wordpress.org/plugins/title-remover/" rel="nofollow noopener">Title Remover</a><br><span class="how">WPGurus</span></td><td class="n">3.9&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">53mo</td><td class="n">70,000</td><td><a href="https://wordpress.org/plugins/php-code-widget/" rel="nofollow noopener">PHP Code Widget</a><br><span class="how">Samuel Wood (Otto)</span></td><td class="n">4.7&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">50mo</td><td class="n">70,000</td><td><a href="https://wordpress.org/plugins/facebook-messenger-customer-chat/" rel="nofollow noopener">Facebook Chat Plugin – Live Chat Plugin for WordPress</a><br><span class="how">Facebook</span></td><td class="n">3.5&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">38mo</td><td class="n">70,000</td><td><a href="https://wordpress.org/plugins/async-javascript/" rel="nofollow noopener">Async JavaScript</a><br><span class="how">David Clough</span></td><td class="n">4.7&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">34mo</td><td class="n">70,000</td><td><a href="https://wordpress.org/plugins/hotjar/" rel="nofollow noopener">Hotjar</a><br><span class="how">Hotjar</span></td><td class="n">2.9&#9733;</td><td class="n">0%</td></tr>
+    <tr><td class="n">28mo</td><td class="n">70,000</td><td><a href="https://wordpress.org/plugins/wp-show-posts/" rel="nofollow noopener">WP Show Posts</a><br><span class="how">Tom</span></td><td class="n">4.7&#9733;</td><td class="n">0%</td></tr>
+    <tr><td class="n" style="color:var(--decay)">69mo</td><td class="n">60,000</td><td><a href="https://wordpress.org/plugins/add-from-server/" rel="nofollow noopener">Add From Server</a><br><span class="how">Dion Hulse</span></td><td class="n">4.6&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">52mo</td><td class="n">60,000</td><td><a href="https://wordpress.org/plugins/easy-theme-and-plugin-upgrades/" rel="nofollow noopener">Easy Theme and Plugin Upgrades</a><br><span class="how">Chris Jean</span></td><td class="n">4.7&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">47mo</td><td class="n">60,000</td><td><a href="https://wordpress.org/plugins/column-shortcodes/" rel="nofollow noopener">Column Shortcodes</a><br><span class="how">Tobias Schutter</span></td><td class="n">4.8&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">37mo</td><td class="n">60,000</td><td><a href="https://wordpress.org/plugins/all-in-one-favicon/" rel="nofollow noopener">All In One Favicon</a><br><span class="how">Garrett Grimm</span></td><td class="n">4.5&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">30mo</td><td class="n">60,000</td><td><a href="https://wordpress.org/plugins/woocommerce-extra-checkout-fields-for-brazil/" rel="nofollow noopener">Brazilian Market on WooCommerce</a><br><span class="how">Claudio Sanches</span></td><td class="n">4.8&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">26mo</td><td class="n">60,000</td><td><a href="https://wordpress.org/plugins/enhanced-media-library/" rel="nofollow noopener">Enhanced Media Library</a><br><span class="how">webbistro</span></td><td class="n">4.3&#9733;</td><td class="n">0%</td></tr>
+    <tr><td class="n" style="color:var(--decay)">102mo</td><td class="n">50,000</td><td><a href="https://wordpress.org/plugins/contact-form-7-add-confirm/" rel="nofollow noopener">Contact Form 7 add confirm</a><br><span class="how">Yuichiro ABE</span></td><td class="n">&mdash;</td><td class="n">0%</td></tr>
+    <tr><td class="n" style="color:var(--decay)">87mo</td><td class="n">50,000</td><td><a href="https://wordpress.org/plugins/option-tree/" rel="nofollow noopener">OptionTree</a><br><span class="how">Derek Herman</span></td><td class="n">4.7&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">81mo</td><td class="n">50,000</td><td><a href="https://wordpress.org/plugins/sakura-rs-wp-ssl/" rel="nofollow noopener">Easy SSL Plugin for SAKURA Rental Server</a><br><span class="how">sakurainternet</span></td><td class="n">&mdash;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">30mo</td><td class="n">50,000</td><td><a href="https://wordpress.org/plugins/html-editor-syntax-highlighter/" rel="nofollow noopener">HTML Editor Syntax Highlighter</a><br><span class="how">Peter Mukhortov</span></td><td class="n">4.4&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">101mo</td><td class="n">40,000</td><td><a href="https://wordpress.org/plugins/revision-control/" rel="nofollow noopener">Revision Control</a><br><span class="how">Dion Hulse</span></td><td class="n">4.4&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">95mo</td><td class="n">40,000</td><td><a href="https://wordpress.org/plugins/wp-edit/" rel="nofollow noopener">WP Edit</a><br><span class="how">Josh</span></td><td class="n">4&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">90mo</td><td class="n">40,000</td><td><a href="https://wordpress.org/plugins/disable-google-fonts/" rel="nofollow noopener">Disable Google Fonts</a><br><span class="how">Milan Dinić</span></td><td class="n">4.4&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">72mo</td><td class="n">40,000</td><td><a href="https://wordpress.org/plugins/portfolio-post-type/" rel="nofollow noopener">Portfolio Post Type</a><br><span class="how">Devin Price</span></td><td class="n">4.7&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">37mo</td><td class="n">40,000</td><td><a href="https://wordpress.org/plugins/upload-max-file-size/" rel="nofollow noopener">Increase Maximum Upload File Size</a><br><span class="how">WP Media</span></td><td class="n">3.9&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">34mo</td><td class="n">40,000</td><td><a href="https://wordpress.org/plugins/wp-extra-file-types/" rel="nofollow noopener">WP Extra File Types</a><br><span class="how">davide.airaghi</span></td><td class="n">3.4&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">30mo</td><td class="n">40,000</td><td><a href="https://wordpress.org/plugins/underconstruction/" rel="nofollow noopener">underConstruction</a><br><span class="how">Garrett Grimm</span></td><td class="n">4.5&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">24mo</td><td class="n">40,000</td><td><a href="https://wordpress.org/plugins/login-logo/" rel="nofollow noopener">Login Logo</a><br><span class="how">Mark Jaquith</span></td><td class="n">4.9&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">158mo</td><td class="n">30,000</td><td><a href="https://wordpress.org/plugins/my-plugins/" rel="nofollow noopener">My-Plugins</a><br><span class="how">matejn</span></td><td class="n">&mdash;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">99mo</td><td class="n">30,000</td><td><a href="https://wordpress.org/plugins/selfhost-google-fonts/" rel="nofollow noopener">Self-Hosted Google Fonts</a><br><span class="how">asadkn</span></td><td class="n">4.8&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">87mo</td><td class="n">30,000</td><td><a href="https://wordpress.org/plugins/hide-title/" rel="nofollow noopener">Hide Title</a><br><span class="how">Dojo Digital</span></td><td class="n">3.7&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">79mo</td><td class="n">30,000</td><td><a href="https://wordpress.org/plugins/wp-updates-notifier/" rel="nofollow noopener">WP Updates Notifier</a><br><span class="how">Scott Cariss</span></td><td class="n">4.2&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">77mo</td><td class="n">30,000</td><td><a href="https://wordpress.org/plugins/lightweight-social-icons/" rel="nofollow noopener">Lightweight Social Icons</a><br><span class="how">Tom</span></td><td class="n">4.7&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">41mo</td><td class="n">30,000</td><td><a href="https://wordpress.org/plugins/export-media-library/" rel="nofollow noopener">Export Media Library</a><br><span class="how">Andrej Pavlovic</span></td><td class="n">4.9&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">40mo</td><td class="n">30,000</td><td><a href="https://wordpress.org/plugins/display-php-version/" rel="nofollow noopener">Display PHP Version</a><br><span class="how">David Gwyer</span></td><td class="n">4.9&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">39mo</td><td class="n">30,000</td><td><a href="https://wordpress.org/plugins/scripts-n-styles/" rel="nofollow noopener">Scripts n Styles</a><br><span class="how">WraithKenny</span></td><td class="n">4.4&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">31mo</td><td class="n">30,000</td><td><a href="https://wordpress.org/plugins/ts-webfonts-for-sakura/" rel="nofollow noopener">TS Webfonts for さくらのレンタルサーバ</a><br><span class="how">sakurainternet</span></td><td class="n">&mdash;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">28mo</td><td class="n">30,000</td><td><a href="https://wordpress.org/plugins/recaptcha-for-mw-wp-form/" rel="nofollow noopener">reCAPTCHA for MW WP Form</a><br><span class="how">Masahiro NAKASHIMA</span></td><td class="n">&mdash;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">27mo</td><td class="n">30,000</td><td><a href="https://wordpress.org/plugins/social-media-widget/" rel="nofollow noopener">Social Media Widget</a><br><span class="how">Blink Web Effects</span></td><td class="n">3.9&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">25mo</td><td class="n">30,000</td><td><a href="https://wordpress.org/plugins/enhanced-text-widget/" rel="nofollow noopener">Enhanced Text Widget</a><br><span class="how">cl272</span></td><td class="n">4.9&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">122mo</td><td class="n">20,000</td><td><a href="https://wordpress.org/plugins/external-thumbnail/" rel="nofollow noopener">External Thumbnail</a><br><span class="how">mrtaiw</span></td><td class="n">&mdash;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">105mo</td><td class="n">20,000</td><td><a href="https://wordpress.org/plugins/exclude-pages/" rel="nofollow noopener">Exclude Pages</a><br><span class="how">Simon Wheatley</span></td><td class="n">4.9&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">105mo</td><td class="n">20,000</td><td><a href="https://wordpress.org/plugins/link-manager/" rel="nofollow noopener">Link Manager</a><br><span class="how">Andrew Nacin</span></td><td class="n">4.5&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">105mo</td><td class="n">20,000</td><td><a href="https://wordpress.org/plugins/seo-image/" rel="nofollow noopener">SEO Friendly Images</a><br><span class="how">Vladimir Prelovac</span></td><td class="n">3&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">101mo</td><td class="n">20,000</td><td><a href="https://wordpress.org/plugins/disable-feeds/" rel="nofollow noopener">Disable Feeds</a><br><span class="how">WPDeveloper</span></td><td class="n">4.7&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">93mo</td><td class="n">20,000</td><td><a href="https://wordpress.org/plugins/multiple-post-thumbnails/" rel="nofollow noopener">Multiple Post Thumbnails</a><br><span class="how">Chris Scott</span></td><td class="n">4.7&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">82mo</td><td class="n">20,000</td><td><a href="https://wordpress.org/plugins/add-category-to-pages/" rel="nofollow noopener">Add Category to Pages</a><br><span class="how">a.ankit</span></td><td class="n">4.7&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">81mo</td><td class="n">20,000</td><td><a href="https://wordpress.org/plugins/elegro-payment/" rel="nofollow noopener">elegro Crypto Payment</a><br><span class="how">nikotech</span></td><td class="n">5&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">72mo</td><td class="n">20,000</td><td><a href="https://wordpress.org/plugins/re-add-text-justify-button/" rel="nofollow noopener">Re-Add Text Justify Button</a><br><span class="how">Salvatore Cordiano</span></td><td class="n">&mdash;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">68mo</td><td class="n">20,000</td><td><a href="https://wordpress.org/plugins/cf7-phone-mask-field/" rel="nofollow noopener">Contact Form 7 – Phone mask field</a><br><span class="how">Ruslan Heorhiiev</span></td><td class="n">4.4&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">67mo</td><td class="n">20,000</td><td><a href="https://wordpress.org/plugins/wp-maximum-execution-time-exceeded/" rel="nofollow noopener">WP Maximum Execution Time Exceeded</a><br><span class="how">Johnnie</span></td><td class="n">4.8&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">63mo</td><td class="n">20,000</td><td><a href="https://wordpress.org/plugins/automatic-updater/" rel="nofollow noopener">Advanced Automatic Updates</a><br><span class="how">Gary Pendergast</span></td><td class="n">4.7&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">54mo</td><td class="n">20,000</td><td><a href="https://wordpress.org/plugins/pushpress/" rel="nofollow noopener">PuSHPress</a><br><span class="how">Joseph Scott</span></td><td class="n">3.6&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">51mo</td><td class="n">20,000</td><td><a href="https://wordpress.org/plugins/visual-form-builder/" rel="nofollow noopener">Visual Form Builder</a><br><span class="how">Matthew Muro</span></td><td class="n">4.1&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">44mo</td><td class="n">20,000</td><td><a href="https://wordpress.org/plugins/auto-upload-images/" rel="nofollow noopener">Auto Upload Images</a><br><span class="how">Ali Irani</span></td><td class="n">4.3&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">36mo</td><td class="n">20,000</td><td><a href="https://wordpress.org/plugins/jetsticky-for-elementor/" rel="nofollow noopener">JetSticky For Elementor</a><br><span class="how">jetmonsters</span></td><td class="n">3.7&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">34mo</td><td class="n">20,000</td><td><a href="https://wordpress.org/plugins/jivochat/" rel="nofollow noopener">JivoChat Live Chat – WP live chat plugin for WordPress</a><br><span class="how">JivoChat</span></td><td class="n">4.9&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">32mo</td><td class="n">20,000</td><td><a href="https://wordpress.org/plugins/mega-addons-for-visual-composer/" rel="nofollow noopener">Mega Addons For WPBakery Page Builder</a><br><span class="how">nasir179125</span></td><td class="n">4.2&#9733;</td><td class="n">0%</td></tr>
+    <tr><td class="n">30mo</td><td class="n">20,000</td><td><a href="https://wordpress.org/plugins/hide-admin-notices/" rel="nofollow noopener">Hide Admin Notices</a><br><span class="how">PontetLabs</span></td><td class="n">4.6&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">29mo</td><td class="n">20,000</td><td><a href="https://wordpress.org/plugins/site-offline/" rel="nofollow noopener">Site Offline Or Coming Soon Or Maintenance Mode</a><br><span class="how">chandrashekharsahu</span></td><td class="n">4.8&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">29mo</td><td class="n">20,000</td><td><a href="https://wordpress.org/plugins/material-design-icons-for-elementor/" rel="nofollow noopener">Material Design Icons for Page Builders</a><br><span class="how">Photon WP</span></td><td class="n">5&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">28mo</td><td class="n">20,000</td><td><a href="https://wordpress.org/plugins/spiderblocker/" rel="nofollow noopener">Spider Blocker</a><br><span class="how">Niteo</span></td><td class="n">4&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">27mo</td><td class="n">20,000</td><td><a href="https://wordpress.org/plugins/block-options/" rel="nofollow noopener">Gutenberg Block Editor Toolkit – EditorsKit</a><br><span class="how">Munir Kamal</span></td><td class="n">4.6&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">25mo</td><td class="n">20,000</td><td><a href="https://wordpress.org/plugins/change-login-logo/" rel="nofollow noopener">Change WordPress Login Logo</a><br><span class="how">Boopathi Rajan</span></td><td class="n">4.6&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">25mo</td><td class="n">20,000</td><td><a href="https://wordpress.org/plugins/seed-fonts/" rel="nofollow noopener">Seed Fonts</a><br><span class="how">Seed Webs</span></td><td class="n">4.6&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">25mo</td><td class="n">20,000</td><td><a href="https://wordpress.org/plugins/wp-test-email/" rel="nofollow noopener">WP Test Email</a><br><span class="how">Boopathi Rajan</span></td><td class="n">4.7&#9733;</td><td class="n">0%</td></tr>
+    <tr><td class="n">25mo</td><td class="n">20,000</td><td><a href="https://wordpress.org/plugins/meks-simple-flickr-widget/" rel="nofollow noopener">Meks Simple Flickr Widget</a><br><span class="how">Meks</span></td><td class="n">&mdash;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">24mo</td><td class="n">20,000</td><td><a href="https://wordpress.org/plugins/any-mobile-theme-switcher/" rel="nofollow noopener">Any Mobile Theme Switcher</a><br><span class="how">Dnesscarkey</span></td><td class="n">4.8&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">118mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/seo-ultimate/" rel="nofollow noopener">SEO Ultimate</a><br><span class="how">Jeffrey L. Smith</span></td><td class="n">3.8&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">109mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/wp-missed-schedule-posts/" rel="nofollow noopener">WP Missed Schedule Posts</a><br><span class="how">NewVariable</span></td><td class="n">3&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">109mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/dashboard-notepad/" rel="nofollow noopener">Dashboard Notepad</a><br><span class="how">Stephanie Leary</span></td><td class="n">4.6&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">106mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/options-framework/" rel="nofollow noopener">Options Framework</a><br><span class="how">Devin Price</span></td><td class="n">4.8&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">105mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/audit-trail/" rel="nofollow noopener">Audit Trail</a><br><span class="how">John Godley</span></td><td class="n">&mdash;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">105mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/search-everything/" rel="nofollow noopener">Search Everything</a><br><span class="how">Sovrn</span></td><td class="n">4.1&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">105mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/wp-jalali/" rel="nofollow noopener">wp-jalali</a><br><span class="how">mani_monaj</span></td><td class="n">4&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">105mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/breadcrumb-trail/" rel="nofollow noopener">Breadcrumb Trail</a><br><span class="how">Justin Tadlock</span></td><td class="n">4.3&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">105mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/lockdown-wp-admin/" rel="nofollow noopener">Lockdown WP Admin</a><br><span class="how">Sean Fisher</span></td><td class="n">3.9&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">105mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/uber-login-logo/" rel="nofollow noopener">Uber Login Logo</a><br><span class="how">uberweb</span></td><td class="n">4.9&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">105mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/parent-category-toggler/" rel="nofollow noopener">Parent Category Toggler</a><br><span class="how">Ben Lobaugh (blobaugh)</span></td><td class="n">4.8&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">105mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/yandex-metrika/" rel="nofollow noopener">Яндекс Метрика</a><br><span class="how">Konstantin Kovshenin</span></td><td class="n">4.5&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">105mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/use-google-libraries/" rel="nofollow noopener">Use Google Libraries</a><br><span class="how">Jason Penney</span></td><td class="n">4.4&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">105mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/rest-api/" rel="nofollow noopener">WordPress REST API (Version 2)</a><br><span class="how">Ryan McCue</span></td><td class="n">4.2&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">105mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/gravity-forms-no-captcha-recaptcha/" rel="nofollow noopener">Gravity Forms No CAPTCHA reCAPTCHA</a><br><span class="how">folkhack</span></td><td class="n">4.8&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">105mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/disable-real-mime-check/" rel="nofollow noopener">Disable Real MIME Check</a><br><span class="how">Sergey Biryukov</span></td><td class="n">4.9&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">105mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/custom-post-template/" rel="nofollow noopener">Custom Post Template</a><br><span class="how">Simon Wheatley</span></td><td class="n">4.8&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">105mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/scroll-back-to-top/" rel="nofollow noopener">Scroll Back To Top</a><br><span class="how">joesexton00</span></td><td class="n">4.2&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">105mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/contact-form-7-success-page-redirects/" rel="nofollow noopener">Contact Form 7 – Success Page Redirects</a><br><span class="how">Ryan Nevius</span></td><td class="n">4.2&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">104mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/easy-twitter-feed-widget/" rel="nofollow noopener">Easy Twitter Feed Widget Plugin</a><br><span class="how">DesignOrbital</span></td><td class="n">3.7&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">102mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/simple-map/" rel="nofollow noopener">Simple Map</a><br><span class="how">Takayuki Miyauchi</span></td><td class="n">4.7&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">101mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/granular-controls-for-elementor/" rel="nofollow noopener">Granular Controls For Elementor</a><br><span class="how">NoreWP</span></td><td class="n">4.2&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">100mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/woocommerce-grid-list-toggle/" rel="nofollow noopener">WooCommerce Grid / List toggle</a><br><span class="how">James Koster</span></td><td class="n">3.8&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">99mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/hide-featured-image/" rel="nofollow noopener">Hide Featured Image</a><br><span class="how">shahpranaf</span></td><td class="n">3.6&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">99mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/bootstrap-for-contact-form-7/" rel="nofollow noopener">Bootstrap for Contact Form 7</a><br><span class="how">Felix Arntz</span></td><td class="n">4.8&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">97mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/tinymce-clear-buttons/" rel="nofollow noopener">TinyMCE Clear Float</a><br><span class="how">Philipp Bammes</span></td><td class="n">5&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">95mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/remove-yoast-seo-comments/" rel="nofollow noopener">Remove Yoast SEO Comments</a><br><span class="how">Mitch</span></td><td class="n">3.8&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">93mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/lazy-load/" rel="nofollow noopener">Lazy Load</a><br><span class="how">Automattic</span></td><td class="n">4&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">91mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/shortcode-ui/" rel="nofollow noopener">Shortcake (Shortcode UI)</a><br><span class="how">Daniel Bachhuber</span></td><td class="n">4.1&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">90mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/lightweight-grid-columns/" rel="nofollow noopener">Lightweight Grid Columns</a><br><span class="how">Tom</span></td><td class="n">4.9&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">88mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/posts-in-page/" rel="nofollow noopener">Posts in Page</a><br><span class="how">ivycat</span></td><td class="n">4.4&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">87mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/cookies-for-comments/" rel="nofollow noopener">Cookies for Comments</a><br><span class="how">Donncha O Caoimh (a11n)</span></td><td class="n">4.9&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">87mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/video-user-manuals/" rel="nofollow noopener">Video User Manuals</a><br><span class="how">markethax</span></td><td class="n">&mdash;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">86mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/g-meta-keywords/" rel="nofollow noopener">G Meta Keywords</a><br><span class="how">Sinan Yorulmaz</span></td><td class="n">5&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">83mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/shortcodes-to-show-or-hide-content/" rel="nofollow noopener">Show/Hide Content at Set Time</a><br><span class="how">Dave Clements</span></td><td class="n">4.9&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">76mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/wp-no-base-permalink/" rel="nofollow noopener">WP No Base Permalink</a><br><span class="how">Sergio</span></td><td class="n">4.1&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">74mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/popup-trigger-url-for-elementor-pro/" rel="nofollow noopener">Popup Trigger URL for Elementor Pro</a><br><span class="how">sukiwp</span></td><td class="n">4.6&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">74mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/ot-flatsome-vertical-menu/" rel="nofollow noopener">OT Flatsome Vertical Menu</a><br><span class="how">thinhbg59</span></td><td class="n">4.7&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">73mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/woocommerce-pagseguro/" rel="nofollow noopener">Claudio Sanches – PagSeguro for WooCommerce</a><br><span class="how">Claudio Sanches</span></td><td class="n">4.9&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">72mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/zopim-live-chat/" rel="nofollow noopener">Zendesk Chat</a><br><span class="how">zendesk_official</span></td><td class="n">4&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">72mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/woocommerce-colors/" rel="nofollow noopener">WooCommerce Colors</a><br><span class="how">Claudio Sanches</span></td><td class="n">3.2&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">71mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/jquery-pin-it-button-for-images/" rel="nofollow noopener">jQuery Pin It Button for Images</a><br><span class="how">mrsztuczkens</span></td><td class="n">4.6&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">67mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/robots-txt-editor/" rel="nofollow noopener">Robots.txt Editor</a><br><span class="how">Processby</span></td><td class="n">4.5&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">67mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/wp-author-date-and-meta-remover/" rel="nofollow noopener">WP Author, Date and Meta Remover</a><br><span class="how">Johnnie</span></td><td class="n">3.2&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">67mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/social-icons/" rel="nofollow noopener">Social Icons</a><br><span class="how">ThemeGrill</span></td><td class="n">4.5&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">65mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/dash-notifier/" rel="nofollow noopener">Dash Notifier</a><br><span class="how">LiteSpeed Technologies</span></td><td class="n">&mdash;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">65mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/multiple-domain/" rel="nofollow noopener">Multiple Domain</a><br><span class="how">Javik</span></td><td class="n">4.8&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">62mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/search-by-sku-for-woocommerce/" rel="nofollow noopener">Search by SKU for Woocommerce</a><br><span class="how">mattsgarage</span></td><td class="n">4.6&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">61mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/easy-custom-sidebars/" rel="nofollow noopener">Easy Custom Sidebars</a><br><span class="how">Sunny Johal</span></td><td class="n">4.1&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">60mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/button-visually-impaired/" rel="nofollow noopener">Button visually impaired</a><br><span class="how">veks</span></td><td class="n">4.9&#9733;</td><td class="n">0%</td></tr>
+    <tr><td class="n" style="color:var(--decay)">59mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/public-post-preview-configurator/" rel="nofollow noopener">Public Post Preview Configurator</a><br><span class="how">bjoerne</span></td><td class="n">&mdash;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">58mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/sticky-header-oceanwp/" rel="nofollow noopener">Oceanwp sticky header</a><br><span class="how">קידום ובניית אתרים</span></td><td class="n">4.1&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">55mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/accordion-blocks/" rel="nofollow noopener">Accordion Blocks</a><br><span class="how">philbuchanan</span></td><td class="n">5&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">55mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/wp-tab-widget/" rel="nofollow noopener">WP Tab Widget</a><br><span class="how">MyThemeShop</span></td><td class="n">4.3&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">54mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/wp-notification-bars/" rel="nofollow noopener">WP Notification Bars</a><br><span class="how">MyThemeShop</span></td><td class="n">3.7&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">52mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/bulk-page-creator/" rel="nofollow noopener">Bulk Page Creator</a><br><span class="how">DaganLev</span></td><td class="n">4.8&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">50mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/adjust-admin-categories/" rel="nofollow noopener">Adjust Admin Categories</a><br><span class="how">Masahiro NAKASHIMA</span></td><td class="n">&mdash;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">50mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/tag-pages/" rel="nofollow noopener">Tag Pages</a><br><span class="how">BjornW</span></td><td class="n">4.9&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">49mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/disable-big-image-threshold/" rel="nofollow noopener">Disable &amp;quot;BIG Image&amp;quot; Threshold</a><br><span class="how">Jonathan Desrosiers</span></td><td class="n">4.2&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n" style="color:var(--decay)">48mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/related-posts-flatsome/" rel="nofollow noopener">Related Posts Flatsome</a><br><span class="how">Minh Tiến</span></td><td class="n">&mdash;</td><td class="n">0%</td></tr>
+    <tr><td class="n">43mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/wd-instagram-feed/" rel="nofollow noopener">10WebSocial</a><br><span class="how">10Web</span></td><td class="n">4.5&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">42mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/blank-slate/" rel="nofollow noopener">Blank Slate</a><br><span class="how">Aaron Reimann</span></td><td class="n">5&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">42mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/tc-custom-javascript/" rel="nofollow noopener">TC Custom JavaScript</a><br><span class="how">Tiny Code</span></td><td class="n">5&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">41mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/simple-taxonomy-ordering/" rel="nofollow noopener">Simple Taxonomy Ordering</a><br><span class="how">Evan Herman</span></td><td class="n">4.9&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">41mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/advanced-tinymce-configuration/" rel="nofollow noopener">Advanced TinyMCE Configuration</a><br><span class="how">Andrew Ozz</span></td><td class="n">4.8&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">41mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/show-hidecollapse-expand/" rel="nofollow noopener">Show-Hide / Collapse-Expand</a><br><span class="how">buntegiraffe</span></td><td class="n">4.6&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">41mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/wufoo-shortcode/" rel="nofollow noopener">Wufoo Shortcode</a><br><span class="how">wronganswersonly</span></td><td class="n">4.4&#9733;</td><td class="n">0%</td></tr>
+    <tr><td class="n">41mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/simple-full-screen-background-image/" rel="nofollow noopener">Simple Full Screen Background Image</a><br><span class="how">AMP-MODE</span></td><td class="n">4.4&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">38mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/wp-content-copy-protection/" rel="nofollow noopener">WP Content Copy Protection</a><br><span class="how">tychesoftwares</span></td><td class="n">3.5&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">37mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/kt-tinymce-color-grid/" rel="nofollow noopener">Central Color Palette</a><br><span class="how">Tessa (they/them), AuRise Creative</span></td><td class="n">4.9&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">37mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/italy-cookie-choices/" rel="nofollow noopener">Italy Cookie Choices (for EU Cookie Law &amp; Cookie Notice)</a><br><span class="how">overclokk</span></td><td class="n">4.5&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">36mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/meks-easy-instagram-widget/" rel="nofollow noopener">Meks Easy Photo Feed Widget</a><br><span class="how">Meks</span></td><td class="n">3.8&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">35mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/wc-password-strength-settings/" rel="nofollow noopener">Password Strength Settings for WooCommerce</a><br><span class="how">Danny Santoro</span></td><td class="n">4.5&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">34mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/animated-typing-effect/" rel="nofollow noopener">Typing Effect</a><br><span class="how">93digital</span></td><td class="n">4.3&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">34mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/disable-theme-and-plugin-auto-update-emails/" rel="nofollow noopener">Disable Theme and Plugin Auto-Update Emails</a><br><span class="how">KZeni</span></td><td class="n">5&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">33mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/disable-right-click-for-wp/" rel="nofollow noopener">Disable Right Click For WP</a><br><span class="how">Aftab Ali Muni</span></td><td class="n">4.3&#9733;</td><td class="n">0%</td></tr>
+    <tr><td class="n">33mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/acf-theme-code/" rel="nofollow noopener">ACF Theme Code for Advanced Custom Fields</a><br><span class="how">Aaron Rutley</span></td><td class="n">5&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">31mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/delete-pending-comments/" rel="nofollow noopener">Delete Pending Comments</a><br><span class="how">Sudar Muthu</span></td><td class="n">4.7&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">31mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/create-and-assign-categories-for-pages/" rel="nofollow noopener">Create And Assign Categories For Pages</a><br><span class="how">sandeepsinghhdp</span></td><td class="n">4.7&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">31mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/pdfjs-viewer-for-elementor/" rel="nofollow noopener">PDF viewer for Elementor &amp; Gutenberg</a><br><span class="how">Kaz Kadalashvili</span></td><td class="n">&mdash;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">26mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/google-pagespeed-insights/" rel="nofollow noopener">Insights from Google PageSpeed</a><br><span class="how">Matt Keys</span></td><td class="n">4.8&#9733;</td><td class="n">100%</td></tr>
+    <tr><td class="n">26mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/auth0/" rel="nofollow noopener">Login by Auth0</a><br><span class="how">Auth0</span></td><td class="n">3.1&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">26mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/wp-font-awesome/" rel="nofollow noopener">WP Font Awesome</a><br><span class="how">Zayed Baloch</span></td><td class="n">4.9&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">26mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/cyclone-demo-importer/" rel="nofollow noopener">Cyclone Demo Importer</a><br><span class="how">Cyclone Themes</span></td><td class="n">&mdash;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">26mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/genesis-columns-advanced/" rel="nofollow noopener">Genesis Columns Advanced</a><br><span class="how">Nick Diego</span></td><td class="n">4.8&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">25mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/meks-smart-social-widget/" rel="nofollow noopener">Meks Smart Social Widget</a><br><span class="how">Meks</span></td><td class="n">4.6&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">25mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/meks-smart-author-widget/" rel="nofollow noopener">Meks Smart Author Widget</a><br><span class="how">Meks</span></td><td class="n">4.5&#9733;</td><td class="n">0%</td></tr>
+    <tr><td class="n">25mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/meks-easy-ads-widget/" rel="nofollow noopener">Meks Easy Ads Widget</a><br><span class="how">Meks</span></td><td class="n">4.1&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">25mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/seo-optimized-images/" rel="nofollow noopener">Seo Optimized Images</a><br><span class="how">webriti</span></td><td class="n">4&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">25mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/meks-easy-social-share/" rel="nofollow noopener">Meks Easy Social Share</a><br><span class="how">Meks</span></td><td class="n">4.5&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">25mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/bulk-post-update-date/" rel="nofollow noopener">Bulk Post Update Date</a><br><span class="how">Atiq Samtia</span></td><td class="n">4.7&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">25mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/blog-designer/" rel="nofollow noopener">Blog Designer</a><br><span class="how">solwininfotech</span></td><td class="n">4&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">25mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/typekit-fonts-for-wordpress/" rel="nofollow noopener">Adobe Fonts (formerly Typekit) for WordPress</a><br><span class="how">Tectalic</span></td><td class="n">4.9&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">25mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/custom-css-and-javascript/" rel="nofollow noopener">Custom CSS and JavaScript</a><br><span class="how">WP Zone</span></td><td class="n">4.7&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">25mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/shortcodes-for-divi/" rel="nofollow noopener">Shortcodes for Divi</a><br><span class="how">WP Zone</span></td><td class="n">5&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">25mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/meks-themeforest-smart-widget/" rel="nofollow noopener">Meks ThemeForest Smart Widget</a><br><span class="how">Meks</span></td><td class="n">&mdash;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">25mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/ultimate-posts-widget/" rel="nofollow noopener">Ultimate Posts Widget</a><br><span class="how">cl272</span></td><td class="n">4.5&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">24mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/visual-term-description-editor/" rel="nofollow noopener">Visual Term Description Editor</a><br><span class="how">Shea Bunge</span></td><td class="n">5&#9733;</td><td class="n">&mdash;</td></tr>
+    <tr><td class="n">24mo</td><td class="n">10,000</td><td><a href="https://wordpress.org/plugins/wp-security-hardening/" rel="nofollow noopener">WP Hardening (discontinued)</a><br><span class="how">WebProtect.ai</span></td><td class="n">4&#9733;</td><td class="n">&mdash;</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="col">
+<h3>Check your own site</h3>
+<p><a href="https://marketwatch-rho.vercel.app">marketwatch</a> reads the plugin slugs a WordPress page already declares in its own asset URLs and checks each against the directory. Free, no signup. It only sees plugins that load assets on the page it is given, so a clean result is not a clean bill of health.</p>
+<p>For a list of sites, or for CI:</p>
+<p><code>npx github:odedmoshe/marketscan audit plugins.txt</code></p>
+</div>
+
+<div class="caveats">
+  <h3>Method</h3>
+  <ul>
+    <li><b>Source:</b> <code>api.wordpress.org/plugins/info/1.2</code>, enumerated in full &mdash; 71,091 plugins, 100% of what the directory reports. Two passes over two orderings are needed; the collector is <code>research/wp-census.mjs</code> in the repository.</li>
+    <li><b>Both thresholds are arbitrary.</b> 10,000 installs keeps the list to plugins enough people run for the entry to matter; 24 months is the line the <a href="./">census</a> already uses for "abandoned". Move either and the list changes size.</li>
+    <li><b>Install counts are bucketed by the directory itself</b> &mdash; it reports <code>300,000</code>, never <code>312,481</code>. Every figure here is therefore a floor, and the summed total especially so.</li>
+    <li><b>Support resolution is shown only where there were threads.</b> A plugin with no threads is not being ignored; nobody asked.</li>
+    <li><b>A release date is not the same as activity.</b> A maintainer may be answering support, reviewing patches, or simply confident the code is finished. This measures releases, which is what the directory publishes.</li>
+    <li><b>Measured 2026-08-31.</b> Any of these could ship tomorrow.</li>
+  </ul>
+</div>
+
+<footer>
+  Part of <a href="./">The Distribution Census</a> &middot; data and collectors: <a href="https://github.com/odedmoshe/marketscan">github.com/odedmoshe/marketscan</a><br>
+  Public, key-free endpoints; crawling limited to what robots.txt permits.
+</footer>
+
+</div>
+</body>
+</html>
