@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Three software marketplaces measured directly - WordPress, VS Code and Shopify - to answer whether anything new can still get discovered in them. Primary data, n=3,664.">
+<meta name="description" content="Four software marketplaces measured directly - WordPress, VS Code, Shopify and Chrome - to answer whether anything new can still get discovered in them. Primary data, n=4,164.">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://odedmoshe.github.io/marketscan/">
 <meta property="og:title" content="The Distribution Census">
-<meta property="og:description" content="Three software marketplaces, measured directly. Can anything new still get discovered in them?">
+<meta property="og:description" content="Four software marketplaces, measured directly. Can anything new still get discovered in them?">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://odedmoshe.github.io/marketscan/">
 <style>*{box-sizing:border-box}html,body{margin:0}img{max-width:100%}</style>
@@ -134,10 +134,10 @@ footer{margin-top:66px;padding-top:22px;border-top:1px solid var(--rule);
 
 <header class="top">
   <div class="eyebrow">
-    <span>Primary data</span><span>3 marketplaces</span><span>n = 3,664</span><span>August 2026</span>
+    <span>Primary data</span><span>4 marketplaces</span><span>n = 4,164</span><span>August 2026</span>
   </div>
   <h1>The Distribution Census</h1>
-  <p class="standfirst">Three software marketplaces, measured directly rather than read about. The question was simple: can something new still get found here? The answer is not the one the marketplaces imply.</p>
+  <p class="standfirst">Four software marketplaces, measured directly rather than read about. The question was simple: can something new still get found here? The answer is not the one the marketplaces imply.</p>
 </header>
 
 <div class="figures">
@@ -155,6 +155,11 @@ footer{margin-top:66px;padding-top:22px;border-top:1px solid var(--rule);
     <div class="n d">34.7%</div>
     <div class="k">Shopify</div>
     <div class="s">of apps rated 4.8★ or higher still sit under 25 reviews. Being good does not get you found.</div>
+  </div>
+  <div class="fig">
+    <div class="n d">44.1%</div>
+    <div class="k">Chrome</div>
+    <div class="s">of the whole store has had no update in a year. 11.5% was last touched over six years ago.</div>
   </div>
 </div>
 
@@ -244,6 +249,43 @@ footer{margin-top:66px;padding-top:22px;border-top:1px solid var(--rule);
 <p>The surrounding economics are consistent with a market where being found is the scarce thing: <strong>96.1%</strong> of apps offer a free plan or free install, the median paid tier is <strong>$20/month</strong>, and only 15.1% carry the &ldquo;Built for Shopify&rdquo; badge. Fifty-three developers in the sample ship more than one app, led by POWR.io and Eniture Technology at fifteen apiece.</p>
 </div>
 
+<h2>Chrome: how much of a store is still alive</h2>
+<p class="dek">500 extensions, sampled at random from the store's own sitemap.</p>
+
+<div class="col">
+<p>The other three measurements ask who gets discovered. This one asks something the Chrome Web Store makes unusually easy to check and unusually hard to see from inside: <strong>of everything the store still serves, how much is anyone still maintaining?</strong></p>
+
+<p>Chrome publishes no ranking endpoint, so there is no popular list to sample. What it does publish is a sitemap &mdash; 41 shards, ordered by extension id. Extension ids are content-independent hashes, so an id range should not correlate with anything, which makes a sitemap draw effectively random with respect to popularity. Five hundred extensions, taken with a seeded shuffle from a frame of 52,396 ids.</p>
+
+<p><strong>This is a whole-store sample, long tail included.</strong> It is not comparable to the WordPress figure above, which measures the popular head. Long tails are always more neglected than heads, and setting the two side by side would be misleading.</p>
+</div>
+
+<div class="block">
+<table>
+  <thead><tr><th style="width:30%">Time since last update</th><th style="width:12%">Share</th><th></th></tr></thead>
+  <tbody>
+    <tr><td>under 6 months</td><td class="n">36.2%</td><td><span class="bar" style="width:82%"></span></td></tr>
+    <tr><td>6&ndash;12 months</td><td class="n">19.7%</td><td><span class="bar" style="width:45%"></span></td></tr>
+    <tr><td>1&ndash;2 years</td><td class="n">16.9%</td><td><span class="bar d" style="width:38%"></span></td></tr>
+    <tr><td>2&ndash;4 years</td><td class="n">11.5%</td><td><span class="bar d" style="width:26%"></span></td></tr>
+    <tr><td>4&ndash;6 years</td><td class="n">4.2%</td><td><span class="bar d" style="width:10%"></span></td></tr>
+    <tr><td><strong>6 years or more</strong></td><td class="n">11.5%</td><td><span class="bar d" style="width:26%"></span></td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="col">
+<p><strong>44.1% have had no update in twelve months. 27.2% have had none in two years.</strong> And more of the store was last touched over six years ago (11.5%) than between four and six years ago (4.2%) &mdash; the tail does not taper, it accumulates.</p>
+
+<div class="pull">
+  <p>22 of the 500 sampled listings were already gone &mdash; in a sitemap Google regenerated the day before.</p>
+  <cite>4.4%, serving a generic shell instead of an extension</cite>
+</div>
+
+<p>One caveat I am imposing on myself rather than discovering later. Whether abandonment falls as user count rises is the obvious next question, and it looks like it does &mdash; but this sample yields only 35 extensions above 1,000 users, 13 above 10,000 and 2 above 100,000. A proportion computed on 13 records is a hint, not a finding, and it does not get published as one. Answering it needs a targeted sample of high-install extensions, which the store gives no way to enumerate.</p>
+
+<p>One that clears the bar on its own: <strong>Betaflight Configurator</strong>, 80,000 users, last updated <strong>96 months ago</strong>.</p>
+
 <h2>What this adds up to</h2>
 
 <div class="col">
@@ -262,7 +304,9 @@ footer{margin-top:66px;padding-top:22px;border-top:1px solid var(--rule);
     <li><b>WordPress install counts are bucketed</b> by the directory itself — it reports <code>300,000</code>, never <code>312,481</code> — so thresholds near a bucket edge are approximate.</li>
     <li><b>Two figures in an earlier draft of this work were wrong and are corrected here.</b> A parser bug read review counts from a page's sidebar, attributing other apps' numbers to the app being measured; extraction now reads labelled fields and is checked against four independently verified apps before any number is used. Separately, the &ldquo;4.8★ or higher&rdquo; share was published at ~37% on a 65-app sample and is <b>45.8%</b> at 465 — under-powered rather than corrupted.</li>
     <li><b>One figure was withdrawn rather than corrected.</b> &ldquo;The top 10 apps hold 65% of all reviews&rdquo; became 57.9% at the larger sample, because the top 10 of 465 is mechanically a smaller slice than the top 10 of 65. It was measuring the sample, not the market. Nothing computed on fewer than ~200 records appears here.</li>
-    <li><b>These are three marketplaces, not all of them.</b> Chrome Web Store, Figma, Obsidian and Slack are unmeasured, and each has a different discovery mechanism that could plausibly behave differently.</li>
+    <li><b>The Chrome sample is drawn from 6 of 41 sitemap shards</b>, and the sitemap repeats each extension once per locale — 239,895 raw URL matches collapsed to 52,396 unique ids. Extension ids are content-independent hashes, so an id range should not correlate with age or popularity, but that is an argument rather than a measurement.</li>
+    <li><b>The Chrome collector initially mislabelled removed extensions as live.</b> A removed extension does not 404: it keeps a <code>/detail/</code> URL under the slug <code>empty-title</code> and is served a generic shell. 22 of 500 were affected. They are now counted as delisted, both the collector and the study reclassify them, and the figures above are post-fix.</li>
+    <li><b>These are four marketplaces, not all of them.</b> Figma, Obsidian and Slack are unmeasured, and each has a different discovery mechanism that could plausibly behave differently.</li>
   </ul>
 </div>
 

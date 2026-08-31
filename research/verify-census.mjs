@@ -12,10 +12,12 @@
  */
 
 import { readFileSync } from 'node:fs';
+import { monthsSince } from '../src/health.mjs';
 
 const wp = JSON.parse(readFileSync(new URL('../data/wp-plugins.json', import.meta.url), 'utf8'));
 const vsx = JSON.parse(readFileSync(new URL('../data/vsx-extensions.json', import.meta.url), 'utf8'));
 const shop = Object.values(JSON.parse(readFileSync(new URL('../data/app-details.json', import.meta.url), 'utf8')));
+const chrome = Object.values(JSON.parse(readFileSync(new URL('../data/chrome-extensions.json', import.meta.url), 'utf8')));
 
 let fails = 0;
 const pct = (n, d) => Math.round((n / d) * 1000) / 10;
@@ -66,6 +68,20 @@ check('median monthly tier ($)', tiers[Math.floor((tiers.length - 1) * 0.5)], 20
 const byDev = new Map();
 for (const a of live) if (a.developer) byDev.set(a.developer, (byDev.get(a.developer) || 0) + 1);
 check('developers shipping >1 app', [...byDev.values()].filter((n) => n > 1).length, 53, 0);
+
+console.log('\n=== CHROME (n=' + chrome.length + ') ===');
+// Reclassify the generic store shell, exactly as chrome-study.mjs does. A
+// removed extension keeps a /detail/ URL and is served a shell with no fields;
+// counting those as live inflates the "no date" bucket and hides the delisting.
+const cShell = (r) => !r.delisted && !r.error && !r.lastUpdated && !r.installs;
+const cAll = chrome.map((r) => (cShell(r) ? { ...r, delisted: true } : r));
+const cLive = cAll.filter((r) => !r.delisted && !r.error && r.lastUpdated);
+const cMonths = cLive.map((r) => monthsSince(r.lastUpdated)).filter((m) => m !== null);
+check('usable listings', cLive.length, 478, 0);
+check('delisted / shell while sampling', cAll.filter((r) => r.delisted).length, 22, 0);
+check('no update in 12 months (%)', pct(cMonths.filter((m) => m >= 12).length, cMonths.length), 44.1, 0.11);
+check('no update in 24 months (%)', pct(cMonths.filter((m) => m >= 24).length, cMonths.length), 27.2, 0.11);
+check('last touched 6+ years ago (%)', pct(cMonths.filter((m) => m >= 72).length, cMonths.length), 11.5, 0.11);
 
 // --- the README/CONSTRAINTS inconsistency -----------------------------------
 console.log('\n=== RESOLVING THE 10% vs 14% DISCREPANCY ===');

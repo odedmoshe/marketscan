@@ -1,6 +1,6 @@
 # The Distribution Census
 
-**Three software marketplaces, measured directly. August 2026.**
+**Four software marketplaces, measured directly. August 2026.**
 
 The question was narrow: *can something new still get found in these places?*
 The usual way to answer it is to read other people's posts about other people's
@@ -12,10 +12,12 @@ marketplaces' own public endpoints instead.
 | WordPress | **9%** of plugins reaching 50k installs since 2023 were independent |
 | VS Code | **37%** of new entrants are independent — down from **73%** before 2023 |
 | Shopify | **34.7%** of apps rated 4.8★+ still sit under 25 reviews |
+| Chrome | **44.1%** of the whole store has had no update in a year |
 
-Sample: 2,000 WordPress plugins, 1,199 VS Code extensions, 465 Shopify apps
-(n = 3,664). Every figure below is recomputed from the stored data by
-[`verify-census.mjs`](https://github.com/odedmoshe/marketscan) before publication.
+Sample: 2,000 WordPress plugins, 1,199 VS Code extensions, 465 Shopify apps,
+500 Chrome extensions (n = 4,164). Every figure below is recomputed from the
+stored data by [`verify-census.mjs`](research/verify-census.mjs) before
+publication, and every percentage carries its n.
 
 ---
 
@@ -28,6 +30,9 @@ Sample: 2,000 WordPress plugins, 1,199 VS Code extensions, 465 Shopify apps
 - **Shopify** — crawled from the store sitemap in file order, 465 records.
   Sitemap order is not ranked, so this is a sample of the store rather than a
   sample of its winners. Category pages would have skewed every figure upward.
+- **Chrome** — 500 extensions drawn with a seeded shuffle from the sitemap
+  Google advertises in its own `robots.txt`. No ranking endpoint exists, so
+  this is a whole-store sample and is reported as one.
 
 One methodological note that changed a conclusion. My first pass at classifying
 VS Code publishers worked by recognising company names — that is recall, and
@@ -121,6 +126,55 @@ Shopify" badge. 53 developers in the sample ship more than one app.
 
 ---
 
+## Chrome: how much of a store is still alive
+
+The other three measurements ask who gets discovered. This one asks something
+the Chrome Web Store makes unusually easy to check and unusually hard to see
+from inside: **of everything the store still serves, how much is anyone still
+maintaining?**
+
+Chrome publishes no ranking endpoint, so there is no "popular" list to sample.
+What it does publish is a sitemap — 41 shards, ordered by extension id. Because
+extension ids are content-independent hashes, an id range is not expected to
+correlate with anything, which makes a sitemap sample effectively random with
+respect to popularity. **500 extensions**, drawn with a seeded shuffle from a
+frame of 52,396 ids across six shards.
+
+**This is a whole-store sample, long tail included.** It is not comparable to
+the WordPress figure above, which measures the popular head. Long tails are
+always more neglected than heads, and putting the two numbers side by side
+would be misleading.
+
+Of 478 usable listings:
+
+| Time since last update | share |
+|---|---|
+| under 6 months | 36.2% |
+| 6–12 months | 19.7% |
+| 1–2 years | 16.9% |
+| 2–4 years | 11.5% |
+| 4–6 years | 4.2% |
+| **6 years or more** | **11.5%** |
+
+- **44.1% have had no update in twelve months.**
+- **27.2% have had none in two years.**
+- More of the store was last touched over six years ago (11.5%) than between
+  four and six years ago (4.2%).
+
+And **22 of the 500 sampled ids — 4.4% — were already gone**, serving the
+store's generic shell instead of a listing. The sitemap advertising them was
+regenerated the day before this sample was taken.
+
+**Left open, deliberately:** whether abandonment falls as user count rises. It
+appears to, but the sample yields only 35 extensions above 1k users, 13 above
+10k and 2 above 100k. Under this project's own rule, a proportion computed on
+fewer than ~200 records is a hint and does not get published as a finding. It
+needs a targeted sample of high-install extensions, which the store gives no
+way to enumerate.
+
+One that survived the cut on its own terms: **Betaflight Configurator**, 80,000
+users, last updated **96 months ago**.
+
 ## What it adds up to
 
 Three marketplaces, measured independently, produce one shape. Discovery is
@@ -160,9 +214,19 @@ it is *which of these doors is open to me specifically.*
   is mechanically a smaller slice than the top 10 of 65. It was measuring the
   sample, not the market. Nothing computed on fewer than ~200 records appears
   here, and every percentage carries its n.
-- **These are three marketplaces, not all of them.** Chrome Web Store, Figma,
-  Obsidian and Slack are unmeasured. Each has a different discovery mechanism
-  and could plausibly behave differently.
+- **The Chrome sample is drawn from 6 of 41 sitemap shards**, and the sitemap
+  repeats each extension once per locale (239,895 raw URL matches collapsed to
+  52,396 unique ids). Extension ids are content-independent hashes, so an id
+  range should not correlate with age or popularity — but that is an argument,
+  not a measurement.
+- **The Chrome collector initially mislabelled removed extensions as live.** A
+  removed extension does not 404: it keeps a `/detail/` URL under the slug
+  `empty-title` and is served a generic shell. 22 of 500 were affected; they are
+  now counted as delisted, and both the collector and the study reclassify them.
+  The figures above are post-fix.
+- **These are four marketplaces, not all of them.** Figma, Obsidian and Slack
+  are unmeasured. Each has a different discovery mechanism and could plausibly
+  behave differently.
 
 ---
 
