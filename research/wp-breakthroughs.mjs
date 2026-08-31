@@ -76,22 +76,36 @@ for (const r of won) {
   const all = byAuthor.get(a) || [];
   const prior = all.filter((p) => p.s !== r.s && p.added < r.added);
   const priorBig = prior.filter((p) => p.i >= MIN);
+  // The author's existing installed base at the time this one launched. A sum
+  // of buckets and therefore a floor — but a floor is enough to separate "had
+  // an audience already" from "had none", which is the only distinction being
+  // drawn. Labelling authors as hosts or conglomerates by hand would be a
+  // judgement; this is a measurement.
+  const priorInstalls = prior.reduce((s, p) => s + (p.i || 0), 0);
   if (!prior.length) firstTimer++;
   else {
     hadPrior++;
     if (priorBig.length) hadPriorBig++;
   }
-  detail.push({ slug: r.s, author: a, prior: prior.length, priorBig: priorBig.length, installs: r.i });
+  detail.push({ slug: r.s, author: a, prior: prior.length, priorBig: priorBig.length, priorInstalls, installs: r.i });
 }
 
 console.log(`  no earlier plugin in the directory:            ${firstTimer} (${pct(firstTimer, won.length)}%)`);
 console.log(`  had shipped before:                            ${hadPrior} (${pct(hadPrior, won.length)}%)`);
 console.log(`    of those, already had a ${MIN.toLocaleString()}+ plugin:  ${hadPriorBig} (${pct(hadPriorBig, won.length)}%)`);
 
-console.log('\n  breakdown:');
+const bases = detail.map((d) => d.priorInstalls).sort((a, b) => a - b);
+const median = bases.length ? bases[Math.floor((bases.length - 1) / 2)] : 0;
+console.log(`\n  the author's existing installed base when this plugin launched:`);
+console.log(`    median across all breakthroughs:  ${median.toLocaleString()}`);
+console.log(`    breakthroughs from an author with zero prior installs: ${detail.filter((d) => !d.priorInstalls).length} of ${detail.length}`);
+console.log(`    breakthroughs from an author with 1,000,000+ prior:    ${detail.filter((d) => d.priorInstalls >= 1e6).length} of ${detail.length}`);
+
+console.log('\n  breakdown (prior base is a sum of buckets, so a floor):');
 for (const d of detail) {
   console.log(
-    `    ${d.slug.slice(0, 38).padEnd(40)} ${String(d.installs).padStart(9)}  author had ${String(d.prior).padStart(3)} earlier, ${d.priorBig} of them big`,
+    `    ${d.slug.slice(0, 36).padEnd(38)} ${String(d.installs).padStart(9)}  author had ${String(d.prior).padStart(3)} earlier` +
+      ` (${d.priorBig} big, ${d.priorInstalls.toLocaleString()} installs)`,
   );
 }
 

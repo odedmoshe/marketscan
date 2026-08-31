@@ -39,6 +39,17 @@ import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 
 const OUT = new URL('../data/wp-directory.json', import.meta.url);
 const MAX_PAGES = Number(process.argv[2] || 0); // 0 = all
+/**
+ * Which ordering to page through. Both are needed, and the reason is measured
+ * rather than theoretical: paging `popular` to depth returns the same plugin
+ * repeatedly and skips others — 5,359 repeats by page 350 on the first run —
+ * because most of the directory shares an install bucket and the order within
+ * a tie is not stable between requests. `new` is ordered by date added, which
+ * almost never ties, so it enumerates cleanly and fills exactly the gaps the
+ * other pass leaves. The union of the two is the population; either alone is
+ * a sample that does not know it is one.
+ */
+const BROWSE = process.argv[3] || 'popular';
 const DELAY_MS = 1000;
 const UA = 'marketscan-research/0.2 (marketplace maintenance study; +https://github.com/odedmoshe/marketscan)';
 
@@ -49,7 +60,7 @@ const DROP_FIELDS = ['description', 'short_description', 'icons', 'tags', 'ratin
 function pageUrl(page) {
   const p = new URLSearchParams();
   p.set('action', 'query_plugins');
-  p.set('request[browse]', 'popular');
+  p.set('request[browse]', BROWSE);
   p.set('request[per_page]', '100');
   p.set('request[page]', String(page));
   for (const f of DROP_FIELDS) p.set(`request[fields][${f}]`, '0');
@@ -83,7 +94,7 @@ export function compact(p) {
 
 async function main() {
   const store = existsSync(OUT) ? JSON.parse(readFileSync(OUT, 'utf8')) : {};
-  console.error(`resuming with ${Object.keys(store).length} plugins already stored`);
+  console.error(`resuming with ${Object.keys(store).length} plugins already stored — pass: ${BROWSE}`);
 
   const first = await (await fetch(pageUrl(1), { headers: { 'User-Agent': UA } })).json();
   const total = first.info.pages;
