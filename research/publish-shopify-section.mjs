@@ -76,10 +76,19 @@ const WITHDRAWN = ', and only 15.1% carry the &ldquo;Built for Shopify&rdquo; ba
 if (page.includes(WITHDRAWN)) {
   page = page.replace(WITHDRAWN, '');
   console.log('\nremoved the withdrawn Built for Shopify clause');
-} else if (page.includes('15.1%')) {
-  console.error('\n15.1% is still on the page but not in the expected wording — remove it by hand, do not guess');
-  process.exit(1);
 } else {
+  // The number is allowed to appear inside the blocks that exist to say it was
+  // withdrawn — that is the withdrawal, not the claim. It is only a problem if
+  // it survives anywhere else, which is what this looks for. The first version
+  // of this check did not make the distinction and refused to run a second
+  // time, on text it had itself put there.
+  const elsewhere = page
+    .replace(/<!-- shopify-cohort:start -->[\s\S]*?<!-- shopify-cohort:end -->/g, '')
+    .replace(/<!-- caveats-v2:start -->[\s\S]*?<!-- caveats-v2:end -->/g, '');
+  if (elsewhere.includes('15.1%')) {
+    console.error('\n15.1% is still asserted outside the withdrawal blocks — remove it by hand, do not guess');
+    process.exit(1);
+  }
   console.log('\nwithdrawn clause already removed');
 }
 

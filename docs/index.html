@@ -209,7 +209,7 @@ footer{margin-top:66px;padding-top:22px;border-top:1px solid var(--rule);
     {
       "@type": "DataDownload",
       "name": "shopify-cohort.json",
-      "description": "Shopify apps sampled from the sitemap, with launch dates (1,575 records)",
+      "description": "Shopify apps sampled from the sitemap, with launch dates (1,650 records)",
       "encodingFormat": "application/json",
       "contentUrl": "https://raw.githubusercontent.com/odedmoshe/marketscan/main/data/shopify-cohort.json"
     },
@@ -468,7 +468,7 @@ footer{margin-top:66px;padding-top:22px;border-top:1px solid var(--rule);
 <h3>Is the store still enterable?</h3>
 
 <div class="col">
-<p>The section above says discovery is the constraint. It does not say whether that constraint has tightened, because a sample of live apps cannot distinguish an app that arrived last year from one that arrived in 2014. Listing pages publish a launch date. A second sample &mdash; 1,325 apps drawn at random from the sitemap the store's own robots.txt advertises, 1,277 of them usable &mdash; collects it, which turns review count from a popularity measure into a cohort measure.</p>
+<p>The section above says discovery is the constraint. It does not say whether that constraint has tightened, because a sample of live apps cannot distinguish an app that arrived last year from one that arrived in 2014. Listing pages publish a launch date. A second sample &mdash; 1,650 apps drawn at random from the sitemap the store's own robots.txt advertises, 1,587 of them usable &mdash; collects it, which turns review count from a popularity measure into a cohort measure.</p>
 
 <p>The threshold below was fixed before the data was collected, at 25 reviews: the same visibility line the section above uses.</p>
 </div>
@@ -476,31 +476,33 @@ footer{margin-top:66px;padding-top:22px;border-top:1px solid var(--rule);
 <div class="cohorts">
   <div class="cohort">
     <div class="lab">Launched before August 2024</div>
-    <div class="big">25.3%</div>
-    <div class="track"><span style="width:25.3%"></span></div>
+    <div class="big">25.1%</div>
+    <div class="track"><span style="width:25.1%"></span></div>
     <div class="cap">reached 25 reviews or more.</div>
   </div>
   <div class="cohort now">
     <div class="lab">Launched in the last 24 months</div>
-    <div class="big">2.7%</div>
-    <div class="track"><span style="width:2.7%"></span></div>
-    <div class="cap">reached the same line. 75% of that cohort have no reviews at all.</div>
+    <div class="big">2.2%</div>
+    <div class="track"><span style="width:2.2%"></span></div>
+    <div class="cap">reached the same line. 75.6% of that cohort have no reviews at all.</div>
   </div>
 </div>
 
 <div class="col">
-<p>The median app launched in the last two years has <strong>zero</strong> reviews. The median app launched before that has 3. Some of that gap is simply time &mdash; reviews accumulate, and a app from 2016 has had eight more years to collect them. But a factor of 9.4 is a great deal more than the extra time explains, and three quarters of the recent cohort have not collected a single one.</p>
+<p>The median app launched in the last two years has <strong>zero</strong> reviews. The median app launched before that has 3. Some of that gap is simply time &mdash; reviews accumulate, and a app from 2016 has had eight more years to collect them. But a factor of 11.4 is a great deal more than the extra time explains, and three quarters of the recent cohort have not collected a single one.</p>
 
 <p>This is the same shape the WordPress directory shows, arrived at from a different marketplace with a different metric: <strong>the door is open, and almost nobody gets through it.</strong></p>
 </div>
 
 <div class="col">
 <h3 style="color:var(--decay)">A figure from the earlier draft is withdrawn</h3>
-<p>The paragraph above previously ended &ldquo;and only 15.1% carry the &lsquo;Built for Shopify&rsquo; badge&rdquo;. That number does not survive re-measurement: on this whole-store sample <strong>84.4%</strong> of live apps carry it. Thirty apps from the original sample were re-checked the next day and the detectors disagreed on fourteen of them, always in the same direction.</p>
+<p>The paragraph above previously ended &ldquo;and only 15.1% carry the &lsquo;Built for Shopify&rsquo; badge&rdquo;. That number does not survive re-measurement: on this whole-store sample <strong>83.7%</strong> of live apps carry it. Thirty apps from the original sample were re-checked the next day and the detectors disagreed on fourteen of them, always in the same direction.</p>
 
 <p>It is withdrawn rather than corrected, because the collector that produced it was never saved and so the disagreement cannot be debugged &mdash; only replaced. Two further things are worth saying plainly. The samples are different populations, so part of the gap may be real: over half this sample launched within the last two years, and the badge rewards the modern embedded-app architecture that older incumbents never migrated to. Klaviyo, listed since 2012, does not carry it. And a badge held by most of a store is not a signal a merchant can use to choose between two apps.</p>
 </div>
 <!-- shopify-cohort:end -->
+
+
 
 <h2>Chrome: how much of a store is still alive</h2>
 <p class="dek">500 extensions, sampled at random from the store's own sitemap.</p>
@@ -565,7 +567,7 @@ footer{margin-top:66px;padding-top:22px;border-top:1px solid var(--rule);
     <li><b>The WordPress population figures cover 71,091 of the directory's 71,091 listings (100%), not all of them.</b> Enumeration needs two passes over two different orderings because <code>browse=popular</code> both repeats and skips at depth, and because it ranks only 66,998 of the 71,091 — omitting, by construction, the plugins with no install base. The residual gap is concentrated in older, low-install listings, which is the direction that makes the staleness figure a <em>floor</em> rather than a ceiling.</li>
     <li><b>The author field does not resolve corporate ownership.</b> Plugins are grouped by the API's <code>author</code> string, so a conglomerate publishing under several brand names is counted as several independent authors. <em>Search &amp; Replace Everything by WPCode</em> is an Awesome Motive property that this method scores as a first-time author. Every such miss inflates the independent count, so &ldquo;19 breakthroughs from authors with nothing behind them&rdquo; is an upper bound.</li>
     <li><b>The zero-install column has a recency confound and it is not fully removable.</b> Newer plugins have had less time to accumulate installs, so part of the rise is mechanical. The comparison that carries weight is the 2024 cohort at 38.9%, which has had eighteen months to two and a half years, against the 2019 cohort at 22.7%. The monthly submission counts have no such confound.</li>
-    <li><b>A third figure has been withdrawn.</b> &ldquo;Only 15.1% carry the Built for Shopify badge&rdquo; does not survive re-measurement — a whole-store sample returns 84.3%, and thirty apps re-checked from the original sample disagreed on fourteen, always in the same direction. It is withdrawn rather than corrected because the collector that produced it was never saved, so the disagreement cannot be diagnosed. <b>Every collector behind the figures on this page is now in <code>research/</code> in the repository</b>, which is the actual fix.</li>
+    <li><b>A third figure has been withdrawn.</b> &ldquo;Only 15.1% carry the Built for Shopify badge&rdquo; does not survive re-measurement — a whole-store sample returns 83.7%, and thirty apps re-checked from the original sample disagreed on fourteen, always in the same direction. It is withdrawn rather than corrected because the collector that produced it was never saved, so the disagreement cannot be diagnosed. <b>Every collector behind the figures on this page is now in <code>research/</code> in the repository</b>, which is the actual fix.</li>
 <!-- caveats-v2:end -->
   </ul>
 </div>

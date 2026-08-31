@@ -20935,5 +20935,654 @@
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
+ },
+ "conative-ai": {
+  "handle": "conative-ai",
+  "title": "Conative AI",
+  "developer": "Conative AI",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-11-18",
+  "categories": [
+   "Inventory sync"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "ectaroship": {
+  "handle": "ectaroship",
+  "title": "EctaroShip",
+  "developer": "Ectaro BV",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-05-09",
+  "categories": [
+   "Shipping"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "km-distance-shipping": {
+  "handle": "km-distance-shipping",
+  "title": "KM Distance Shipping",
+  "developer": "Kevin Metzdorf Ltd",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-08-14",
+  "categories": [
+   "Shipping rates"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "interactify": {
+  "handle": "interactify",
+  "title": "Interactify",
+  "developer": "Interactify",
+  "rating": 5,
+  "reviews": 4,
+  "launched": "2023-11-03",
+  "categories": [
+   "Abandoned cart"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "regulo": {
+  "handle": "regulo",
+  "title": "Regulo – Invoice & Export",
+  "developer": "Regulo",
+  "rating": 5,
+  "reviews": 29,
+  "launched": "2024-04-03",
+  "categories": [
+   "Invoices and receipts"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "dianxiaomi": {
+  "handle": "dianxiaomi",
+  "error": "HTTP 429",
+  "seen": "2026-08-31"
+ },
+ "accel-inventory-management": {
+  "handle": "accel-inventory-management",
+  "title": "Accel Inventory Management",
+  "developer": "Accel BuildStack",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2024-10-07",
+  "categories": [
+   "Inventory optimization"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "geolizr": {
+  "handle": "geolizr",
+  "title": "geolizr",
+  "developer": "langify GmbH & Co. KG",
+  "rating": 4.8,
+  "reviews": 80,
+  "launched": "2016-04-18",
+  "categories": [
+   "Currency and translation"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "order-docs-studio": {
+  "handle": "order-docs-studio",
+  "title": "Order Docs Studio",
+  "developer": "Arti Digital",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-14",
+  "categories": [
+   "Invoices and receipts"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "show-hide-password": {
+  "handle": "show-hide-password",
+  "title": "CD: Show Hide Password",
+  "developer": "CodeDecorator",
+  "rating": 3.5,
+  "reviews": 2,
+  "launched": "2024-07-22",
+  "categories": [
+   "Accounts and login"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "nda-signal": {
+  "handle": "nda-signal",
+  "title": "NDA Signal Pixels and CAPI",
+  "developer": "North Digital Axis ",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-08-25",
+  "categories": [
+   "Analytics"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "a11y-guard": {
+  "handle": "a11y-guard",
+  "title": "a11y‑guard",
+  "developer": "a11y-guard",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-27",
+  "categories": [
+   "Accessibility"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "chatconnect": {
+  "handle": "chatconnect",
+  "title": "Chatconnect ‑ connect chatbots",
+  "developer": "Mojahid",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-02-02",
+  "categories": [
+   "Chat"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "miguel": {
+  "handle": "miguel",
+  "title": "Miguel",
+  "developer": "Servantes s.r.o.",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-08-13",
+  "categories": [
+   "Digital products"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "elfsight-file-embed": {
+  "handle": "elfsight-file-embed",
+  "title": "File Embed by Elfsight",
+  "developer": "Elfsight",
+  "rating": 5,
+  "reviews": 1,
+  "launched": "2019-10-07",
+  "categories": [
+   "Selling online - Other"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "ls-shipping-protection-1": {
+  "handle": "ls-shipping-protection-1",
+  "title": "OneAssure",
+  "developer": "LateShipment.com",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-08-14",
+  "categories": [
+   "Upsell and cross-sell"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "inframe-affiliates": {
+  "handle": "inframe-affiliates",
+  "title": "InFrame Affiliates",
+  "developer": "INFRAME AFFILIATES LTD",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-09-25",
+  "categories": [
+   "Affiliate programs"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "gleame": {
+  "handle": "gleame",
+  "title": "Gleame: Product Finder Quiz",
+  "developer": "Gleame",
+  "rating": 5,
+  "reviews": 8,
+  "launched": "2025-09-10",
+  "categories": [
+   "3D/AR/VR"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "trezoroloyalty": {
+  "handle": "trezoroloyalty",
+  "title": "Trezoro Loyalty + Rewards",
+  "developer": "Trezoro Loyalty Rewards",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2024-06-26",
+  "categories": [
+   "Loyalty and rewards"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "ovisystem": {
+  "handle": "ovisystem",
+  "title": "Ovisystem",
+  "developer": "Ovisystem",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-09",
+  "categories": [
+   "Selling online - Other",
+   "Reviews",
+   "Overall rating",
+   "0",
+   "Counts per rating level",
+   "5",
+   "0% of ratings are 5 stars"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "sa-028-ur-sold-out-hidden": {
+  "handle": "sa-028-ur-sold-out-hidden",
+  "title": "UR: Hide Out Of Stock Products",
+  "developer": "UnReact Inc.",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2024-01-23",
+  "categories": [
+   "Inventory optimization",
+   "Product display - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "zohobooks-tools": {
+  "handle": "zohobooks-tools",
+  "title": "Zoho Books Tools",
+  "developer": "Boohead, Inc.",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2023-07-11",
+  "categories": [
+   "Accounting"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "bpost-shipping-platform": {
+  "handle": "bpost-shipping-platform",
+  "title": "bpost shipping platform",
+  "developer": "bpost",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2024-06-20",
+  "categories": [
+   "Shipping"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "mega-terms-and-conditions": {
+  "handle": "mega-terms-and-conditions",
+  "title": "Mega Terms and Conditions",
+  "developer": "Mega Profit Apps",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2023-08-17",
+  "categories": [
+   "Cart customization"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "madgic-digify": {
+  "handle": "madgic-digify",
+  "title": "Trustio Digital Downloads",
+  "developer": "Madgic",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-07-18",
+  "categories": [
+   "Digital products"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "ventipay-widget": {
+  "handle": "ventipay-widget",
+  "title": "Venti Widget de Producto",
+  "developer": "Venti",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-01-14",
+  "categories": [
+   "Badges and icons"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "diatome": {
+  "handle": "diatome",
+  "title": "Diatome — Resale & Buyback",
+  "developer": "Diatome",
+  "rating": 5,
+  "reviews": 2,
+  "launched": "2023-12-13",
+  "categories": [
+   "Custom products - Other",
+   "Inventory - Other",
+   "Reviews",
+   "(2)",
+   "Overall rating",
+   "5",
+   "Counts per rating level"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "myfavorito": {
+  "handle": "myfavorito",
+  "title": "MyFavorito",
+  "developer": "MyFavorito Inc.",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2022-02-01",
+  "categories": [
+   "Donations"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "wt-qrcode-generator": {
+  "handle": "wt-qrcode-generator",
+  "title": "WT QR Code Generator",
+  "developer": "Webiators Technologies",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2024-08-16",
+  "categories": [
+   "SKU and barcodes"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "netto": {
+  "handle": "netto",
+  "title": "Netto: Profit & Bookkeeping",
+  "developer": "Netto",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-05-22",
+  "categories": [
+   "Accounting"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "getsync-per-cassa-in-cloud": {
+  "handle": "getsync-per-cassa-in-cloud",
+  "title": "GetSync per Cassa in Cloud",
+  "developer": "MyAppify ",
+  "rating": 5,
+  "reviews": 4,
+  "launched": "2021-01-13",
+  "categories": [
+   "Analytics",
+   "Inventory sync"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "blockify-shipping-protection": {
+  "handle": "blockify-shipping-protection",
+  "title": "Blockify: Shipping Protection",
+  "developer": "Blockify",
+  "rating": 5,
+  "reviews": 2,
+  "launched": "2026-04-20",
+  "categories": [
+   "Warranties and insurance"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "variants-shared-inventory": {
+  "handle": "variants-shared-inventory",
+  "title": "VSI: Variants Shared Inventory",
+  "developer": "Addify",
+  "rating": 3,
+  "reviews": 13,
+  "launched": "2024-08-30",
+  "categories": [
+   "Inventory optimization"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "stockwell-1": {
+  "handle": "stockwell-1",
+  "title": "Stockwell Low Stock Alerts",
+  "developer": "Stockwell Labs",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-08-14",
+  "categories": [
+   "Staff notifications"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "auction-now": {
+  "handle": "auction-now",
+  "title": "Auction Now",
+  "developer": "Raremarq",
+  "rating": 4.7,
+  "reviews": 12,
+  "launched": "2025-08-14",
+  "categories": [
+   "Pricing optimization"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "wowfulfillment-app": {
+  "handle": "wowfulfillment-app",
+  "title": "Ink POD: Print on Demand",
+  "developer": "InkPODFulfillment",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2019-11-18",
+  "categories": [
+   "Dropshipping"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "gridsync": {
+  "handle": "gridsync",
+  "title": "SyncroNice",
+  "developer": "EA Consulting",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-05-13",
+  "categories": [
+   "Bulk editor"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "printproductpage": {
+  "handle": "printproductpage",
+  "title": "LitPDF Datasheet Catalog",
+  "developer": "LitPDF",
+  "rating": 5,
+  "reviews": 30,
+  "launched": "2023-05-16",
+  "categories": [
+   "Marketing - Other",
+   "Product display - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "whatomatic-whatsapp-automation-1": {
+  "handle": "whatomatic-whatsapp-automation-1",
+  "title": "Whatomatic‑Whatsapp Automation",
+  "developer": "Whatomatic",
+  "rating": 3.7,
+  "reviews": 3,
+  "launched": "2026-05-20",
+  "categories": [
+   "Chat"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "packaging-epr": {
+  "handle": "packaging-epr",
+  "title": "Packaging EPR",
+  "developer": "MiniSage Tech",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-23",
+  "categories": [
+   "Legal"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "fangguo-erp": {
+  "handle": "fangguo-erp",
+  "title": "方果ERP",
+  "developer": "深圳市渔童科技有限公司",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-02-27",
+  "categories": [
+   "ERP"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "segmently-auto-tagging": {
+  "handle": "segmently-auto-tagging",
+  "title": "Segmently",
+  "developer": "TrackWise",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-08-14",
+  "categories": [
+   "Workflow automation"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "dintero-checkout-cards": {
+  "handle": "dintero-checkout-cards",
+  "error": "HTTP 429",
+  "seen": "2026-08-31"
+ },
+ "amood": {
+  "handle": "amood",
+  "title": "amood",
+  "developer": "Amood",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-07-14",
+  "categories": [
+   "Marketplaces"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "cheguei": {
+  "handle": "cheguei",
+  "title": "Cheguei",
+  "developer": "App Makers LLC",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-01",
+  "categories": [
+   "Stock alerts"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "stock-counter-elite": {
+  "handle": "stock-counter-elite",
+  "title": "ET Scarcity Low Stock Counter",
+  "developer": "Ecom Trend",
+  "rating": 5,
+  "reviews": 14,
+  "launched": "2021-01-27",
+  "categories": [
+   "Stock alerts"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "zrapp": {
+  "handle": "zrapp",
+  "title": "Buchhaltung: sevdesk & Lexware",
+  "developer": "zrapp.group",
+  "rating": 5,
+  "reviews": 3,
+  "launched": "2026-04-30",
+  "categories": [
+   "Invoices and receipts"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "simplesync-amazon-fba-sync": {
+  "handle": "simplesync-amazon-fba-sync",
+  "title": "SnapSync: Amazon FBA MCF Sync",
+  "developer": "ByteStand",
+  "rating": 4.8,
+  "reviews": 10,
+  "launched": "2021-05-24",
+  "categories": [
+   "Inventory sync"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "ups-global-checkout-1": {
+  "handle": "ups-global-checkout-1",
+  "title": " UPS Global Checkout",
+  "developer": "United Parcel Service, Inc. (“UPS”)",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-09-19",
+  "categories": [
+   "Shipping rates"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "siteguide-dashboard-v2": {
+  "handle": "siteguide-dashboard-v2",
+  "title": "Traqi",
+  "developer": "Traqi",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-06-23",
+  "categories": [
+   "Analytics"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
  }
 }
