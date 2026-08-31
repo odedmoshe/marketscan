@@ -1,0 +1,78 @@
+# Take one dated snapshot of the WordPress plugin directory, every day.
+#
+# This runs here rather than on a machine somebody has to keep switched on,
+# because the value of the series comes entirely from it being unbroken. A gap
+# cannot be filled in later: wordpress.org publishes only current values, so a
+# day that is not recorded is a day that is gone.
+#
+# GitHub Actions is free for public repositories, which is the whole reason this
+# is affordable to run indefinitely.
+
+name: daily snapshot
+
+on:
+  schedule:
+    # 04:10 UTC. Off the hour on purpose — the top of the hour is when every
+    # scheduled job on the platform fires at once and the queue is longest.
+    - cron: '10 4 * * *'
+  workflow_dispatch: # so it can be run by hand without waiting for tomorrow
+
+permissions:
+  contents: write
+
+concurrency:
+  # Never two collections at once against wordpress.org, and never two commits
+  # racing for the same series file.
+  group: daily-snapshot
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Collect the directory
+        # Two passes over two orderings: `popular` ranks only the plugins with an
+        # install base, so `new` is what reaches the rest. The union is the
+        # population — see the header of wp-census.mjs.
+        run: |
+          node research/wp-census.mjs 0 popular
+          node research/wp-census.mjs 0 new
+
+      - name: Verify the collection is complete enough to snapshot
+        # A partial collection would be recorded as thousands of plugins losing
+        # their install base overnight. Refusing to write is the correct outcome:
+        # a missing day is a gap, but a wrong day is a lie in the series.
+        run: |
+          node -e '
+            const rows = Object.values(require("./data/wp-directory.json"));
+            const tracked = rows.filter(r => (r.i || 0) >= 100).length;
+            console.log(`collected ${rows.length} plugins, ${tracked} above the tracking threshold`);
+            if (rows.length < 60000) { console.error("collection is short — refusing to snapshot"); process.exit(1); }
+            if (tracked < 12000) { console.error("tracked set collapsed — refusing to snapshot"); process.exit(1); }
+          '
+
+      - name: Snapshot
+        run: node research/snapshot.mjs
+
+      - name: Rebuild the alternatives index
+        run: node research/build-alternatives-index.mjs
+
+      - name: Commit
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/series data/alternatives-index.json data/wp-directory.json
+          if git diff --staged --quiet; then
+            echo "nothing changed"
+          else
+            git commit -m "Snapshot $(date -u +%Y-%m-%d)"
+            git push
+          fi

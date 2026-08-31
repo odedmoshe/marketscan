@@ -128,3 +128,28 @@ test('parseLaunched handles the real format and refuses everything else', () => 
     assert.equal(parseLaunched(bad), null, `${bad} must not parse`);
   }
 });
+
+test('the ratings widget is not read as categories', () => {
+  // Seen live on 136 of 1,982 apps. An app with no reviews renders the ratings
+  // block straight after the categories and no feature accordion, so the old
+  // terminator set never fired and "Reviews", "Overall rating", "0" and
+  // "0% of ratings are 5 stars" were appended to the category list.
+  const html = `<!doctype html><html><head>${ld(app())}</head><body>
+    <div><h3>Categories</h3><a>Custom products - Other</a>
+      <h3>Reviews</h3><p>Overall rating</p><p>0</p>
+      <p>Counts per rating level</p><p>5</p><p>0% of ratings are 5 stars</p></div>
+    </body></html>`;
+  assert.deepEqual(parseListing(html, 'x').categories, ['Custom products - Other']);
+});
+
+test('a bare number never becomes a category', () => {
+  const html = `<!doctype html><html><head>${ld(app())}</head><body>
+    <div><h3>Categories</h3><a>Shipping</a><p>5</p><p>Analytics</p></div></body></html>`;
+  assert.deepEqual(parseListing(html, 'x').categories, ['Shipping']);
+});
+
+test('a sentence never becomes a category', () => {
+  const html = `<!doctype html><html><head>${ld(app())}</head><body>
+    <div><h3>Categories</h3><a>SEO</a><p>Choose the plan that fits your business.</p></div></body></html>`;
+  assert.deepEqual(parseListing(html, 'x').categories, ['SEO']);
+});

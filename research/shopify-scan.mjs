@@ -179,14 +179,23 @@ export function parseListing(html, handle) {
   const li = nodes.indexOf('Launched');
   if (li >= 0) out.launched = parseLaunched(nodes[li + 1]);
 
-  // Categories are listed after the "Categories" label and end where the
-  // feature accordion begins. Reading to a fixed offset instead would swallow
-  // feature names, which look exactly like categories and are not.
+  // Categories are listed after the "Categories" label and end at whatever
+  // block comes next. Which block that is varies: usually the feature
+  // accordion, sometimes the pricing section, and — on an app with no reviews —
+  // the ratings widget, which renders no accordion to stop at. That last case
+  // was silently appending "Reviews", "Overall rating", "0" and
+  // "0% of ratings are 5 stars" to the category list of 136 apps in 1,982.
+  //
+  // So the terminator set covers every block seen to follow, plus two shapes:
+  // a bare number is never a category, and neither is a sentence.
+  const STOP = /^(Show features|Hide features|Launched|Developer|Website|Pricing|Reviews|Overall rating|Counts per rating level|Support|Resources|Categories)$/;
   const ci = nodes.indexOf('Categories');
   if (ci >= 0) {
     for (let i = ci + 1; i < nodes.length && i < ci + 8; i++) {
       const v = nodes[i];
-      if (/^(Show features|Hide features|Launched|Developer|Website|Pricing)$/.test(v)) break;
+      if (STOP.test(v)) break;
+      if (/^\d/.test(v)) break;          // "5", "0% of ratings are 5 stars"
+      if (/[.!?]$/.test(v)) break;       // a sentence, not a label
       if (v.length > 60) break;
       out.categories.push(v);
     }

@@ -138,13 +138,7 @@
   "reviews": 0,
   "launched": "2025-11-21",
   "categories": [
-   "Custom products - Other",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Custom products - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -210,13 +204,7 @@
   "reviews": 0,
   "launched": "2025-03-03",
   "categories": [
-   "Orders - Other",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Orders - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -620,9 +608,7 @@
   "rating": null,
   "reviews": 0,
   "launched": "2024-11-11",
-  "categories": [
-   "3D/AR/VR"
-  ],
+  "categories": [],
   "builtForShopify": true,
   "seen": "2026-08-31"
  },
@@ -712,13 +698,7 @@
   "reviews": 0,
   "launched": "2024-06-18",
   "categories": [
-   "Site optimization - Other",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Site optimization - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -1384,13 +1364,7 @@
   "reviews": 3,
   "launched": "2023-05-15",
   "categories": [
-   "Upsell and bundles - Other",
-   "Reviews",
-   "(3)",
-   "Overall rating",
-   "5",
-   "Counts per rating level",
-   "5"
+   "Upsell and bundles - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -1506,9 +1480,7 @@
   "rating": null,
   "reviews": 0,
   "launched": "2026-02-04",
-  "categories": [
-   "3D/AR/VR"
-  ],
+  "categories": [],
   "builtForShopify": false,
   "seen": "2026-08-31"
  },
@@ -1822,8 +1794,7 @@
   "reviews": 0,
   "launched": "2025-07-11",
   "categories": [
-   "Selling online - Other",
-   "3D/AR/VR"
+   "Selling online - Other"
   ],
   "builtForShopify": false,
   "seen": "2026-08-31"
@@ -1862,13 +1833,7 @@
   "reviews": 4,
   "launched": "2015-12-01",
   "categories": [
-   "Ads",
-   "Reviews",
-   "(4)",
-   "Overall rating",
-   "4.3",
-   "Counts per rating level",
-   "5"
+   "Ads"
   ],
   "builtForShopify": false,
   "seen": "2026-08-31"
@@ -2039,12 +2004,7 @@
   "launched": "2023-11-03",
   "categories": [
    "Cart customization",
-   "Legal",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5"
+   "Legal"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -2057,13 +2017,7 @@
   "reviews": 0,
   "launched": "2022-01-19",
   "categories": [
-   "Orders - Other",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Orders - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -2273,13 +2227,7 @@
   "reviews": 0,
   "launched": "2026-05-20",
   "categories": [
-   "Product display - Other",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Product display - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -2293,12 +2241,7 @@
   "launched": "2025-07-04",
   "categories": [
    "Payment experience",
-   "Advertising - Other",
-   "Reviews",
-   "(1)",
-   "Overall rating",
-   "5",
-   "Counts per rating level"
+   "Advertising - Other"
   ],
   "builtForShopify": false,
   "seen": "2026-08-31"
@@ -2420,9 +2363,7 @@
    "Estimate your monthly charges",
    "Rounded up to the nearest dollar",
    "Tickets",
-   "Per month",
-   "0",
-   "pricing-estimator#updateEstimate\""
+   "Per month"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -2513,13 +2454,7 @@
   "reviews": 0,
   "launched": "2025-07-08",
   "categories": [
-   "Shipping",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Shipping"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -2637,12 +2572,7 @@
   "launched": "2022-10-13",
   "categories": [
    "Shipping",
-   "Shipping rates",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5"
+   "Shipping rates"
   ],
   "builtForShopify": false,
   "seen": "2026-08-31"
@@ -2737,9 +2667,7 @@
    "Estimate your monthly charges",
    "Rounded up to the nearest dollar",
    "Item Registered",
-   "Per month",
-   "0",
-   "pricing-estimator#updateEstimate\""
+   "Per month"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -2765,13 +2693,7 @@
   "reviews": 0,
   "launched": "2020-12-07",
   "categories": [
-   "Invoices and receipts",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Invoices and receipts"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -2797,13 +2719,7 @@
   "reviews": 0,
   "launched": "2023-12-12",
   "categories": [
-   "Affiliate programs",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Affiliate programs"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -2829,13 +2745,7 @@
   "reviews": 0,
   "launched": "2026-02-26",
   "categories": [
-   "Security - Other",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Security - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -2979,13 +2889,7 @@
   "reviews": 0,
   "launched": "2026-06-01",
   "categories": [
-   "Images and media - Other",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Images and media - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -3011,13 +2915,7 @@
   "reviews": 0,
   "launched": "2026-07-30",
   "categories": [
-   "Advertising - Other",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Advertising - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -3407,9 +3305,7 @@
   "rating": 5,
   "reviews": 4,
   "launched": "2026-03-20",
-  "categories": [
-   "3D/AR/VR"
-  ],
+  "categories": [],
   "builtForShopify": true,
   "seen": "2026-08-31"
  },
@@ -3696,13 +3592,7 @@
   "reviews": 0,
   "launched": "2024-08-20",
   "categories": [
-   "Orders - Other",
-   "Reviews",
-   "(1)",
-   "Overall rating",
-   "2",
-   "Counts per rating level",
-   "5"
+   "Orders - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -4070,13 +3960,7 @@
   "reviews": 0,
   "launched": "2024-04-08",
   "categories": [
-   "Legal",
-   "Reviews",
-   "(2)",
-   "Overall rating",
-   "2.3",
-   "Counts per rating level",
-   "5"
+   "Legal"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -4456,13 +4340,7 @@
   "reviews": 0,
   "launched": "2026-07-16",
   "categories": [
-   "Content - Other",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Content - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -4750,9 +4628,7 @@
   "rating": 5,
   "reviews": 4,
   "launched": "2025-09-03",
-  "categories": [
-   "3D/AR/VR"
-  ],
+  "categories": [],
   "builtForShopify": true,
   "seen": "2026-08-31"
  },
@@ -5338,13 +5214,7 @@
   "reviews": 0,
   "launched": "2026-06-08",
   "categories": [
-   "Site optimization - Other",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Site optimization - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -5618,13 +5488,7 @@
   "reviews": 0,
   "launched": "2023-04-25",
   "categories": [
-   "Storefronts - Other",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Storefronts - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -5766,9 +5630,7 @@
   "rating": 5,
   "reviews": 35,
   "launched": "2025-09-26",
-  "categories": [
-   "3D/AR/VR"
-  ],
+  "categories": [],
   "builtForShopify": true,
   "seen": "2026-08-31"
  },
@@ -5940,9 +5802,7 @@
    "Estimate your monthly charges",
    "Rounded up to the nearest dollar",
    "Overage Charges",
-   "Per month",
-   "0",
-   "pricing-estimator#updateEstimate\""
+   "Per month"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -6162,9 +6022,7 @@
   "rating": null,
   "reviews": 0,
   "launched": "2023-12-12",
-  "categories": [
-   "3D/AR/VR"
-  ],
+  "categories": [],
   "builtForShopify": true,
   "seen": "2026-08-31"
  },
@@ -6320,13 +6178,7 @@
   "reviews": 1,
   "launched": "2023-07-12",
   "categories": [
-   "Pricing - Other",
-   "Reviews",
-   "(1)",
-   "Overall rating",
-   "5",
-   "Counts per rating level",
-   "5"
+   "Pricing - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -6495,13 +6347,7 @@
   "reviews": 10,
   "launched": "2024-03-21",
   "categories": [
-   "Marketing - Other",
-   "Reviews",
-   "(10)",
-   "Overall rating",
-   "5",
-   "Counts per rating level",
-   "5"
+   "Marketing - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -6683,13 +6529,7 @@
   "reviews": 0,
   "launched": "2023-03-17",
   "categories": [
-   "Geolocation",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Geolocation"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -6717,12 +6557,7 @@
   "launched": "2020-10-28",
   "categories": [
    "Shipping solutions - Other",
-   "Delivery and pickup",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5"
+   "Delivery and pickup"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -6774,13 +6609,7 @@
   "reviews": 0,
   "launched": "2019-02-06",
   "categories": [
-   "Third-party logistics (3PL)",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Third-party logistics (3PL)"
   ],
   "builtForShopify": false,
   "seen": "2026-08-31"
@@ -6792,10 +6621,7 @@
   "rating": 5,
   "reviews": 1,
   "launched": "2024-02-09",
-  "categories": [
-   "3D/AR/VR",
-   "Selling online - Other"
-  ],
+  "categories": [],
   "builtForShopify": false,
   "seen": "2026-08-31"
  },
@@ -7133,13 +6959,7 @@
   "reviews": 0,
   "launched": "2026-07-22",
   "categories": [
-   "Operations - Other",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Operations - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -7244,13 +7064,7 @@
   "reviews": 0,
   "launched": "2026-02-11",
   "categories": [
-   "Promotions - Other",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Promotions - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -7535,9 +7349,7 @@
   "rating": null,
   "reviews": 0,
   "launched": "2026-02-17",
-  "categories": [
-   "3D/AR/VR"
-  ],
+  "categories": [],
   "builtForShopify": true,
   "seen": "2026-08-31"
  },
@@ -7627,13 +7439,7 @@
   "reviews": 0,
   "launched": "2023-08-18",
   "categories": [
-   "Payment experience",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Payment experience"
   ],
   "builtForShopify": false,
   "seen": "2026-08-31"
@@ -8389,9 +8195,7 @@
   "rating": 5,
   "reviews": 6,
   "launched": "2023-01-17",
-  "categories": [
-   "3D/AR/VR"
-  ],
+  "categories": [],
   "builtForShopify": true,
   "seen": "2026-08-31"
  },
@@ -8519,9 +8323,7 @@
   "rating": null,
   "reviews": 0,
   "launched": "2026-05-15",
-  "categories": [
-   "3D/AR/VR"
-  ],
+  "categories": [],
   "builtForShopify": true,
   "seen": "2026-08-31"
  },
@@ -8885,9 +8687,7 @@
   "rating": null,
   "reviews": 0,
   "launched": "2026-05-26",
-  "categories": [
-   "3D/AR/VR"
-  ],
+  "categories": [],
   "builtForShopify": true,
   "seen": "2026-08-31"
  },
@@ -8951,13 +8751,7 @@
   "reviews": 0,
   "launched": "2025-12-08",
   "categories": [
-   "Orders - Other",
-   "Reviews",
-   "(1)",
-   "Overall rating",
-   "2",
-   "Counts per rating level",
-   "5"
+   "Orders - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -9048,13 +8842,7 @@
   "reviews": 0,
   "launched": "2022-12-22",
   "categories": [
-   "Analytics",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Analytics"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -9302,8 +9090,7 @@
   "reviews": 0,
   "launched": "2023-07-06",
   "categories": [
-   "Product variants",
-   "3D/AR/VR"
+   "Product variants"
   ],
   "builtForShopify": false,
   "seen": "2026-08-31"
@@ -9330,12 +9117,7 @@
   "launched": "2025-09-15",
   "categories": [
    "Pop-ups",
-   "Page builder",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5"
+   "Page builder"
   ],
   "builtForShopify": false,
   "seen": "2026-08-31"
@@ -9530,13 +9312,7 @@
   "reviews": 0,
   "launched": "2025-01-27",
   "categories": [
-   "Delivery and pickup",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Delivery and pickup"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -9666,13 +9442,7 @@
   "reviews": 0,
   "launched": "2026-02-24",
   "categories": [
-   "Product display - Other",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Product display - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -9867,13 +9637,7 @@
   "reviews": 0,
   "launched": "2022-03-30",
   "categories": [
-   "Shipping",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Shipping"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -9992,13 +9756,7 @@
   "reviews": 0,
   "launched": "2026-03-02",
   "categories": [
-   "Product display - Other",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Product display - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -10011,13 +9769,7 @@
   "reviews": 1,
   "launched": "2025-10-15",
   "categories": [
-   "Social trust - Other",
-   "Reviews",
-   "(1)",
-   "Overall rating",
-   "5",
-   "Counts per rating level",
-   "5"
+   "Social trust - Other"
   ],
   "builtForShopify": false,
   "seen": "2026-08-31"
@@ -10043,13 +9795,7 @@
   "reviews": 1,
   "launched": "2026-05-12",
   "categories": [
-   "Order tracking",
-   "Reviews",
-   "(1)",
-   "Overall rating",
-   "5",
-   "Counts per rating level",
-   "5"
+   "Order tracking"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -10191,12 +9937,7 @@
   "launched": "2025-08-27",
   "categories": [
    "Checkout - Other",
-   "Support - Other",
-   "Reviews",
-   "(12)",
-   "Overall rating",
-   "4.9",
-   "Counts per rating level"
+   "Support - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -10847,13 +10588,7 @@
   "reviews": 21,
   "launched": "2025-04-11",
   "categories": [
-   "Advertising - Other",
-   "Reviews",
-   "(21)",
-   "Overall rating",
-   "3.2",
-   "Counts per rating level",
-   "5"
+   "Advertising - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -11233,12 +10968,7 @@
   "launched": "2026-04-01",
   "categories": [
    "Chat",
-   "Helpdesk",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5"
+   "Helpdesk"
   ],
   "builtForShopify": false,
   "seen": "2026-08-31"
@@ -11251,13 +10981,7 @@
   "reviews": 0,
   "launched": "2023-11-14",
   "categories": [
-   "Inventory sync",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Inventory sync"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -11348,13 +11072,7 @@
   "reviews": 0,
   "launched": "2023-06-16",
   "categories": [
-   "Staff notifications",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Staff notifications"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -11380,13 +11098,7 @@
   "reviews": 0,
   "launched": "2022-11-18",
   "categories": [
-   "Payment experience",
-   "Reviews",
-   "(1)",
-   "Overall rating",
-   "1",
-   "Counts per rating level",
-   "5"
+   "Payment experience"
   ],
   "builtForShopify": false,
   "seen": "2026-08-31"
@@ -11516,13 +11228,7 @@
   "reviews": 0,
   "launched": "2023-04-18",
   "categories": [
-   "Inventory optimization",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Inventory optimization"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -11601,13 +11307,7 @@
   "reviews": 0,
   "launched": "2024-04-03",
   "categories": [
-   "Retail",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Retail"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -11920,13 +11620,7 @@
   "reviews": 3,
   "launched": "2025-07-31",
   "categories": [
-   "SEO",
-   "Reviews",
-   "(3)",
-   "Overall rating",
-   "3.3",
-   "Counts per rating level",
-   "5"
+   "SEO"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -12031,13 +11725,7 @@
   "reviews": 0,
   "launched": "2023-03-13",
   "categories": [
-   "Payment experience",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Payment experience"
   ],
   "builtForShopify": false,
   "seen": "2026-08-31"
@@ -12089,13 +11777,7 @@
   "reviews": 0,
   "launched": "2026-02-20",
   "categories": [
-   "SEO",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "SEO"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -12618,12 +12300,7 @@
   "launched": "2026-02-24",
   "categories": [
    "Upsell and cross-sell",
-   "Cart customization",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5"
+   "Cart customization"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -12718,9 +12395,7 @@
    "Estimate your monthly charges",
    "Rounded up to the nearest dollar",
    "Monthly Orders",
-   "Per month",
-   "0",
-   "pricing-estimator#updateEstimate\""
+   "Per month"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -12823,15 +12498,7 @@
   "rating": null,
   "reviews": 0,
   "launched": "2022-11-22",
-  "categories": [
-   "3D/AR/VR",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
-  ],
+  "categories": [],
   "builtForShopify": true,
   "seen": "2026-08-31"
  },
@@ -12857,12 +12524,7 @@
   "launched": "2025-10-13",
   "categories": [
    "Sourcing options - Other",
-   "Dropshipping",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5"
+   "Dropshipping"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -13346,13 +13008,7 @@
   "reviews": 0,
   "launched": "2023-05-18",
   "categories": [
-   "Product display - Other",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Product display - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -13379,12 +13035,7 @@
   "launched": "2024-07-01",
   "categories": [
    "Forms",
-   "Surveys",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5"
+   "Surveys"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -13488,13 +13139,7 @@
   "reviews": 0,
   "launched": "2024-03-05",
   "categories": [
-   "Upsell and bundles - Other",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Upsell and bundles - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -13901,13 +13546,7 @@
   "reviews": 0,
   "launched": "2023-06-02",
   "categories": [
-   "Shipping",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Shipping"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -14439,9 +14078,7 @@
   "rating": null,
   "reviews": 0,
   "launched": "2026-07-03",
-  "categories": [
-   "3D/AR/VR"
-  ],
+  "categories": [],
   "builtForShopify": true,
   "seen": "2026-08-31"
  },
@@ -14505,13 +14142,7 @@
   "reviews": 0,
   "launched": "2025-04-07",
   "categories": [
-   "Social proof",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Social proof"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -14537,13 +14168,7 @@
   "reviews": 0,
   "launched": "2026-07-01",
   "categories": [
-   "Marketing - Other",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Marketing - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -14583,12 +14208,7 @@
   "launched": "2025-03-10",
   "categories": [
    "Product content",
-   "Storefronts - Other",
-   "Reviews",
-   "(2)",
-   "Overall rating",
-   "1",
-   "Counts per rating level"
+   "Storefronts - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -14601,13 +14221,7 @@
   "reviews": 79,
   "launched": "2021-03-23",
   "categories": [
-   "Design elements - Other",
-   "Reviews",
-   "(79)",
-   "Overall rating",
-   "4.7",
-   "Counts per rating level",
-   "5"
+   "Design elements - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -14791,13 +14405,7 @@
   "reviews": 0,
   "launched": "2022-02-22",
   "categories": [
-   "Third-party logistics (3PL)",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Third-party logistics (3PL)"
   ],
   "builtForShopify": false,
   "seen": "2026-08-31"
@@ -14941,13 +14549,7 @@
   "reviews": 0,
   "launched": "2026-07-13",
   "categories": [
-   "Marketing - Other",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Marketing - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -15222,12 +14824,7 @@
   "launched": "2026-02-11",
   "categories": [
    "Storefronts - Other",
-   "Design elements - Other",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5"
+   "Design elements - Other"
   ],
   "builtForShopify": false,
   "seen": "2026-08-31"
@@ -15305,13 +14902,7 @@
   "reviews": 0,
   "launched": "2026-06-24",
   "categories": [
-   "Orders - Other",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Orders - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -15571,13 +15162,7 @@
   "reviews": 0,
   "launched": "2025-02-21",
   "categories": [
-   "Shipping",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Shipping"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -15758,9 +15343,7 @@
   "rating": null,
   "reviews": 0,
   "launched": "2024-12-23",
-  "categories": [
-   "3D/AR/VR"
-  ],
+  "categories": [],
   "builtForShopify": true,
   "seen": "2026-08-31"
  },
@@ -15850,13 +15433,7 @@
   "reviews": 0,
   "launched": "2024-04-04",
   "categories": [
-   "Cart customization",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Cart customization"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -16259,9 +15836,7 @@
   "rating": null,
   "reviews": 0,
   "launched": "2023-04-25",
-  "categories": [
-   "3D/AR/VR"
-  ],
+  "categories": [],
   "builtForShopify": true,
   "seen": "2026-08-31"
  },
@@ -16352,13 +15927,7 @@
   "reviews": 1,
   "launched": "2025-12-09",
   "categories": [
-   "Checkout - Other",
-   "Reviews",
-   "(1)",
-   "Overall rating",
-   "5",
-   "Counts per rating level",
-   "5"
+   "Checkout - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -16371,13 +15940,7 @@
   "reviews": 1,
   "launched": "2026-03-09",
   "categories": [
-   "Pricing - Other",
-   "Reviews",
-   "(1)",
-   "Overall rating",
-   "3",
-   "Counts per rating level",
-   "5"
+   "Pricing - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -16443,12 +16006,7 @@
   "launched": "2025-10-08",
   "categories": [
    "Geolocation",
-   "Internationalization - Other",
-   "Reviews",
-   "(2)",
-   "Overall rating",
-   "5",
-   "Counts per rating level"
+   "Internationalization - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -16697,13 +16255,7 @@
   "reviews": 0,
   "launched": "2026-07-29",
   "categories": [
-   "Orders - Other",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Orders - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -16873,13 +16425,7 @@
   "reviews": 3,
   "launched": "2023-01-31",
   "categories": [
-   "Storefronts - Other",
-   "Reviews",
-   "(3)",
-   "Overall rating",
-   "5",
-   "Counts per rating level",
-   "5"
+   "Storefronts - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -17271,12 +16817,7 @@
   "launched": "2023-12-07",
   "categories": [
    "Bulk editor",
-   "Inventory - Other",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5"
+   "Inventory - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -17732,13 +17273,7 @@
   "reviews": 0,
   "launched": "2023-12-24",
   "categories": [
-   "Security - Other",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Security - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -17997,9 +17532,7 @@
   "rating": null,
   "reviews": 0,
   "launched": "2026-04-15",
-  "categories": [
-   "3D/AR/VR"
-  ],
+  "categories": [],
   "builtForShopify": true,
   "seen": "2026-08-31"
  },
@@ -18221,13 +17754,7 @@
   "reviews": 0,
   "launched": "2026-05-08",
   "categories": [
-   "Marketing - Other",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Marketing - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -18253,13 +17780,7 @@
   "reviews": 0,
   "launched": "2025-10-31",
   "categories": [
-   "Design elements - Other",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Design elements - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -18337,13 +17858,7 @@
   "reviews": 114,
   "launched": "2023-03-08",
   "categories": [
-   "Product display - Other",
-   "Reviews",
-   "(114)",
-   "Overall rating",
-   "5",
-   "Counts per rating level",
-   "5"
+   "Product display - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -18447,9 +17962,7 @@
   "rating": null,
   "reviews": 0,
   "launched": "2026-01-28",
-  "categories": [
-   "3D/AR/VR"
-  ],
+  "categories": [],
   "builtForShopify": true,
   "seen": "2026-08-31"
  },
@@ -18500,13 +18013,7 @@
   "reviews": 4,
   "launched": "2025-08-11",
   "categories": [
-   "Operations - Other",
-   "Reviews",
-   "(4)",
-   "Overall rating",
-   "5",
-   "Counts per rating level",
-   "5"
+   "Operations - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -18571,13 +18078,7 @@
   "reviews": 0,
   "launched": "2025-10-17",
   "categories": [
-   "Images and media - Other",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Images and media - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -18747,13 +18248,7 @@
   "reviews": 1,
   "launched": "2023-10-12",
   "categories": [
-   "Cart customization",
-   "Reviews",
-   "(1)",
-   "Overall rating",
-   "5",
-   "Counts per rating level",
-   "5"
+   "Cart customization"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -18883,13 +18378,7 @@
   "reviews": 0,
   "launched": "2022-05-12",
   "categories": [
-   "Email marketing",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Email marketing"
   ],
   "builtForShopify": false,
   "seen": "2026-08-31"
@@ -19203,13 +18692,7 @@
   "reviews": 0,
   "launched": "2023-09-13",
   "categories": [
-   "Analytics",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Analytics"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -19273,9 +18756,7 @@
   "rating": null,
   "reviews": 0,
   "launched": "2026-08-07",
-  "categories": [
-   "3D/AR/VR"
-  ],
+  "categories": [],
   "builtForShopify": true,
   "seen": "2026-08-31"
  },
@@ -19315,12 +18796,7 @@
   "launched": "2025-12-02",
   "categories": [
    "Design elements - Other",
-   "Content - Other",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5"
+   "Content - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -19977,13 +19453,7 @@
   "reviews": 0,
   "launched": "2024-11-11",
   "categories": [
-   "Affiliate programs",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Affiliate programs"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -20139,13 +19609,7 @@
   "reviews": 0,
   "launched": "2023-12-26",
   "categories": [
-   "Support - Other",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Support - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -20315,13 +19779,7 @@
   "reviews": 0,
   "launched": "2026-04-20",
   "categories": [
-   "Shipping solutions - Other",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Shipping solutions - Other"
   ],
   "builtForShopify": false,
   "seen": "2026-08-31"
@@ -20425,13 +19883,7 @@
   "reviews": 0,
   "launched": "2019-06-05",
   "categories": [
-   "Sourcing options - Other",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Sourcing options - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -20560,9 +20012,7 @@
   "rating": null,
   "reviews": 0,
   "launched": "2026-05-06",
-  "categories": [
-   "3D/AR/VR"
-  ],
+  "categories": [],
   "builtForShopify": true,
   "seen": "2026-08-31"
  },
@@ -20846,9 +20296,7 @@
   "rating": 5,
   "reviews": 8,
   "launched": "2025-09-10",
-  "categories": [
-   "3D/AR/VR"
-  ],
+  "categories": [],
   "builtForShopify": true,
   "seen": "2026-08-31"
  },
@@ -20873,13 +20321,7 @@
   "reviews": 0,
   "launched": "2026-07-09",
   "categories": [
-   "Selling online - Other",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Selling online - Other"
   ],
   "builtForShopify": false,
   "seen": "2026-08-31"
@@ -20972,12 +20414,7 @@
   "launched": "2023-12-13",
   "categories": [
    "Custom products - Other",
-   "Inventory - Other",
-   "Reviews",
-   "(2)",
-   "Overall rating",
-   "5",
-   "Counts per rating level"
+   "Inventory - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -21434,13 +20871,7 @@
   "reviews": 0,
   "launched": "2023-06-08",
   "categories": [
-   "Loyalty and rewards",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Loyalty and rewards"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -21558,13 +20989,7 @@
   "reviews": 0,
   "launched": "2023-09-04",
   "categories": [
-   "Analytics",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Analytics"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -22280,9 +21705,7 @@
   "rating": null,
   "reviews": 0,
   "launched": "2026-02-11",
-  "categories": [
-   "3D/AR/VR"
-  ],
+  "categories": [],
   "builtForShopify": true,
   "seen": "2026-08-31"
  },
@@ -22686,13 +22109,7 @@
   "reviews": 0,
   "launched": "2025-09-24",
   "categories": [
-   "Bulk editor",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Bulk editor"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -22770,13 +22187,7 @@
   "reviews": 0,
   "launched": "2024-05-27",
   "categories": [
-   "Blogs",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Blogs"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -22845,9 +22256,7 @@
    "Estimate your monthly charges",
    "Rounded up to the nearest dollar",
    "Orders Overage",
-   "Per month",
-   "0",
-   "pricing-estimator#updateEstimate\""
+   "Per month"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -23030,13 +22439,7 @@
   "reviews": 0,
   "launched": "2026-05-13",
   "categories": [
-   "Orders - Other",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Orders - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -23062,13 +22465,7 @@
   "reviews": 0,
   "launched": "2023-08-22",
   "categories": [
-   "Ads",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Ads"
   ],
   "builtForShopify": false,
   "seen": "2026-08-31"
@@ -23225,13 +22622,7 @@
   "reviews": 0,
   "launched": "2026-07-15",
   "categories": [
-   "Content - Other",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Content - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -23270,13 +22661,7 @@
   "reviews": 0,
   "launched": "2023-12-08",
   "categories": [
-   "Payment options - Other",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Payment options - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -23327,9 +22712,7 @@
   "rating": 5,
   "reviews": 4,
   "launched": "2026-05-11",
-  "categories": [
-   "3D/AR/VR"
-  ],
+  "categories": [],
   "builtForShopify": true,
   "seen": "2026-08-31"
  },
@@ -23380,13 +22763,7 @@
   "reviews": 0,
   "launched": "2025-06-24",
   "categories": [
-   "Payment options - Other",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Payment options - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -23895,12 +23272,7 @@
   "launched": "2026-03-30",
   "categories": [
    "Notifications - Other",
-   "Marketing - Other",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5"
+   "Marketing - Other"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -24526,12 +23898,7 @@
   "launched": "2025-09-05",
   "categories": [
    "Orders - Other",
-   "Pricing optimization",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5"
+   "Pricing optimization"
   ],
   "builtForShopify": false,
   "seen": "2026-08-31"
@@ -24726,13 +24093,7 @@
   "reviews": 0,
   "launched": "2023-11-08",
   "categories": [
-   "Inventory sync",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Inventory sync"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -24784,13 +24145,7 @@
   "reviews": 0,
   "launched": "2026-06-09",
   "categories": [
-   "Shipping rates",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Shipping rates"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -24803,13 +24158,7 @@
   "reviews": 0,
   "launched": "2021-09-10",
   "categories": [
-   "Analytics",
-   "Reviews",
-   "Overall rating",
-   "0",
-   "Counts per rating level",
-   "5",
-   "0% of ratings are 5 stars"
+   "Analytics"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
@@ -25200,6 +24549,5544 @@
   "launched": "2022-08-22",
   "categories": [
    "Abandoned cart"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "blinkmetrics": {
+  "handle": "blinkmetrics",
+  "title": "BlinkMetrics",
+  "developer": "BlinkMetrics",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-08-21",
+  "categories": [
+   "Analytics"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "trendylz-pro": {
+  "handle": "trendylz-pro",
+  "title": "Trendylz Ads",
+  "developer": "AMT Digital Consulting LTD",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-29",
+  "categories": [
+   "Affiliate programs"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "fieldly-product-custom-fields": {
+  "handle": "fieldly-product-custom-fields",
+  "title": "Fieldly: Product Custom Fields",
+  "developer": "Velmatrix",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-05-11",
+  "categories": [
+   "Product variants"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "printegy": {
+  "handle": "printegy",
+  "title": "Printegy: Print‑on‑Demand",
+  "developer": "Printegy GmbH",
+  "rating": 4.8,
+  "reviews": 23,
+  "launched": "2022-08-02",
+  "categories": [
+   "Order tracking"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "auto-purchase-orders": {
+  "handle": "auto-purchase-orders",
+  "title": "Auto Purchase Orders",
+  "developer": "Magic Bits",
+  "rating": 4.9,
+  "reviews": 45,
+  "launched": "2021-03-22",
+  "categories": [
+   "Inventory optimization"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "vitryne": {
+  "handle": "vitryne",
+  "title": "Vitryne",
+  "developer": "Vitryne",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-10-21",
+  "categories": [],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "mvn-waveviz": {
+  "handle": "mvn-waveviz",
+  "title": "MVN Waveviz",
+  "developer": "MVN Mai Bui",
+  "rating": 5,
+  "reviews": 2,
+  "launched": "2025-07-03",
+  "categories": [
+   "Design elements - Other",
+   "Animation and effects"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "note-flow": {
+  "handle": "note-flow",
+  "title": "Note Flow",
+  "developer": "Yk Tech",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-12-03",
+  "categories": [
+   "Operations - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "sync-multiple-store-products": {
+  "handle": "sync-multiple-store-products",
+  "title": "Secure Multi‑Store Sync",
+  "developer": "Zile Singh",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-04-30",
+  "categories": [
+   "Inventory sync"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "styleuai-virtual-try-on": {
+  "handle": "styleuai-virtual-try-on",
+  "title": "TryOn by StyleUAI",
+  "developer": "NEUVIA CORTEX PRIVATE LIMITED",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-08-21",
+  "categories": [],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "session-ai-connector": {
+  "handle": "session-ai-connector",
+  "title": "Session AI Connector",
+  "developer": "Session AI",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2023-12-19",
+  "categories": [
+   "Analytics",
+   "Promotions - Other"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "spring-checkout-customizer": {
+  "handle": "spring-checkout-customizer",
+  "title": "Spring Checkout Customizer",
+  "developer": "Tsomo Spring Solutions",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2023-12-13",
+  "categories": [
+   "Upsell and cross-sell"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "bee-invoices": {
+  "handle": "bee-invoices",
+  "title": "Bee Invoice",
+  "developer": "Bee Apps ",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-02-13",
+  "categories": [
+   "Invoices and receipts"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "returnledger": {
+  "handle": "returnledger",
+  "title": "ReturnLedger",
+  "developer": "Lava Ventures",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-02",
+  "categories": [
+   "Finances - Other"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "geoip-checkout": {
+  "handle": "geoip-checkout",
+  "title": "Geo Guard – Country & IP Check",
+  "developer": "OrangeMantra",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-05-26",
+  "categories": [
+   "Geolocation"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "minimum-order-quantity": {
+  "handle": "minimum-order-quantity",
+  "title": "Minimum Order Quantity",
+  "developer": "SideHustleX",
+  "rating": 5,
+  "reviews": 1,
+  "launched": "2026-06-16",
+  "categories": [
+   "Order limits"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "inventory-health-checks": {
+  "handle": "inventory-health-checks",
+  "title": "Sqquid Inventory Health Check",
+  "developer": "Sqquid HQ",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-06-10",
+  "categories": [
+   "Inventory optimization"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "shopney-mobile-app": {
+  "handle": "shopney-mobile-app",
+  "title": "Shopney ‑ Mobile App Builder",
+  "developer": "Shopney",
+  "rating": 5,
+  "reviews": 725,
+  "launched": "2019-07-05",
+  "categories": [
+   "Mobile app builder"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "warehouse-rocket": {
+  "handle": "warehouse-rocket",
+  "title": "Warehouse Rocket",
+  "developer": "oliver / the-node",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-02-06",
+  "categories": [
+   "Shipping solutions - Other",
+   "Inventory optimization"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "guardly": {
+  "handle": "guardly",
+  "title": "Guardly",
+  "developer": "Shopitale",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-05-29",
+  "categories": [
+   "Returns and warranty - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "freee": {
+  "handle": "freee",
+  "title": "かんたんfreee会計データ連携",
+  "developer": "GroovyMedia Inc.",
+  "rating": 2.8,
+  "reviews": 11,
+  "launched": "2021-01-19",
+  "categories": [
+   "Accounting"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "pxlora": {
+  "handle": "pxlora",
+  "title": "Pxlora ‑ AI Photo Generator",
+  "developer": "Pxlora",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-12-10",
+  "categories": [
+   "Image editor"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "accesswidget": {
+  "handle": "accesswidget",
+  "title": "accessiBe Web Accessibility",
+  "developer": "accessiBe",
+  "rating": 3.9,
+  "reviews": 16,
+  "launched": "2023-12-13",
+  "categories": [
+   "Accessibility"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "accessibilitypro": {
+  "handle": "accessibilitypro",
+  "title": "Accessibility Manager Pro",
+  "developer": "SKAVA",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-02-09",
+  "categories": [
+   "Accessibility"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "brand-it-calendar": {
+  "handle": "brand-it-calendar",
+  "title": "Brand It! Calendar",
+  "developer": "JadePuma Apps",
+  "rating": 4.5,
+  "reviews": 11,
+  "launched": "2024-10-25",
+  "categories": [
+   "Content - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "recoboost": {
+  "handle": "recoboost",
+  "title": "RecoBoost : Smart AI Upsell",
+  "developer": "ECboost",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-05-06",
+  "categories": [
+   "Upsell and cross-sell"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "jwero": {
+  "handle": "jwero",
+  "title": "Jwero",
+  "developer": "Tanika Tech Jewels Pvt Ltd",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2023-05-25",
+  "categories": [
+   "Dropshipping"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "creator-gift-link": {
+  "handle": "creator-gift-link",
+  "title": "IGF ‑ Influencer Gift Form",
+  "developer": "Magnuson Ventures",
+  "rating": 5,
+  "reviews": 52,
+  "launched": "2024-01-08",
+  "categories": [
+   "Affiliate programs"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "eiz-fulfillment": {
+  "handle": "eiz-fulfillment",
+  "title": "EIZ Fulfillment Technology",
+  "developer": "Eiz Pty Ltd",
+  "rating": 5,
+  "reviews": 2,
+  "launched": "2022-11-17",
+  "categories": [
+   "Shipping",
+   "Workflow automation"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "ai-feed-compliance-1": {
+  "handle": "ai-feed-compliance-1",
+  "title": "Bits: ChatGPT Feed Guard",
+  "developer": "Green Gator Services",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-12-12",
+  "categories": [
+   "Selling online - Other",
+   "Product feeds"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "conveythis-ai-store-translator": {
+  "handle": "conveythis-ai-store-translator",
+  "title": " Convey: AI & Human Translate",
+  "developer": "ConveyThis LLC",
+  "rating": 5,
+  "reviews": 1,
+  "launched": "2024-06-20",
+  "categories": [
+   "Currency and translation"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "essential-estimated-delivery": {
+  "handle": "essential-estimated-delivery",
+  "title": "Essent Estimated Delivery Date",
+  "developer": "Essential Apps",
+  "rating": 5,
+  "reviews": 915,
+  "launched": "2025-06-06",
+  "categories": [
+   "Delivery and pickup"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "elfsight-slider": {
+  "handle": "elfsight-slider",
+  "title": "Elfsight Image Banner Slider",
+  "developer": "Elfsight",
+  "rating": 5,
+  "reviews": 3,
+  "launched": "2019-12-27",
+  "categories": [
+   "Abandoned cart"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "butterflai": {
+  "handle": "butterflai",
+  "title": "ButterflAI Product Description",
+  "developer": "PIXELITY LABS S.L.",
+  "rating": 5,
+  "reviews": 5,
+  "launched": "2026-01-19",
+  "categories": [
+   "Product content"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "bss-banner-pop-up": {
+  "handle": "bss-banner-pop-up",
+  "title": "TA Banner Slider, Sales Pop up",
+  "developer": "Tech Arms",
+  "rating": 5,
+  "reviews": 1200,
+  "launched": "2024-09-19",
+  "categories": [
+   "Banners"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "customer-gender": {
+  "handle": "customer-gender",
+  "title": "SS: Customer Gender Detector",
+  "developer": "ScreenStaring",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2015-11-09",
+  "categories": [
+   "Marketing - Other",
+   "Analytics"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "cleo": {
+  "handle": "cleo",
+  "title": "Cleo",
+  "developer": "Adigicom",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-05-12",
+  "categories": [
+   "Support - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "shopvisual-product-slider": {
+  "handle": "shopvisual-product-slider",
+  "title": "ShopVisual ‑ Product Slider",
+  "developer": "Alpha Edge",
+  "rating": 5,
+  "reviews": 1,
+  "launched": "2026-01-06",
+  "categories": [
+   "Product display - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "merchants-sync": {
+  "handle": "merchants-sync",
+  "title": "SmartFeed: Fix Google Shopping",
+  "developer": "Elkheety.com",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-04-21",
+  "categories": [
+   "Marketplaces"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "supreme-theme-scheduler": {
+  "handle": "supreme-theme-scheduler",
+  "title": "Supreme Theme Scheduler",
+  "developer": "IronShell",
+  "rating": 5,
+  "reviews": 3,
+  "launched": "2024-08-02",
+  "categories": [
+   "Workflow automation"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "kinetic": {
+  "handle": "kinetic",
+  "title": "Kinetic",
+  "developer": "Entier, LLC",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2022-01-26",
+  "categories": [
+   "Design elements - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "reupsell": {
+  "handle": "reupsell",
+  "title": "Reupsell: Returned Inventory",
+  "developer": "MoonImpact.co",
+  "rating": 5,
+  "reviews": 1,
+  "launched": "2026-03-10",
+  "categories": [
+   "Upsell and bundles - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "neuralama": {
+  "handle": "neuralama",
+  "title": "Neuralama: AI Readiness",
+  "developer": "Nerualama, Inc.",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-14",
+  "categories": [
+   "Analytics"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "jewelyecom": {
+  "handle": "jewelyecom",
+  "title": "JewelyEcom",
+  "developer": "JewelyEcom",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-06-25",
+  "categories": [
+   "Pricing optimization"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "mit-schema-markup": {
+  "handle": "mit-schema-markup",
+  "title": "Meetanshi Schema & SEO AI",
+  "developer": "Meetanshi Technologies LLP",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-05-06",
+  "categories": [
+   "SEO"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "tlx-express": {
+  "handle": "tlx-express",
+  "title": "TLX Express",
+  "developer": "TLX Express Courier Services LLC",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-03",
+  "categories": [
+   "Shipping"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "profitar-facturar-en-argentina": {
+  "handle": "profitar-facturar-en-argentina",
+  "title": "Profitar Facturar en Argentina",
+  "developer": "Ecombrands Group LLC",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-13",
+  "categories": [
+   "Invoices and receipts"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "beacon-aeo": {
+  "handle": "beacon-aeo",
+  "title": "Beacon AEO optimizer LLMs",
+  "developer": "Orbit Infinite",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-08",
+  "categories": [
+   "SEO"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "shipiq": {
+  "handle": "shipiq",
+  "title": "ShipIQ Order Priority Manager",
+  "developer": "RamVan Labs",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-02-04",
+  "categories": [
+   "Orders - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "commercegurus-size-guides": {
+  "handle": "commercegurus-size-guides",
+  "title": "CommerceGurus Size Guides",
+  "developer": "CommerceGurus",
+  "rating": 5,
+  "reviews": 1,
+  "launched": "2025-03-11",
+  "categories": [
+   "Product comparison"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "stock-inventory-manager": {
+  "handle": "stock-inventory-manager",
+  "title": "Stocker",
+  "developer": "Magic Apps",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-14",
+  "categories": [
+   "Inventory optimization"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "product-calculator": {
+  "handle": "product-calculator",
+  "title": "Advanced Price Calculator",
+  "developer": "Polar Bear Commerce",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-01-01",
+  "categories": [
+   "Pricing quotes"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "stockspy": {
+  "handle": "stockspy",
+  "title": "StockSpy",
+  "developer": "Appside",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-09-23",
+  "categories": [
+   "Inventory - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "trubytes-delivery-date-picker": {
+  "handle": "trubytes-delivery-date-picker",
+  "title": "TruBytes Delivery Date Manager",
+  "developer": "TruBytes",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-02-24",
+  "categories": [
+   "Delivery and pickup"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "iyzads": {
+  "handle": "iyzads",
+  "title": "iyzads: AI Ads for Google&Meta",
+  "developer": "iyzads",
+  "rating": 5,
+  "reviews": 7,
+  "launched": "2026-05-13",
+  "categories": [
+   "Ads"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "autoinvoice": {
+  "handle": "autoinvoice",
+  "title": "AutoInvoice",
+  "developer": "Christopher Johnston Consulting",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-07",
+  "categories": [
+   "Invoices and receipts"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "kpiq": {
+  "handle": "kpiq",
+  "title": "KPIHelm: AI Ads Analytics",
+  "developer": "Alter Günes",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-05-19",
+  "categories": [
+   "Analytics"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "pop-up-builder-wisepops": {
+  "handle": "pop-up-builder-wisepops",
+  "title": "Wisepops: Popup Builder & CRO",
+  "developer": "Wisepops",
+  "rating": 4.9,
+  "reviews": 63,
+  "launched": "2014-12-11",
+  "categories": [
+   "Pop-ups"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "ultimate-contact-page": {
+  "handle": "ultimate-contact-page",
+  "title": "Ultimate Contact Page",
+  "developer": "Cambridge International Ecommerce Limited",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-03-03",
+  "categories": [
+   "Helpdesk"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "jazz-branded-sms-pakistan": {
+  "handle": "jazz-branded-sms-pakistan",
+  "title": "Jazz ‑ Branded SMS Pakistan",
+  "developer": "Devsol",
+  "rating": 5,
+  "reviews": 1,
+  "launched": "2022-10-28",
+  "categories": [
+   "Abandoned cart"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "jobly": {
+  "handle": "jobly",
+  "title": "Careers Page ‑ Job Posting J.",
+  "developer": "Inspon Tech ",
+  "rating": 4.2,
+  "reviews": 3,
+  "launched": "2023-09-28",
+  "categories": [
+   "Retail"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "factory1": {
+  "handle": "factory1",
+  "title": "Factory 1 ",
+  "developer": "Factory 1 ",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-05-01",
+  "categories": [
+   "Print on demand (POD)"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "easy-backup-restore": {
+  "handle": "easy-backup-restore",
+  "title": "Easy Backup & Restore",
+  "developer": "Markodesign",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-05-25",
+  "categories": [
+   "Security - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "koozee-ai-e-commerce-images": {
+  "handle": "koozee-ai-e-commerce-images",
+  "title": "KOOZEE ‑ AI E‑Commerce Images",
+  "developer": "STARII TECH PTY LTD",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-06-08",
+  "categories": [
+   "Image editor"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "discountcomposer": {
+  "handle": "discountcomposer",
+  "title": "DiscountComposer",
+  "developer": "infinitecodes.de",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-29",
+  "categories": [
+   "Discounts"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "stored-micro-sites-on-demand": {
+  "handle": "stored-micro-sites-on-demand",
+  "title": "Stored Affiliate Micro‑Sites",
+  "developer": "Stored Tech Ltd.",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2024-08-29",
+  "categories": [
+   "Selling online - Other"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "promptless": {
+  "handle": "promptless",
+  "title": "PROMPTLESS",
+  "developer": "BoltEdge",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-03-23",
+  "categories": [
+   "Images and media - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "taocarts": {
+  "handle": "taocarts",
+  "title": "Taocarts",
+  "developer": "郑州全搜索计算机技术服务公司",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2022-04-18",
+  "categories": [
+   "Marketplaces"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "shopfloor": {
+  "handle": "shopfloor",
+  "title": "Shopfloor: Staff Task Board",
+  "developer": "Aikolumi Software PVT LTD",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-08-05",
+  "categories": [
+   "Operations - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "osync-export-orders-to-sheets": {
+  "handle": "osync-export-orders-to-sheets",
+  "title": "OSync: Export Orders to Sheet",
+  "developer": "NexusMedia",
+  "rating": 4.2,
+  "reviews": 8,
+  "launched": "2024-01-23",
+  "categories": [
+   "Inventory sync"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "product-export-import": {
+  "handle": "product-export-import",
+  "title": "Product Sync & Import Export",
+  "developer": "Krish TechnoLabs",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-16",
+  "categories": [
+   "Store data importer"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "scaleup-for-google-ads": {
+  "handle": "scaleup-for-google-ads",
+  "title": "ScaleUp: Google Ads Tracking",
+  "developer": "ScaleUp",
+  "rating": 5,
+  "reviews": 3,
+  "launched": "2025-02-21",
+  "categories": [
+   "Ads"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "essential-order-value-booster": {
+  "handle": "essential-order-value-booster",
+  "title": "Essent FreeShipping Upsell App",
+  "developer": "Essential Apps",
+  "rating": 5,
+  "reviews": 878,
+  "launched": "2022-06-03",
+  "categories": [
+   "Cart customization"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "spark-reviews": {
+  "handle": "spark-reviews",
+  "title": "Spark Reviews App",
+  "developer": "9figures LLC",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-06-08",
+  "categories": [
+   "Product reviews"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "name-your-price-2": {
+  "handle": "name-your-price-2",
+  "title": "Addify ‑ Name Your Price",
+  "developer": "Addify",
+  "rating": 4.4,
+  "reviews": 6,
+  "launched": "2023-06-01",
+  "categories": [
+   "Pricing quotes"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "myproductai-virtual-try-on": {
+  "handle": "myproductai-virtual-try-on",
+  "title": "MyProductAI Virtual Try‑On",
+  "developer": "UltraGames Entertainment Pvt. Ltd.",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-06-08",
+  "categories": [
+   "Product display - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "gift-card-factory": {
+  "handle": "gift-card-factory",
+  "title": "Gift Card Factory",
+  "developer": "Code57",
+  "rating": 5,
+  "reviews": 56,
+  "launched": "2021-08-06",
+  "categories": [
+   "Gift cards"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "new-frontier-markets": {
+  "handle": "new-frontier-markets",
+  "title": "New Frontier Markets",
+  "developer": "New Frontier Markets",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2024-09-03",
+  "categories": [
+   "Marketplaces"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "bustly-your-business-pulse": {
+  "handle": "bustly-your-business-pulse",
+  "title": "Bustly ‑ Your 24/7 AI Operator",
+  "developer": "Bustly",
+  "rating": 5,
+  "reviews": 9,
+  "launched": "2025-06-16",
+  "categories": [
+   "Analytics"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "crodeck": {
+  "handle": "crodeck",
+  "title": "crodeck | AI CRO analyst",
+  "developer": "Barikreativa srl",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-02",
+  "categories": [
+   "Analytics"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "back-in-stock-via-messenger": {
+  "handle": "back-in-stock-via-messenger",
+  "title": "Back In Stock via Messenger",
+  "developer": "ASoft",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2017-07-14",
+  "categories": [
+   "Ads",
+   "Stock alerts"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "waterbucket-feed-generator": {
+  "handle": "waterbucket-feed-generator",
+  "title": "Waterbucket ‑ Feed Generator",
+  "developer": "Iron Pulley",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2021-07-23",
+  "categories": [
+   "Storefronts - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "yanet-eu-withdrawal-button": {
+  "handle": "yanet-eu-withdrawal-button",
+  "title": "YN EU Withdrawal Button & Form",
+  "developer": "Yanet",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-08-13",
+  "categories": [
+   "Returns and exchanges"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "product-extra-fields": {
+  "handle": "product-extra-fields",
+  "title": "Product extra fields",
+  "developer": "Websyms IT Solutions",
+  "rating": 4.5,
+  "reviews": 7,
+  "launched": "2016-10-20",
+  "categories": [
+   "Page builder"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "volumerix": {
+  "handle": "volumerix",
+  "title": "Volumerix Quantity Breaks",
+  "developer": "Ecommatica",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-04-28",
+  "categories": [
+   "Discounts"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "aimtell": {
+  "handle": "aimtell",
+  "title": "Aimtell Web Push Notifications",
+  "developer": "Aimtell",
+  "rating": 4.7,
+  "reviews": 4,
+  "launched": "2016-02-09",
+  "categories": [
+   "Web push"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "publify": {
+  "handle": "publify",
+  "title": "Publify",
+  "developer": "Globalquimia LLC",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-05-20",
+  "categories": [
+   "Print on demand (POD)"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "ngc-popup": {
+  "handle": "ngc-popup",
+  "title": "ポップアップ サポーター",
+  "developer": "Netyear Group Corporation",
+  "rating": 5,
+  "reviews": 3,
+  "launched": "2021-11-18",
+  "categories": [
+   "Pop-ups"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "formanova-ai": {
+  "handle": "formanova-ai",
+  "title": "FormaNova Connect: AI Jewelry",
+  "developer": "FormaNova",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-17",
+  "categories": [
+   "Product content"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "3d-product-showcase-by-jadore": {
+  "handle": "3d-product-showcase-by-jadore",
+  "title": "3D Product Showcase by Jadore",
+  "developer": "Jadore Studio",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-06-02",
+  "categories": [],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "vibe-stack-ai-back-office": {
+  "handle": "vibe-stack-ai-back-office",
+  "title": "Stockwise Reorder Solutions",
+  "developer": "VibeStack",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-05-02",
+  "categories": [
+   "Inventory optimization"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "hellojekka-ai-sales-chatbot": {
+  "handle": "hellojekka-ai-sales-chatbot",
+  "title": "Jekka‑GPT4 for Free FAQ & Chat",
+  "developer": "Hello Jekka ",
+  "rating": 5,
+  "reviews": 6,
+  "launched": "2023-12-31",
+  "categories": [
+   "FAQ",
+   "Chat"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "offrefy": {
+  "handle": "offrefy",
+  "title": "Offrefy: Ultra Quantity Breaks",
+  "developer": "XLOXI PVT LTD",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-22",
+  "categories": [
+   "Discounts"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "sms-notification-by-silicon": {
+  "handle": "sms-notification-by-silicon",
+  "title": "Silicon SMS Notification",
+  "developer": "Silicon Softtech",
+  "rating": 5,
+  "reviews": 1,
+  "launched": "2022-09-01",
+  "categories": [
+   "SMS marketing"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "geolocation-redirect": {
+  "handle": "geolocation-redirect",
+  "title": "MOD: GeoLocation Redirect",
+  "developer": "Mod Media",
+  "rating": 4,
+  "reviews": 47,
+  "launched": "2016-08-26",
+  "categories": [
+   "Geolocation"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "purchase-pulse-1": {
+  "handle": "purchase-pulse-1",
+  "title": "Purchase Pulse",
+  "developer": "energi-health",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-29",
+  "categories": [
+   "Retail"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "bookly-1": {
+  "handle": "bookly-1",
+  "title": "Bookly: Appointment Booking",
+  "developer": "MapleSolutions",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-05-11",
+  "categories": [
+   "Event booking"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "zupan-inventory-counting-1": {
+  "handle": "zupan-inventory-counting-1",
+  "title": null,
+  "developer": null,
+  "rating": null,
+  "reviews": null,
+  "launched": null,
+  "categories": [],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "zendesk-ai-agent-by-adelante": {
+  "handle": "zendesk-ai-agent-by-adelante",
+  "title": "Zendesk AI Agent By Adelante",
+  "developer": "Adelante LTD",
+  "rating": 5,
+  "reviews": 4,
+  "launched": "2026-04-13",
+  "categories": [
+   "Chat"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "upsell-cross-sell-kit-1": {
+  "handle": "upsell-cross-sell-kit-1",
+  "title": "Upsell & Cross Sell — Selleasy",
+  "developer": "Logbase",
+  "rating": 4.9,
+  "reviews": 2537,
+  "launched": "2021-07-15",
+  "categories": [
+   "Upsell and cross-sell"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "catalogclarity-ai": {
+  "handle": "catalogclarity-ai",
+  "title": "AI SEO for Agent",
+  "developer": "FlowIntegrity Drive",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-06-18",
+  "categories": [
+   "Product feeds"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "vanuat-coffee-dropshipper": {
+  "handle": "vanuat-coffee-dropshipper",
+  "title": "Vanuat Coffee Dropshipper",
+  "developer": "VANUAT LLC",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-01-09",
+  "categories": [
+   "Dropshipping"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "buy-button-flair": {
+  "handle": "buy-button-flair",
+  "title": "BuyButton Flair",
+  "developer": "Cartcraft",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-15",
+  "categories": [
+   "Animation and effects"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "follow-for-discount": {
+  "handle": "follow-for-discount",
+  "title": "Follow for Discount",
+  "developer": "Kairo Apps",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-10-17",
+  "categories": [
+   "Discounts"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "image-tagger": {
+  "handle": "image-tagger",
+  "title": "Image Audit",
+  "developer": "TranslatorHQ",
+  "rating": 5,
+  "reviews": 1,
+  "launched": "2018-10-09",
+  "categories": [
+   "Workflow automation"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "image-exporter": {
+  "handle": "image-exporter",
+  "title": "PlainKits Image Export",
+  "developer": "PlainKits",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-08-25",
+  "categories": [
+   "Product content"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "synth": {
+  "handle": "synth",
+  "title": "Synth",
+  "developer": "Synthally Inc",
+  "rating": 5,
+  "reviews": 2,
+  "launched": "2024-06-11",
+  "categories": [
+   "Inventory optimization"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "ecomai-product-page-builder": {
+  "handle": "ecomai-product-page-builder",
+  "title": "eComAI Product Page Builder",
+  "developer": "eComAI",
+  "rating": 5,
+  "reviews": 2,
+  "launched": "2026-05-01",
+  "categories": [
+   "Product content"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "add-announcement-bar": {
+  "handle": "add-announcement-bar",
+  "title": "Libautech: Announcement Bar",
+  "developer": "Libautech",
+  "rating": 4.8,
+  "reviews": 29,
+  "launched": "2020-05-08",
+  "categories": [
+   "Banners"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "openclaw-commerce": {
+  "handle": "openclaw-commerce",
+  "title": "OpenClaw Commerce",
+  "developer": "Dev Krutik",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-04-24",
+  "categories": [
+   "Workflow automation"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "navlungo": {
+  "handle": "navlungo",
+  "title": "Navlungo",
+  "developer": "Navlungo",
+  "rating": 5,
+  "reviews": 1,
+  "launched": "2022-03-02",
+  "categories": [
+   "Shipping"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "tufacturador": {
+  "handle": "tufacturador",
+  "title": "Tu Facturador",
+  "developer": "Plaglabs",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2024-09-17",
+  "categories": [
+   "Invoices and receipts"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "tab-promo": {
+  "handle": "tab-promo",
+  "title": "Tab Promo: Discounts & Tiers",
+  "developer": "Tab Commerce",
+  "rating": 5,
+  "reviews": 1,
+  "launched": "2026-05-20",
+  "categories": [
+   "Discounts"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "kaily": {
+  "handle": "kaily",
+  "title": "Kaily AI Shopping Assistant",
+  "developer": "Shopsense Retail Technologies Limited",
+  "rating": 5,
+  "reviews": 1,
+  "launched": "2026-06-23",
+  "categories": [
+   "Chat"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "storeimporter": {
+  "handle": "storeimporter",
+  "title": "AppsByB: WooCommerce Importer",
+  "developer": "AppsByB",
+  "rating": 4.9,
+  "reviews": 35,
+  "launched": "2024-08-02",
+  "categories": [
+   "Store data importer"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "backby": {
+  "handle": "backby",
+  "title": "BackBy Back in Stock Notify Me",
+  "developer": "8th Origin LLC",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-13",
+  "categories": [
+   "Stock alerts"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "backin-stock": {
+  "handle": "backin-stock",
+  "title": "Nexus Backin Stock",
+  "developer": "Aditya ",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-08-12",
+  "categories": [
+   "Stock alerts"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "win-back": {
+  "handle": "win-back",
+  "title": "Win Back",
+  "developer": "Commerce Pro",
+  "rating": 5,
+  "reviews": 4,
+  "launched": "2025-11-14",
+  "categories": [
+   "Giveaways and contests"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "agentedge": {
+  "handle": "agentedge",
+  "title": "AgentEdge ‑ AI Sales Assistant",
+  "developer": "Code Kaarigari",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-16",
+  "categories": [
+   "Discounts"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "delivery-radar": {
+  "handle": "delivery-radar",
+  "title": "Delivery‑Radar",
+  "developer": "Cix",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-08-05",
+  "categories": [
+   "Shipping"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "socialhero-promotions": {
+  "handle": "socialhero-promotions",
+  "title": "Socialhero",
+  "developer": "Socialhero",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2024-06-13",
+  "categories": [
+   "Loyalty and rewards"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "codeboost": {
+  "handle": "codeboost",
+  "title": "Codeboost: Discount code promo",
+  "developer": "Saccolabs",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2022-02-07",
+  "categories": [
+   "Promotions - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "utterlink-1": {
+  "handle": "utterlink-1",
+  "title": "UtterLink Skip the Link‑in‑bio",
+  "developer": "UtterLink",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-08-14",
+  "categories": [
+   "SEO"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "logistictqs": {
+  "handle": "logistictqs",
+  "title": "ALTIS logistics ",
+  "developer": "vertixsol",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-10-02",
+  "categories": [
+   "Product content"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "bm-country-ip-blocker": {
+  "handle": "bm-country-ip-blocker",
+  "title": "BM: Country blocker IP blocker",
+  "developer": "Boostymark",
+  "rating": 4.9,
+  "reviews": 177,
+  "launched": "2022-07-04",
+  "categories": [
+   "Fraud"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "gst-invoicing-by-wlbs": {
+  "handle": "gst-invoicing-by-wlbs",
+  "title": "GST Invoicing by WLBS",
+  "developer": "Winning Link Business Solutions (OPC) Pvt Ltd",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-07-28",
+  "categories": [
+   "Invoices and receipts"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "styling-ideas-blaze": {
+  "handle": "styling-ideas-blaze",
+  "title": "Blaze Product Addons (add‑ons)",
+  "developer": "Blaze Apps",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2024-10-21",
+  "categories": [
+   "Upsell and cross-sell"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "wheel-3": {
+  "handle": "wheel-3",
+  "title": "Spin Wheel Popup ‑ Springify",
+  "developer": "springify.io",
+  "rating": 5,
+  "reviews": 2,
+  "launched": "2021-02-03",
+  "categories": [
+   "Pop-ups"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "groundtruth": {
+  "handle": "groundtruth",
+  "title": "GroundTruth",
+  "developer": "GT",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-03-06",
+  "categories": [
+   "Advertising - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "ninth": {
+  "handle": "ninth",
+  "title": "Mobile App Maker ‑ Jiviko",
+  "developer": "Jiviko",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2022-06-09",
+  "categories": [
+   "Mobile app builder"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "behaviour-discounts": {
+  "handle": "behaviour-discounts",
+  "title": "All Discounts & Promotions App",
+  "developer": "EC Web",
+  "rating": 5,
+  "reviews": 2,
+  "launched": "2026-01-23",
+  "categories": [
+   "Discounts"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "gpsr": {
+  "handle": "gpsr",
+  "title": "GCM | GPSR Compliance Manager",
+  "developer": "401layers UG (haftungsbeschraenkt)",
+  "rating": 4.9,
+  "reviews": 26,
+  "launched": "2024-09-17",
+  "categories": [
+   "Legal"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "complaint-guru": {
+  "handle": "complaint-guru",
+  "title": "Complaint Guru",
+  "developer": "H3 Technologies",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2024-09-30",
+  "categories": [
+   "Helpdesk"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "visualflow": {
+  "handle": "visualflow",
+  "title": "VisualFlow: Bulk AI Image Swap",
+  "developer": "Diallo Media",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-05-05",
+  "categories": [
+   "Bulk editor"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "rozetka-marketplace": {
+  "handle": "rozetka-marketplace",
+  "title": "Rozetka Marketplace",
+  "developer": "Master Development S.R.L.",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2024-01-18",
+  "categories": [
+   "Inventory sync"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "ests-data-exporter-pro": {
+  "handle": "ests-data-exporter-pro",
+  "title": "ProfitPilot Insights & Reports",
+  "developer": "Expound Coderz Pvt Ltd",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-03-11",
+  "categories": [
+   "Analytics"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "social-icons-extended": {
+  "handle": "social-icons-extended",
+  "title": "IzyIcons: Social Icons Plus",
+  "developer": "OZ Techworks",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2024-09-24",
+  "categories": [
+   "Badges and icons"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "d2c-dashboard": {
+  "handle": "d2c-dashboard",
+  "title": "StoreOps | Store Management",
+  "developer": "Nivera AI ",
+  "rating": 5,
+  "reviews": 1,
+  "launched": "2026-05-07",
+  "categories": [
+   "Helpdesk"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "appy-sales-discounts-profits-manager": {
+  "handle": "appy-sales-discounts-profits-manager",
+  "title": "Appy Discounts ‑ The Sale App",
+  "developer": "Appy Design",
+  "rating": 5,
+  "reviews": 3,
+  "launched": "2019-10-01",
+  "categories": [
+   "Discounts"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "hsdsfulfill": {
+  "handle": "hsdsfulfill",
+  "title": "FlowBorder",
+  "developer": "FlowBorder",
+  "rating": 5,
+  "reviews": 1,
+  "launched": "2022-07-29",
+  "categories": [
+   "Dropshipping"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "review2xml-google-shopping": {
+  "handle": "review2xml-google-shopping",
+  "title": "Review2XML ‑ Google Shopping",
+  "developer": "Review2XML",
+  "rating": 5,
+  "reviews": 5,
+  "launched": "2026-06-23",
+  "categories": [
+   "Product feeds"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "smootify": {
+  "handle": "smootify",
+  "title": "Smootify ‑ Design in Webflow!",
+  "developer": "Eclipse SRL",
+  "rating": 5,
+  "reviews": 3,
+  "launched": "2024-07-19",
+  "categories": [
+   "Page builder"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "vinden-3pl": {
+  "handle": "vinden-3pl",
+  "title": "Vinden 3PL",
+  "developer": "Vinden Operations AB",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-05-12",
+  "categories": [
+   "Third-party logistics (3PL)"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "gomerse": {
+  "handle": "gomerse",
+  "title": "GoMerse",
+  "developer": "Go Merse Group Ltd",
+  "rating": 5,
+  "reviews": 2,
+  "launched": "2026-05-28",
+  "categories": [
+   "Dropshipping"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "sitemap-noindex-seo-tools": {
+  "handle": "sitemap-noindex-seo-tools",
+  "title": "Sitemap NoIndex Pro SEO",
+  "developer": "DJP Digital",
+  "rating": 5,
+  "reviews": 159,
+  "launched": "2022-05-18",
+  "categories": [
+   "SEO"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "climategames": {
+  "handle": "climategames",
+  "title": "Restore nature @ Climategames",
+  "developer": "Climategames ",
+  "rating": 5,
+  "reviews": 1,
+  "launched": "2025-12-03",
+  "categories": [
+   "Loyalty and rewards",
+   "Donations"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "sale-booster": {
+  "handle": "sale-booster",
+  "title": "Sale Booster",
+  "developer": "Technogroves (Private) Limited",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-08",
+  "categories": [
+   "Discounts"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "markivo-free-shipping-upsell": {
+  "handle": "markivo-free-shipping-upsell",
+  "title": "Markivo Free Shipping Upsell",
+  "developer": "Markivo",
+  "rating": 4.4,
+  "reviews": 6,
+  "launched": "2024-07-22",
+  "categories": [
+   "Banners"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "cubbo-fulfillment": {
+  "handle": "cubbo-fulfillment",
+  "title": "Cubbo Fulfillment",
+  "developer": "Cubbo",
+  "rating": 5,
+  "reviews": 10,
+  "launched": "2026-01-12",
+  "categories": [
+   "Third-party logistics (3PL)"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "digipin": {
+  "handle": "digipin",
+  "title": "Digipin Validator",
+  "developer": "Emvigo Tech",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-08-06",
+  "categories": [
+   "Geolocation"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "section-monsters": {
+  "handle": "section-monsters",
+  "title": "Section Monsters",
+  "developer": "René Kress",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-17",
+  "categories": [
+   "Analytics"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "accessify-ada-audit": {
+  "handle": "accessify-ada-audit",
+  "title": "Accessibility Audit ‑ ADA WCAG",
+  "developer": "accessify.app",
+  "rating": 5,
+  "reviews": 2,
+  "launched": "2026-05-12",
+  "categories": [
+   "Accessibility"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "banger-bundles": {
+  "handle": "banger-bundles",
+  "title": "Banger Bundles Quantity Breaks",
+  "developer": "Banger Apps",
+  "rating": 5,
+  "reviews": 3,
+  "launched": "2025-11-04",
+  "categories": [
+   "Product bundles"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "lucky-you": {
+  "handle": "lucky-you",
+  "title": "Lucky You: Email & Spin Wheel",
+  "developer": "Lucky You",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-05-13",
+  "categories": [
+   "Pop-ups"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "onlinemachine": {
+  "handle": "onlinemachine",
+  "title": "Online Machine",
+  "developer": "Online Machine",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2021-08-25",
+  "categories": [
+   "Print on demand (POD)"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "pickastor": {
+  "handle": "pickastor",
+  "title": "Pickastor",
+  "developer": "Pickastor",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-05-27",
+  "categories": [
+   "Product feeds"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "gift-on-time": {
+  "handle": "gift-on-time",
+  "title": "Gift On‑Time: Gift Messages",
+  "developer": "Converting Digital",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-03-25",
+  "categories": [
+   "Gift wrap and messages"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "appriss-returns-claims": {
+  "handle": "appriss-returns-claims",
+  "title": "Appriss Returns & Claims",
+  "developer": "Appriss Retail",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-02-13",
+  "categories": [
+   "Fraud"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "theme-scientist": {
+  "handle": "theme-scientist",
+  "title": "Theme Scientist A/B Testing",
+  "developer": "PreviewX",
+  "rating": 3.5,
+  "reviews": 10,
+  "launched": "2020-03-05",
+  "categories": [
+   "Analytics"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "feed-doctor-2": {
+  "handle": "feed-doctor-2",
+  "title": "Why Disapproved",
+  "developer": "Clarte",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-22",
+  "categories": [
+   "Product feeds"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "shiplee-ai-enabled-logistics": {
+  "handle": "shiplee-ai-enabled-logistics",
+  "title": "Shiplee ‑ AI Enabled Logistics",
+  "developer": "SHIPLEE",
+  "rating": 5,
+  "reviews": 1,
+  "launched": "2024-09-09",
+  "categories": [
+   "Shipping solutions - Other"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "erp-3": {
+  "handle": "erp-3",
+  "title": "赛狐ERP",
+  "developer": "深圳美云集网络科技有限责任公司",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-03-06",
+  "categories": [
+   "ERP"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "import-export-collections": {
+  "handle": "import-export-collections",
+  "title": "Collentix Import/Export",
+  "developer": "OnlyWeb",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-07-02",
+  "categories": [
+   "Collections"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "showmefy": {
+  "handle": "showmefy",
+  "title": "ShowMe: AI Sales Associate",
+  "developer": "SolvingAI",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-04-13",
+  "categories": [
+   "Selling online - Other"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "easycookiebar": {
+  "handle": "easycookiebar",
+  "title": "Easy Cookie Bar",
+  "developer": "Aditya ",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-30",
+  "categories": [
+   "Pop-ups"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "shopify-application-408": {
+  "handle": "shopify-application-408",
+  "title": "シンプル送り状データ出力くん",
+  "developer": "World8 Inc.,",
+  "rating": 5,
+  "reviews": 1,
+  "launched": "2024-03-12",
+  "categories": [
+   "Shipping"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "zonvi-low-stock-counter": {
+  "handle": "zonvi-low-stock-counter",
+  "title": "Zonvi: Low Stock Counter",
+  "developer": "Zonvi",
+  "rating": 5,
+  "reviews": 2,
+  "launched": "2025-07-23",
+  "categories": [
+   "Stock alerts"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "etch": {
+  "handle": "etch",
+  "title": "Etch",
+  "developer": "Stupid Simple",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-06",
+  "categories": [
+   "Pricing quotes"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "multi-ship-pasilobus": {
+  "handle": "multi-ship-pasilobus",
+  "title": "MultiShip Address Checkout",
+  "developer": "Pasilobus",
+  "rating": 5,
+  "reviews": 1,
+  "launched": "2026-03-24",
+  "categories": [
+   "Shipping rates"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "recoverops": {
+  "handle": "recoverops",
+  "title": "AfterRevenue",
+  "developer": "6ix Merchandise",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-28",
+  "categories": [
+   "Order editing"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "smart-bundle-2": {
+  "handle": "smart-bundle-2",
+  "title": "Smart Bundle",
+  "developer": "Sellfern",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-08-06",
+  "categories": [
+   "Product bundles"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "shipping-weather-pro": {
+  "handle": "shipping-weather-pro",
+  "title": "ShipSafe",
+  "developer": "Justfishything",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-06",
+  "categories": [
+   "Shipping"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "csvwise": {
+  "handle": "csvwise",
+  "title": "CSVwise",
+  "developer": "Answer 42 Labs",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-08-25",
+  "categories": [
+   "Store data importer"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "priority-sms-india": {
+  "handle": "priority-sms-india",
+  "title": "Manifest Twillio Integration",
+  "developer": "Manifester Technologies",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2020-10-27",
+  "categories": [
+   "Staff notifications"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "guarded-restock-alerts": {
+  "handle": "guarded-restock-alerts",
+  "title": "Guarded Restock Alerts",
+  "developer": "TJ solutions",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-16",
+  "categories": [
+   "Notifications - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "postconnect": {
+  "handle": "postconnect",
+  "title": "PostConnect aus Österreich",
+  "developer": "BIT62",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-05-15",
+  "categories": [
+   "Shipping"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "plussales-abtest": {
+  "handle": "plussales-abtest",
+  "title": "Funnex ‑ CRO Research Tool",
+  "developer": "Yotoia",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-09-02",
+  "categories": [
+   "Workflow automation"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "vortexiq-insights": {
+  "handle": "vortexiq-insights",
+  "title": "Vortex IQ: AI Operating System",
+  "developer": "VortexIQ",
+  "rating": 5,
+  "reviews": 1,
+  "launched": "2025-04-03",
+  "categories": [
+   "Analytics"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "fx-smart-pricing-app": {
+  "handle": "fx-smart-pricing-app",
+  "title": "Fx Smart Pricing",
+  "developer": "FxCommerce B.V.",
+  "rating": 5,
+  "reviews": 1,
+  "launched": "2025-10-06",
+  "categories": [
+   "Pricing optimization"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "feedonomics-listing-orders": {
+  "handle": "feedonomics-listing-orders",
+  "title": "Feedonomics Listing & Orders",
+  "developer": "Feedonomics",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-09-10",
+  "categories": [
+   "Marketplaces"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "meroxio-build-your-own-box": {
+  "handle": "meroxio-build-your-own-box",
+  "title": "MeroxIO Build‑Your‑Own‑Box",
+  "developer": "MeroxIO IT Solutions",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2023-12-29",
+  "categories": [
+   "Product bundles"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "visually-io": {
+  "handle": "visually-io",
+  "title": "Visually A/B Testing & CRO",
+  "developer": "Visually.io",
+  "rating": 4.7,
+  "reviews": 124,
+  "launched": "2022-06-15",
+  "categories": [
+   "Upsell and cross-sell"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "busy-meter": {
+  "handle": "busy-meter",
+  "title": "Busy Meter",
+  "developer": "Krzysztof Trzcinski",
+  "rating": 5,
+  "reviews": 1,
+  "launched": "2022-10-24",
+  "categories": [
+   "Banners"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "orderpad": {
+  "handle": "orderpad",
+  "title": "OrderPad",
+  "developer": "DRO",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-15",
+  "categories": [
+   "Order editing"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "jericommerce-admin": {
+  "handle": "jericommerce-admin",
+  "title": "JeriCommerce Loyalty Program ",
+  "developer": "JeriCommerce",
+  "rating": 5,
+  "reviews": 10,
+  "launched": "2024-07-08",
+  "categories": [
+   "Loyalty and rewards"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "crowdsender": {
+  "handle": "crowdsender",
+  "title": "Crowdsender",
+  "developer": "Crowdsender",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2024-04-18",
+  "categories": [
+   "Shipping",
+   "Shipping solutions - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "reputon-ebay-reviews": {
+  "handle": "reputon-ebay-reviews",
+  "title": "Reputon eBay Reviews",
+  "developer": "Reputon",
+  "rating": 4.9,
+  "reviews": 211,
+  "launched": "2022-06-29",
+  "categories": [
+   "Product reviews"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "printswell-fulfillment": {
+  "handle": "printswell-fulfillment",
+  "title": "PrintsWell",
+  "developer": "PrintsWell, Inc",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2022-08-25",
+  "categories": [
+   "Print on demand (POD)"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "nudio": {
+  "handle": "nudio",
+  "title": "nudio (product studio)",
+  "developer": "nudio.ai",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-02-12",
+  "categories": [
+   "Image editor"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "smashcart-1": {
+  "handle": "smashcart-1",
+  "title": "SmashCart",
+  "developer": "Ordello",
+  "rating": 5,
+  "reviews": 1,
+  "launched": "2026-05-15",
+  "categories": [
+   "Cart customization"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "frontkick": {
+  "handle": "frontkick",
+  "title": "Frontkick",
+  "developer": "Vaitstack",
+  "rating": 5,
+  "reviews": 4,
+  "launched": "2026-05-21",
+  "categories": [
+   "Chat"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "stacklens-discount-monitor": {
+  "handle": "stacklens-discount-monitor",
+  "title": "StackLens: Discount Monitor",
+  "developer": "cadosy",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-08-03",
+  "categories": [
+   "Discounts"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "easy-popup-store-redirector": {
+  "handle": "easy-popup-store-redirector",
+  "title": "Easy Popup Store Redirector",
+  "developer": "Reason8 Pty Ltd",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2022-06-17",
+  "categories": [
+   "Internationalization - Other",
+   "Search and navigation - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "reserva-ink": {
+  "handle": "reserva-ink",
+  "title": "Reserva INK",
+  "developer": "RSV INK",
+  "rating": 5,
+  "reviews": 2,
+  "launched": "2022-03-29",
+  "categories": [
+   "Dropshipping"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "dropr": {
+  "handle": "dropr",
+  "title": "Dropr",
+  "developer": "HeyDropr",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-01",
+  "categories": [
+   "Upsell and cross-sell"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "easy-faqs": {
+  "handle": "easy-faqs",
+  "title": "FAQ & Accordion Pro",
+  "developer": "LÍNEA GRÁFICA ECE S.L.",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-02-17",
+  "categories": [
+   "FAQ"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "currency-converter-plus": {
+  "handle": "currency-converter-plus",
+  "title": "Currency Converter Plus",
+  "developer": "Code Black Belt",
+  "rating": 4.7,
+  "reviews": 196,
+  "launched": "2015-10-13",
+  "categories": [
+   "Currency and translation"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "automatic-account-invites": {
+  "handle": "automatic-account-invites",
+  "title": "WOTIO Account Invites Plus",
+  "developer": "Deeko Global LLC",
+  "rating": 4.8,
+  "reviews": 20,
+  "launched": "2018-03-14",
+  "categories": [
+   "Accounts and login"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "superdesk-com": {
+  "handle": "superdesk-com",
+  "title": "Superdesk Product Reviews App",
+  "developer": "Superdesk",
+  "rating": 5,
+  "reviews": 7,
+  "launched": "2024-07-15",
+  "categories": [
+   "Product reviews"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "mpay-vn": {
+  "handle": "mpay-vn",
+  "title": "M‑Pay Vietnam Payments",
+  "developer": "2C2P",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-04-20",
+  "categories": [
+   "Payment experience"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "ramp-logistics": {
+  "handle": "ramp-logistics",
+  "title": "RAMP Logistics ",
+  "developer": "Logixgrid Technologies",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-08-14",
+  "categories": [
+   "Delivery and pickup"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "flint-sentry": {
+  "handle": "flint-sentry",
+  "title": "FLINT Sentry",
+  "developer": "KillChain, Inc. d/b/a FLINT Network",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-17",
+  "categories": [
+   "Fraud"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "abra-sections": {
+  "handle": "abra-sections",
+  "title": "Premium Theme Sections by Abra",
+  "developer": "Abra",
+  "rating": 5,
+  "reviews": 9,
+  "launched": "2026-01-12",
+  "categories": [
+   "Page builder"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "promo-god": {
+  "handle": "promo-god",
+  "title": "Promo King: Promos & Tracking",
+  "developer": "ShopTilUDrop",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-04-24",
+  "categories": [
+   "Promotions - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "menu-duplicator": {
+  "handle": "menu-duplicator",
+  "title": "MenuMonkey ‑ Menu Duplicator",
+  "developer": "codelayer GmbH",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2024-09-05",
+  "categories": [
+   "Operations - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "lynkai": {
+  "handle": "lynkai",
+  "title": "LynkAI",
+  "developer": "JediTeck LLC",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-12-05",
+  "categories": [
+   "Helpdesk"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "support-board": {
+  "handle": "support-board",
+  "title": "Support Board ‑ Chat & Chatbot",
+  "developer": "Schiocco LTD",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2024-11-26",
+  "categories": [
+   "Chat"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "ur-smart-accordion-tabs": {
+  "handle": "ur-smart-accordion-tabs",
+  "title": "UR: Smart Accordion Tabs",
+  "developer": "UnReact Inc.",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-03-24",
+  "categories": [
+   "Content - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "brilliance-necklace-builder": {
+  "handle": "brilliance-necklace-builder",
+  "title": "Necklace Builder",
+  "developer": "Brilliance Hub",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-12-05",
+  "categories": [
+   "Product variants"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "smartbundle-1": {
+  "handle": "smartbundle-1",
+  "title": "SmartBundle",
+  "developer": "Freelancing Partners",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-06-15",
+  "categories": [
+   "Product bundles"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "bol-sync": {
+  "handle": "bol-sync",
+  "title": "Bol Sync ‑ Bol.com Orders",
+  "developer": "New craft Sync",
+  "rating": 4.9,
+  "reviews": 8,
+  "launched": "2025-12-08",
+  "categories": [
+   "Store data importer"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "image-gallery": {
+  "handle": "image-gallery",
+  "title": "AAA Image + Video Gallery",
+  "developer": "AAAeCommerce Inc",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2017-05-24",
+  "categories": [
+   "Image gallery"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "collectionsiq": {
+  "handle": "collectionsiq",
+  "title": "CollectionsIQ",
+  "developer": "PBF Piotr Białozor-Fiecko",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-28",
+  "categories": [
+   "Product feeds"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "pod-live": {
+  "handle": "pod-live",
+  "title": "After Print POD",
+  "developer": "After Print",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-02-02",
+  "categories": [
+   "Print on demand (POD)"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "easyreturns-1": {
+  "handle": "easyreturns-1",
+  "title": "Returns & EU Withdrawal‑Button",
+  "developer": "247APPS",
+  "rating": 4.7,
+  "reviews": 76,
+  "launched": "2021-08-12",
+  "categories": [
+   "Returns and exchanges"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "scrollify-back-to-top-button": {
+  "handle": "scrollify-back-to-top-button",
+  "title": "Scrollify: Back To Top Button",
+  "developer": "ShopiShore",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-05-01",
+  "categories": [
+   "Badges and icons"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "mensajeros-urbanos-envios": {
+  "handle": "mensajeros-urbanos-envios",
+  "title": "Mensajeros Urbanos",
+  "developer": "Mensajeros Urbanos",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2021-10-18",
+  "categories": [
+   "Order tracking",
+   "Delivery and pickup"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "annex-cloud-all-module": {
+  "handle": "annex-cloud-all-module",
+  "title": "Annex Cloud: Loyalty Platform",
+  "developer": "Annex Cloud",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2021-03-19",
+  "categories": [
+   "Discounts"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "fortvision-2": {
+  "handle": "fortvision-2",
+  "title": "FORTVISION",
+  "developer": "FORTVISION",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2023-04-06",
+  "categories": [
+   "Email marketing"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "metamint": {
+  "handle": "metamint",
+  "title": "Metamint SEO",
+  "developer": "Code Pixelz Media",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-06-25",
+  "categories": [
+   "SEO"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "free-traffic-exchange": {
+  "handle": "free-traffic-exchange",
+  "title": "Instant Traffic: Get Visitors",
+  "developer": "Eggflow, LLC",
+  "rating": 4,
+  "reviews": 135,
+  "launched": "2018-06-13",
+  "categories": [
+   "Ads"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "offer-engine-pro": {
+  "handle": "offer-engine-pro",
+  "title": "Offer Engine Pro",
+  "developer": "Atharva System",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-21",
+  "categories": [
+   "Discounts"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "tracking-live": {
+  "handle": "tracking-live",
+  "title": "Dropiloship : Order Tracking",
+  "developer": "Novera Digital Group",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-08-18",
+  "categories": [
+   "Order tracking"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "supaeasy": {
+  "handle": "supaeasy",
+  "title": "SupaEasy: AI Functions creator",
+  "developer": "Nextools",
+  "rating": 5,
+  "reviews": 205,
+  "launched": "2023-05-30",
+  "categories": [
+   "Discounts"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "nexra-bulk-price-editor": {
+  "handle": "nexra-bulk-price-editor",
+  "title": "Nexra Bulk Price Editor",
+  "developer": "Nexra Labs",
+  "rating": 5,
+  "reviews": 10,
+  "launched": "2025-10-20",
+  "categories": [
+   "Pricing optimization"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "bannerify-animated-popup": {
+  "handle": "bannerify-animated-popup",
+  "title": "Bannerify ‑ Animated Popup",
+  "developer": "Brain Station 23 PLC",
+  "rating": 4,
+  "reviews": 1,
+  "launched": "2023-12-05",
+  "categories": [
+   "Pop-ups"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "nexopaylisting": {
+  "handle": "nexopaylisting",
+  "title": "PayPilot: Checkout & Shipping",
+  "developer": "Nexo Apps",
+  "rating": 5,
+  "reviews": 1,
+  "launched": "2026-07-07",
+  "categories": [
+   "Shipping rates"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "storefrog-product-recommendation-app": {
+  "handle": "storefrog-product-recommendation-app",
+  "title": "SF Product Recommendations ",
+  "developer": "WebToffee",
+  "rating": 5,
+  "reviews": 1,
+  "launched": "2023-09-25",
+  "categories": [
+   "Upsell and cross-sell"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "dartex-express": {
+  "handle": "dartex-express",
+  "title": "Dartex Express",
+  "developer": "dartex",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-27",
+  "categories": [
+   "Shipping"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "zoopship": {
+  "handle": "zoopship",
+  "title": "Zoopship",
+  "developer": "zoop",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-01-07",
+  "categories": [
+   "Shipping solutions - Other",
+   "Delivery and pickup"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "prime-upsell": {
+  "handle": "prime-upsell",
+  "title": "Prime Upsell",
+  "developer": "Prime Labs",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2023-10-30",
+  "categories": [
+   "Upsell and cross-sell"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "polyglot-translate": {
+  "handle": "polyglot-translate",
+  "title": "Polyglot Translate",
+  "developer": "Dynamate",
+  "rating": 4,
+  "reviews": 1,
+  "launched": "2020-01-31",
+  "categories": [
+   "Currency and translation"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "fether": {
+  "handle": "fether",
+  "title": "Frequently Bought Together FT",
+  "developer": "Fether",
+  "rating": 4.6,
+  "reviews": 350,
+  "launched": "2023-04-21",
+  "categories": [
+   "Product bundles"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "bia-production": {
+  "handle": "bia-production",
+  "title": "Buy It Again",
+  "developer": "Delightify Inc",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-21",
+  "categories": [
+   "Social proof"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "thanhbt-ultimate-cart": {
+  "handle": "thanhbt-ultimate-cart",
+  "title": "Ultimate Discount Manager",
+  "developer": "ThanhBT App",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2024-09-30",
+  "categories": [
+   "Pricing optimization"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "bevy-orderpilot": {
+  "handle": "bevy-orderpilot",
+  "title": "Bevy OrderPilot",
+  "developer": "Bevy Commerce",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-01-16",
+  "categories": [
+   "Operations - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "invoice-hero": {
+  "handle": "invoice-hero",
+  "title": "Invoice Hero",
+  "developer": "MLVeda",
+  "rating": 4.8,
+  "reviews": 299,
+  "launched": "2018-11-22",
+  "categories": [
+   "Invoices and receipts"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "ai-chat-bot": {
+  "handle": "ai-chat-bot",
+  "title": "AI Chat Bot",
+  "developer": "OrangeMantra",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-04-30",
+  "categories": [
+   "Selling in person - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "adsmetrics": {
+  "handle": "adsmetrics",
+  "title": "Shopping Ads Solutions",
+  "developer": "Shopping Ads Solutions",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-08-06",
+  "categories": [
+   "Analytics"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "sopo-conversions": {
+  "handle": "sopo-conversions",
+  "title": "SOPO Conversions",
+  "developer": "Sopo Commerce",
+  "rating": 5,
+  "reviews": 4,
+  "launched": "2026-07-10",
+  "categories": [
+   "Promotions - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "upsell-app": {
+  "handle": "upsell-app",
+  "title": "HypeUp ‑ Post Purchase Upsell",
+  "developer": "NomadsArc",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2023-02-01",
+  "categories": [
+   "Upsell and cross-sell"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "sales-popup-discount-pop-up": {
+  "handle": "sales-popup-discount-pop-up",
+  "title": "Sam FOMO & Sales Pop Up",
+  "developer": "ShopWil",
+  "rating": 5,
+  "reviews": 7,
+  "launched": "2025-08-14",
+  "categories": [
+   "Social proof"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "storme": {
+  "handle": "storme",
+  "title": "Storme",
+  "developer": "Storme",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2022-12-02",
+  "categories": [
+   "Sourcing options - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "world-id-discounts": {
+  "handle": "world-id-discounts",
+  "title": "World ID Discounts",
+  "developer": "Tools for Humanity",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2023-12-06",
+  "categories": [
+   "Discounts"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "speed-boost-for-seo-google-ads": {
+  "handle": "speed-boost-for-seo-google-ads",
+  "title": "BoostCore SEO Page Optimizer",
+  "developer": "Mayfair Digital Agency",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-01-03",
+  "categories": [
+   "Site optimization - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "snapback": {
+  "handle": "snapback",
+  "title": "Snapback Backup & Restore",
+  "developer": "8th Origin LLC",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-14",
+  "categories": [
+   "Workflow automation",
+   "Security - Other"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "quick-order-by-sku": {
+  "handle": "quick-order-by-sku",
+  "title": "Ordexis Bulk Order by SKU CSV",
+  "developer": "GrassJ",
+  "rating": 5,
+  "reviews": 1,
+  "launched": "2025-02-13",
+  "categories": [
+   "Wholesale"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "shopify-application-430": {
+  "handle": "shopify-application-430",
+  "title": "Boost ‑ Best Seller & Product ",
+  "developer": "Pepin",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-04-30",
+  "categories": [
+   "Social proof"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "trendo": {
+  "handle": "trendo",
+  "title": "Trendo",
+  "developer": "Trendo AI, LLC",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-10-13",
+  "categories": [
+   "Affiliate programs"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "clickpost-order-edit-cancel": {
+  "handle": "clickpost-order-edit-cancel",
+  "title": "CP: Order Editing & Upsells",
+  "developer": "Clickpost",
+  "rating": 5,
+  "reviews": 51,
+  "launched": "2025-01-22",
+  "categories": [
+   "Order editing"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "whatsapp-business-notification": {
+  "handle": "whatsapp-business-notification",
+  "title": "WAlert: Business notifications",
+  "developer": "Techspawn Solutions Private Limited",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2023-01-23",
+  "categories": [
+   "Staff notifications"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "interparcel-uk": {
+  "handle": "interparcel-uk",
+  "title": "Interparcel UK",
+  "developer": "Interparcel",
+  "rating": 5,
+  "reviews": 1,
+  "launched": "2022-07-14",
+  "categories": [
+   "Shipping",
+   "Shipping solutions - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "wair-size-recommendation": {
+  "handle": "wair-size-recommendation",
+  "title": "WAIR Size & Fit Recommendation",
+  "developer": "Fit3D, Inc. DBA WAIR",
+  "rating": 4.7,
+  "reviews": 29,
+  "launched": "2022-08-15",
+  "categories": [],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "pennylane-order-invoicer": {
+  "handle": "pennylane-order-invoicer",
+  "title": "Connecteur factures Pennylane",
+  "developer": "Order Invoicer",
+  "rating": 5,
+  "reviews": 2,
+  "launched": "2026-03-19",
+  "categories": [
+   "Invoices and receipts"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "revspark": {
+  "handle": "revspark",
+  "title": "RevSpark‑Thank you Page Upsell",
+  "developer": "Code2Commerce",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-05-06",
+  "categories": [
+   "Upsell and cross-sell"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "woomio": {
+  "handle": "woomio",
+  "title": "Woomio",
+  "developer": "iClickSee",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2021-06-24",
+  "categories": [
+   "Affiliate programs"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "kroll-catalog-sync": {
+  "handle": "kroll-catalog-sync",
+  "title": "Kroll Catalog Sync",
+  "developer": "VynStack Technologies",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-08-05",
+  "categories": [
+   "Inventory sync"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "cirquly-consignment-pos": {
+  "handle": "cirquly-consignment-pos",
+  "title": "Cirquly for Consignment",
+  "developer": "Cirquly",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-08-17",
+  "categories": [
+   "Retail"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "swiss-shipping-labels": {
+  "handle": "swiss-shipping-labels",
+  "title": "Swiss Shipping Labels",
+  "developer": "Appengine",
+  "rating": 5,
+  "reviews": 3,
+  "launched": "2026-04-13",
+  "categories": [
+   "Shipping"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "magic-freeship": {
+  "handle": "magic-freeship",
+  "title": "Magic Freeship Bar",
+  "developer": "Smart Ecom Tech",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2021-02-04",
+  "categories": [
+   "Banners"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "clarity-extension": {
+  "handle": "clarity-extension",
+  "title": "AB: Microsoft Clarity",
+  "developer": "ConversionAB",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-05-05",
+  "categories": [
+   "Site optimization - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "adswise": {
+  "handle": "adswise",
+  "title": "AdsWise",
+  "developer": "杭州米陌信息科技有限公司",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2024-11-26",
+  "categories": [
+   "Advertising - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "dandy-ageguard": {
+  "handle": "dandy-ageguard",
+  "title": "Dandy AgeGuard",
+  "developer": "Dandy Software Ltd",
+  "rating": 5,
+  "reviews": 1,
+  "launched": "2023-07-31",
+  "categories": [
+   "Legal"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "returns-exchanges-by-aico": {
+  "handle": "returns-exchanges-by-aico",
+  "title": "Returns & Exchanges by aico",
+  "developer": "aiconomy",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-08-14",
+  "categories": [
+   "Returns and exchanges"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "whatnotify": {
+  "handle": "whatnotify",
+  "title": "WhatNotify Automation",
+  "developer": "LUVR",
+  "rating": 5,
+  "reviews": 2,
+  "launched": "2026-05-11",
+  "categories": [
+   "Workflow automation"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "shipsure": {
+  "handle": "shipsure",
+  "title": "ShipSure",
+  "developer": "Ship Sure",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-06-25",
+  "categories": [
+   "Warranties and insurance"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "bun-bundles": {
+  "handle": "bun-bundles",
+  "title": "Bun Bundles Volume Discounts",
+  "developer": "Likma",
+  "rating": 5,
+  "reviews": 31,
+  "launched": "2025-11-28",
+  "categories": [
+   "Product bundles"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "kudosity-sms-mms-marketing": {
+  "handle": "kudosity-sms-mms-marketing",
+  "title": "Kudosity SMS Messaging",
+  "developer": "Kudosity Co",
+  "rating": 5,
+  "reviews": 5,
+  "launched": "2025-11-14",
+  "categories": [
+   "SMS marketing"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "ai-listing-optimizer": {
+  "handle": "ai-listing-optimizer",
+  "title": "Listora: AI Listing Optimizer",
+  "developer": "Rotterdam Holdings",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-05-28",
+  "categories": [
+   "SEO"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "bosio": {
+  "handle": "bosio",
+  "title": "Bosio ‑ Business Operations",
+  "developer": "TheBosApps",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-03-02",
+  "categories": [
+   "Forms"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "walmart-integration-sync": {
+  "handle": "walmart-integration-sync",
+  "title": "DPL Walmart Integration",
+  "developer": "Digital Product Labs",
+  "rating": 4.9,
+  "reviews": 100,
+  "launched": "2024-01-16",
+  "categories": [
+   "Inventory sync"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "jenjan-fulfillment": {
+  "handle": "jenjan-fulfillment",
+  "title": "JENJAN Fulfillment | 真站電商倉儲物流",
+  "developer": "增站運籌科技股份有限公司",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2022-09-15",
+  "categories": [
+   "Third-party logistics (3PL)"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "dual-price-display-tax": {
+  "handle": "dual-price-display-tax",
+  "title": "EUR Tax Dual Price B2B Europe ",
+  "developer": "EU by Final Apps",
+  "rating": 3.1,
+  "reviews": 14,
+  "launched": "2022-10-18",
+  "categories": [
+   "Taxes"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "kedra-ai-index": {
+  "handle": "kedra-ai-index",
+  "title": "Kedra AI Index: AEO Visibility",
+  "developer": "Kedra Apps",
+  "rating": 4.8,
+  "reviews": 38,
+  "launched": "2026-04-27",
+  "categories": [
+   "SEO"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "stlr": {
+  "handle": "stlr",
+  "title": "Sync by STLR",
+  "developer": "STLR",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-05-22",
+  "categories": [
+   "Loyalty and rewards"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "ecom-bol-open-importer": {
+  "handle": "ecom-bol-open-importer",
+  "title": "Ecom | Bol Open Importer",
+  "developer": "Ecom Pro Solutions",
+  "rating": 2.9,
+  "reviews": 6,
+  "launched": "2024-10-01",
+  "categories": [
+   "Store data importer"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "zerocut": {
+  "handle": "zerocut",
+  "title": "Zero Cut",
+  "developer": "Swift POS",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-08-04",
+  "categories": [
+   "Affiliate programs"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "onbuy-integration": {
+  "handle": "onbuy-integration",
+  "title": "CedCommerce OnBuy Integration",
+  "developer": "CedCommerce",
+  "rating": 4.8,
+  "reviews": 75,
+  "launched": "2020-07-20",
+  "categories": [
+   "Marketplaces"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "shelfcount": {
+  "handle": "shelfcount",
+  "title": "ShelfCount",
+  "developer": "Toma Apps",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-08-10",
+  "categories": [
+   "Inventory - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "isbn-express-book-importer": {
+  "handle": "isbn-express-book-importer",
+  "title": "ISBNExpress: Books Importer",
+  "developer": "Boxi Apps",
+  "rating": 4.9,
+  "reviews": 67,
+  "launched": "2023-09-15",
+  "categories": [
+   "Store data importer"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "see-before-buy-ai-full": {
+  "handle": "see-before-buy-ai-full",
+  "title": "See Before Buy Ai",
+  "developer": "See Before Buy ",
+  "rating": 5,
+  "reviews": 8,
+  "launched": "2026-05-25",
+  "categories": [
+   "Images and media - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "matrix-1": {
+  "handle": "matrix-1",
+  "title": "Make My Merch",
+  "developer": "Matrix Workwear",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-05-20",
+  "categories": [
+   "Print on demand (POD)"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "easy-color-swatches": {
+  "handle": "easy-color-swatches",
+  "title": "ITORIS Easy Color Swatches",
+  "developer": "ITORIS INC",
+  "rating": 5,
+  "reviews": 2,
+  "launched": "2019-06-13",
+  "categories": [
+   "Product variants"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "ceneo-feed-xml": {
+  "handle": "ceneo-feed-xml",
+  "title": "Ceneo Feed XML",
+  "developer": "Brand Active ",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2020-07-30",
+  "categories": [
+   "Product feeds"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "1account-age-verification-v2": {
+  "handle": "1account-age-verification-v2",
+  "title": "1account Age Verification v2",
+  "developer": "1Account",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-04-10",
+  "categories": [
+   "Legal"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "automatic-returns": {
+  "handle": "automatic-returns",
+  "title": "キャンセルリカバリー｜再注文を生むカゴ落ちに次ぐ新マーケ手法",
+  "developer": "株式会社リターンズ",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2024-04-05",
+  "categories": [
+   "Orders - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "datajet": {
+  "handle": "datajet",
+  "title": "DataJet",
+  "developer": "Code57",
+  "rating": 5,
+  "reviews": 12,
+  "launched": "2020-10-19",
+  "categories": [
+   "Workflow automation"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "sugesta": {
+  "handle": "sugesta",
+  "title": "Sugesta",
+  "developer": "Sugesta Shop",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-06-24",
+  "categories": [
+   "Chat"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "smart-automatic-discounts": {
+  "handle": "smart-automatic-discounts",
+  "title": "SMART Bundles Volume Discounts",
+  "developer": "E-TRADE PARTNER",
+  "rating": 4.9,
+  "reviews": 332,
+  "launched": "2024-12-13",
+  "categories": [
+   "Discounts"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "bulk-price-editor-6": {
+  "handle": "bulk-price-editor-6",
+  "title": "Pricewise: Bulk Price Editor",
+  "developer": "Syner Ecom LLC",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-05-11",
+  "categories": [
+   "Bulk editor"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "picsmize-image-optimizer": {
+  "handle": "picsmize-image-optimizer",
+  "title": "Picsmize ‑ Image Optimizer",
+  "developer": "Softpulse Infotech",
+  "rating": 2.9,
+  "reviews": 4,
+  "launched": "2021-08-17",
+  "categories": [
+   "Bulk editor"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "salesdish-duplicate-store": {
+  "handle": "salesdish-duplicate-store",
+  "title": "Salesdish Duplicate Store",
+  "developer": "DropshipNyc",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2023-08-21",
+  "categories": [
+   "Store data importer"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "fero-conversion-iq": {
+  "handle": "fero-conversion-iq",
+  "title": "Conversion Companion",
+  "developer": "FERO",
+  "rating": 5,
+  "reviews": 26,
+  "launched": "2024-05-13",
+  "categories": [
+   "Checkout - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "smartcopy": {
+  "handle": "smartcopy",
+  "title": "SmartCopy",
+  "developer": "PE GmbH",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2023-06-15",
+  "categories": [
+   "Product content"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "shopsplit-a-b-test-cro": {
+  "handle": "shopsplit-a-b-test-cro",
+  "title": "ShopSplit A/B Test & CRO",
+  "developer": "MeroxIO IT Solutions",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-28",
+  "categories": [
+   "Site optimization - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "stockalert-1": {
+  "handle": "stockalert-1",
+  "title": "StockAlert",
+  "developer": "StockAlert",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-06-01",
+  "categories": [
+   "Email marketing"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "fitiq": {
+  "handle": "fitiq",
+  "title": null,
+  "developer": null,
+  "rating": null,
+  "reviews": null,
+  "launched": null,
+  "categories": [],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "vrtyq": {
+  "handle": "vrtyq",
+  "title": "VrtyQ",
+  "developer": "VrtyQ",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-08-25",
+  "categories": [
+   "Product content"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "ai-cloud-suite": {
+  "handle": "ai-cloud-suite",
+  "title": "Visualwebs AI Cloud Suite",
+  "developer": "Visualwebs",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-06-03",
+  "categories": [
+   "Workflow automation"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "personaai": {
+  "handle": "personaai",
+  "title": "Persona ‑ AI Product Reviews",
+  "developer": "PersonaAI",
+  "rating": 5,
+  "reviews": 2,
+  "launched": "2024-12-03",
+  "categories": [
+   "Product reviews"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "leadnotio": {
+  "handle": "leadnotio",
+  "title": "LeadNotio",
+  "developer": "639hz Holdings",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-04-13",
+  "categories": [
+   "Marketing - Other",
+   "Email marketing"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "vrshopii": {
+  "handle": "vrshopii",
+  "title": "VRSHOPii",
+  "developer": "ObotAI",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2022-09-01",
+  "categories": [
+   "Image editor",
+   "Product display - Other"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "kilarity-custom-shipping": {
+  "handle": "kilarity-custom-shipping",
+  "title": "Kilarity カスタム配送料",
+  "developer": "Kirarity",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-10",
+  "categories": [
+   "Shipping rates"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "artbutler-next": {
+  "handle": "artbutler-next",
+  "title": "Artbutler NEXT integration",
+  "developer": "teamspring GmbH",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2023-01-20",
+  "categories": [
+   "Inventory sync"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "hix-highlights": {
+  "handle": "hix-highlights",
+  "title": "HiX ‑ Product Highlights",
+  "developer": "Pyntree Technologies",
+  "rating": 5,
+  "reviews": 3,
+  "launched": "2025-12-01",
+  "categories": [
+   "Product content"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "pixc-lifestyle-photos": {
+  "handle": "pixc-lifestyle-photos",
+  "title": "Pixc: AI Lifestyle Photos",
+  "developer": "Pixc",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2024-03-22",
+  "categories": [
+   "Image editor"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "seonix": {
+  "handle": "seonix",
+  "title": "SEOnix",
+  "developer": "Otanzy Labs",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-02",
+  "categories": [
+   "SEO"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "product-bundle-soronix-1": {
+  "handle": "product-bundle-soronix-1",
+  "title": "Product Bundle ‑ Soronix",
+  "developer": "Soronix",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-05-19",
+  "categories": [
+   "Custom products - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "gym-fitness-booking": {
+  "handle": "gym-fitness-booking",
+  "title": "Ajaxy Gym & Fitness Booking",
+  "developer": "Ajaxy Limited",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2024-09-25",
+  "categories": [
+   "Event booking"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "geolocation-country-redirection": {
+  "handle": "geolocation-country-redirection",
+  "title": "Geolocation Country Redirect",
+  "developer": "Zoww Apps",
+  "rating": 4.9,
+  "reviews": 64,
+  "launched": "2023-10-02",
+  "categories": [
+   "Geolocation"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "returnguardian": {
+  "handle": "returnguardian",
+  "title": "ReturnGuardian",
+  "developer": "Coelus Labs Ltd",
+  "rating": 5,
+  "reviews": 2,
+  "launched": "2026-05-06",
+  "categories": [
+   "Content - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "smart-zipcode-validator": {
+  "handle": "smart-zipcode-validator",
+  "title": "Smart Zipcode Validator",
+  "developer": "JoboApps",
+  "rating": 4.3,
+  "reviews": 6,
+  "launched": "2019-02-22",
+  "categories": [
+   "Shipping rates"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "ecomvault-1": {
+  "handle": "ecomvault-1",
+  "title": "EcomVault",
+  "developer": "Ecomvault",
+  "rating": 5,
+  "reviews": 3,
+  "launched": "2026-02-27",
+  "categories": [
+   "SEO"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "real-categories": {
+  "handle": "real-categories",
+  "title": "Real Categories",
+  "developer": "Ash Glover Design",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-02-20",
+  "categories": [
+   "Navigation and menus"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "returnlab": {
+  "handle": "returnlab",
+  "title": "ReturnLab ‑ Returns Romania",
+  "developer": "AVA Design & Print S.R.L",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-22",
+  "categories": [
+   "Returns and exchanges"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "zigchat": {
+  "handle": "zigchat",
+  "title": "ZigChat",
+  "developer": "ZigChat",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2024-03-18",
+  "categories": [
+   "Abandoned cart",
+   "Web push"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "pluginos-pay-what-you-want": {
+  "handle": "pluginos-pay-what-you-want",
+  "title": "Pluginos Pay What You Want",
+  "developer": "Pluginos",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-08-14",
+  "categories": [
+   "Pricing quotes"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "tailor-product-configurator": {
+  "handle": "tailor-product-configurator",
+  "title": "Tailor",
+  "developer": "app.configurator.mvp",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-05-18",
+  "categories": [
+   "Product variants"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "bannerito": {
+  "handle": "bannerito",
+  "title": "Bannerito",
+  "developer": "Bannerito",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-23",
+  "categories": [
+   "Banners"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "onme": {
+  "handle": "onme",
+  "title": "OnMe ‑ AI Virtual Try‑On",
+  "developer": "UgieCo",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-20",
+  "categories": [
+   "Product display - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "rs-export-data": {
+  "handle": "rs-export-data",
+  "title": "ReTech ‑ Export Hub",
+  "developer": "Redefine LLC",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-02-20",
+  "categories": [
+   "Store data importer"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "bondi": {
+  "handle": "bondi",
+  "title": "Bondi: Bundles & Volume",
+  "developer": "TechnoBrains Business Solutions LLP",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-08-17",
+  "categories": [
+   "Product bundles"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "omnibus-pricing": {
+  "handle": "omnibus-pricing",
+  "title": "EU Omnibus Price History",
+  "developer": "Algo Commerce",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-01-19",
+  "categories": [
+   "Legal"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "giftcraft": {
+  "handle": "giftcraft",
+  "title": "GiftCraft ‑ Gift Wrap Cart",
+  "developer": "WeCraft",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-08-07",
+  "categories": [
+   "Gift wrap and messages"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "discount": {
+  "handle": "discount",
+  "title": "Simple Tiered Discount",
+  "developer": "Yadav.shop",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-01-19",
+  "categories": [
+   "Discounts"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "loyalty-engage-connector-1": {
+  "handle": "loyalty-engage-connector-1",
+  "title": "Loyalty Engage",
+  "developer": "Loyalty Engage",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-08-11",
+  "categories": [
+   "Loyalty and rewards"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "giftnote": {
+  "handle": "giftnote",
+  "title": "Giftnote: Gift Message Engine",
+  "developer": "Giftnote",
+  "rating": 5,
+  "reviews": 159,
+  "launched": "2022-03-16",
+  "categories": [
+   "Gift wrap and messages"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "page-speed-optimizer": {
+  "handle": "page-speed-optimizer",
+  "title": "Booster Page Speed Optimizer",
+  "developer": "Booster SEO",
+  "rating": 4.8,
+  "reviews": 392,
+  "launched": "2019-07-31",
+  "categories": [
+   "SEO"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "shipment-tracking-notify": {
+  "handle": "shipment-tracking-notify",
+  "title": "Shipment Tracking & Notify",
+  "developer": "PluginHive",
+  "rating": 5,
+  "reviews": 3,
+  "launched": "2019-08-23",
+  "categories": [
+   "Order tracking"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "rating-widget-1": {
+  "handle": "rating-widget-1",
+  "title": "Smart Business Reviews",
+  "developer": "hechler.dev",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-05-15",
+  "categories": [
+   "Content - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "formester": {
+  "handle": "formester",
+  "title": "Formester Contact Form Builder",
+  "developer": "Formester",
+  "rating": 5,
+  "reviews": 1,
+  "launched": "2023-08-09",
+  "categories": [
+   "Forms"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "accessibilityway": {
+  "handle": "accessibilityway",
+  "title": "Accessibility Way ADA WCAG EAA",
+  "developer": "AccessibilityWay",
+  "rating": 5,
+  "reviews": 19,
+  "launched": "2025-04-22",
+  "categories": [
+   "Accessibility"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "connverz": {
+  "handle": "connverz",
+  "title": "Connverz",
+  "developer": "Nodesure Technologies Pvt. Ltd.",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-09-18",
+  "categories": [
+   "Notifications - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "cloudsearch": {
+  "handle": "cloudsearch",
+  "title": "XCloud Search & Product Filter",
+  "developer": "NP Apps",
+  "rating": 4.9,
+  "reviews": 485,
+  "launched": "2018-10-16",
+  "categories": [
+   "Search and filters"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "oloround-1": {
+  "handle": "oloround-1",
+  "title": "oloround micromile fulfillment",
+  "developer": "oloround",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2024-03-20",
+  "categories": [
+   "Third-party logistics (3PL)",
+   "Returns and exchanges"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "storeclerk-1": {
+  "handle": "storeclerk-1",
+  "title": "StoreClerk: AI Sales & Support",
+  "developer": "InfinitAI",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2024-10-29",
+  "categories": [
+   "Chat"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "priya-cod-form": {
+  "handle": "priya-cod-form",
+  "title": "Priya COD Form: Made In India",
+  "developer": "Aulingo",
+  "rating": 4.1,
+  "reviews": 5,
+  "launched": "2023-12-19",
+  "categories": [
+   "Pay later"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "collections-creator": {
+  "handle": "collections-creator",
+  "title": "Axnivo‑Collection Create Edit",
+  "developer": "Axnivo",
+  "rating": 5,
+  "reviews": 1,
+  "launched": "2025-09-17",
+  "categories": [
+   "Bulk editor"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "smartalt-ai-alt-text": {
+  "handle": "smartalt-ai-alt-text",
+  "title": "SmartAlt ‑ AI SEO Alt Text",
+  "developer": "Visualsoft Limited",
+  "rating": 4.4,
+  "reviews": 6,
+  "launched": "2025-08-13",
+  "categories": [
+   "SEO"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "enhanced-color-swatches": {
+  "handle": "enhanced-color-swatches",
+  "title": "Enhanced Color Swatches",
+  "developer": "CLDT Consulting",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-06-09",
+  "categories": [
+   "Product variants"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "brix-sections-blocks": {
+  "handle": "brix-sections-blocks",
+  "title": "Brix ‑ CRO Product Blocks",
+  "developer": "Kodence",
+  "rating": 5,
+  "reviews": 2,
+  "launched": "2025-09-22",
+  "categories": [
+   "Page builder"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "discount-reveal": {
+  "handle": "discount-reveal",
+  "title": "Discount Reveal",
+  "developer": "DIFFY LAB",
+  "rating": 5,
+  "reviews": 2,
+  "launched": "2025-09-03",
+  "categories": [
+   "Discounts"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "impulsafy-email-guard": {
+  "handle": "impulsafy-email-guard",
+  "title": "Impulsafy ‑ Email Guard",
+  "developer": "Impulsa3",
+  "rating": 5,
+  "reviews": 4,
+  "launched": "2026-05-21",
+  "categories": [
+   "Marketing - Other",
+   "Operations - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "wholesale-simplified": {
+  "handle": "wholesale-simplified",
+  "title": "Wholesale Simplified",
+  "developer": "SolverCircle",
+  "rating": 5,
+  "reviews": 13,
+  "launched": "2017-07-10",
+  "categories": [
+   "Customer loyalty - Other",
+   "Wholesale"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "newtone": {
+  "handle": "newtone",
+  "title": "Newtone: Enterprise Translate",
+  "developer": "Newtone SAS",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-05-12",
+  "categories": [
+   "Currency and translation"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "core-web-vitals-booster": {
+  "handle": "core-web-vitals-booster",
+  "title": "Rocket Page Speed Optimizer",
+  "developer": "Urban Media",
+  "rating": 3.7,
+  "reviews": 40,
+  "launched": "2021-04-16",
+  "categories": [
+   "Site optimization - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "echo-mart-agent": {
+  "handle": "echo-mart-agent",
+  "title": "Echo‑Mart Agent",
+  "developer": "Deylin Lucas",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-27",
+  "categories": [
+   "Search and filters"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "product-bundles-fast-checkout": {
+  "handle": "product-bundles-fast-checkout",
+  "title": "Product Bundles: Fast Checkout",
+  "developer": "CartBoosters",
+  "rating": 5,
+  "reviews": 2,
+  "launched": "2019-08-19",
+  "categories": [
+   "Product bundles"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "mailchimp": {
+  "handle": "mailchimp",
+  "title": "Mailchimp Email SMS Marketing",
+  "developer": "Intuit Mailchimp",
+  "rating": 4.8,
+  "reviews": 1369,
+  "launched": "2018-11-28",
+  "categories": [
+   "Email marketing"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "splitorder": {
+  "handle": "splitorder",
+  "title": "SplitOrder",
+  "developer": "Mercantile Apps",
+  "rating": 3.7,
+  "reviews": 35,
+  "launched": "2021-08-11",
+  "categories": [
+   "Order editing"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "quantity-calculator": {
+  "handle": "quantity-calculator",
+  "title": "DIY Quantity Calculator",
+  "developer": "Eniture Technology",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2022-07-18",
+  "categories": [
+   "Product display - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "imapi-shipping": {
+  "handle": "imapi-shipping",
+  "title": "im•api (shipping)",
+  "developer": "im•api",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-06-18",
+  "categories": [
+   "Shipping solutions - Other"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "truereff": {
+  "handle": "truereff",
+  "title": "Truereff",
+  "developer": "GRIFEN INCORPORATED",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-09-18",
+  "categories": [
+   "Affiliate programs"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "vehicle-search-with-reg-lookup": {
+  "handle": "vehicle-search-with-reg-lookup",
+  "title": "Apex Vehicle Search Bundler",
+  "developer": "SC Apps",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-01-02",
+  "categories": [
+   "Search and filters"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "weshipcom": {
+  "handle": "weshipcom",
+  "title": "WeShip",
+  "developer": "WeShip",
+  "rating": 4.4,
+  "reviews": 40,
+  "launched": "2020-11-26",
+  "categories": [
+   "Shipping"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "timeport-2": {
+  "handle": "timeport-2",
+  "title": "配送日時指定&佐川急便e飛伝ⅢCSV｜TimePort",
+  "developer": "Psyve Inc.",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-06-16",
+  "categories": [
+   "Shipping"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "smart-role-discounts": {
+  "handle": "smart-role-discounts",
+  "title": "Smart Role Discount",
+  "developer": "TechMarbles",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-01-15",
+  "categories": [
+   "Discounts"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "robots-txt-editor": {
+  "handle": "robots-txt-editor",
+  "title": "Robots.txt",
+  "developer": "DJP Digital",
+  "rating": 5,
+  "reviews": 3,
+  "launched": "2022-08-25",
+  "categories": [
+   "SEO"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "stock-scout": {
+  "handle": "stock-scout",
+  "title": "Stock Scout: Low Stock Alerts",
+  "developer": "HH Online Ventures",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-07",
+  "categories": [
+   "Inventory optimization"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "algoshop-product-label-badge": {
+  "handle": "algoshop-product-label-badge",
+  "title": "Algoshop Promo Label & Badge",
+  "developer": "algoshop.ai",
+  "rating": 4.9,
+  "reviews": 87,
+  "launched": "2025-08-12",
+  "categories": [
+   "Badges and icons"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "b2chat": {
+  "handle": "b2chat",
+  "title": "B2Chat",
+  "developer": "B2Chat",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-03-03",
+  "categories": [
+   "Chat"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "shuffler": {
+  "handle": "shuffler",
+  "title": "Shuffler: Sort & Shuffle",
+  "developer": "Rami Apps",
+  "rating": 5,
+  "reviews": 1,
+  "launched": "2026-02-07",
+  "categories": [
+   "Collections"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "variant-images-gallery": {
+  "handle": "variant-images-gallery",
+  "title": "VariantNest",
+  "developer": "Amethyst",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-06-16",
+  "categories": [
+   "Images and media - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "switch-2-zero": {
+  "handle": "switch-2-zero",
+  "title": "Switch2Zero:Plant Trees & Grow",
+  "developer": "Switch2Zero Ltd",
+  "rating": 5,
+  "reviews": 7,
+  "launched": "2023-02-16",
+  "categories": [
+   "Donations"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "giftkart": {
+  "handle": "giftkart",
+  "title": "GiftKart: Cashback Rewards",
+  "developer": "Zura Technologies",
+  "rating": 4.9,
+  "reviews": 104,
+  "launched": "2021-08-27",
+  "categories": [
+   "Loyalty and rewards"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "shopbnb": {
+  "handle": "shopbnb",
+  "title": "ShopSTR ‑ Book Everything",
+  "developer": "Minion",
+  "rating": 3.4,
+  "reviews": 7,
+  "launched": "2023-06-23",
+  "categories": [
+   "Event booking"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "tideway-ai": {
+  "handle": "tideway-ai",
+  "title": "Tideway AI",
+  "developer": "Geo Robotics",
+  "rating": 5,
+  "reviews": 1,
+  "launched": "2025-10-03",
+  "categories": [
+   "Operations - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "jot-party": {
+  "handle": "jot-party",
+  "title": "Jot Party",
+  "developer": "Jot Party",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-07-03",
+  "categories": [
+   "Blogs"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "imagine-supply-chain": {
+  "handle": "imagine-supply-chain",
+  "title": "Imagine Fulfillment",
+  "developer": "Imagine Supply Chain",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2023-09-12",
+  "categories": [
+   "Third-party logistics (3PL)",
+   "Shipping rates"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "theme-access": {
+  "handle": "theme-access",
+  "title": "Theme Access",
+  "developer": "Shopify",
+  "rating": 4.1,
+  "reviews": 4,
+  "launched": "2021-05-31",
+  "categories": [
+   "Operations - Other",
+   "Storefronts - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "vevy-product-blocks": {
+  "handle": "vevy-product-blocks",
+  "title": "vevy Trust Badges & Icons",
+  "developer": "Grinduck",
+  "rating": 5,
+  "reviews": 2,
+  "launched": "2026-05-05",
+  "categories": [
+   "Page builder"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "farnsla-ai-chatbot": {
+  "handle": "farnsla-ai-chatbot",
+  "title": "Farnsla ‑ Chatbot AI",
+  "developer": "Farnsla",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-02-19",
+  "categories": [
+   "Chat"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "cycle-product-intelligence": {
+  "handle": "cycle-product-intelligence",
+  "title": "Cycle Product Intelligence",
+  "developer": "Cycle Intelligence",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-22",
+  "categories": [
+   "Analytics"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "lietuvos-pastas": {
+  "handle": "lietuvos-pastas",
+  "title": "Lietuvos Paštas",
+  "developer": "AB Lietuvos paštas",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2022-07-15",
+  "categories": [
+   "Shipping solutions - Other"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "pureclarity": {
+  "handle": "pureclarity",
+  "title": "PureClarity Personalization",
+  "developer": "PureClarity",
+  "rating": 5,
+  "reviews": 4,
+  "launched": "2021-06-24",
+  "categories": [
+   "Upsell and cross-sell"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "bubl-cx": {
+  "handle": "bubl-cx",
+  "title": "Bubl CX",
+  "developer": "Bubl CX",
+  "rating": 3.9,
+  "reviews": 3,
+  "launched": "2026-01-29",
+  "categories": [
+   "Upsell and cross-sell"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "maker-production-view": {
+  "handle": "maker-production-view",
+  "title": "Maker's Production View",
+  "developer": "Fleartex",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-06-25",
+  "categories": [
+   "Orders - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "rastova-sms": {
+  "handle": "rastova-sms",
+  "title": "Rastova (WhatsApp ‑ SMS)",
+  "developer": "Rastova",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-10-09",
+  "categories": [
+   "SMS marketing"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "gemnote": {
+  "handle": "gemnote",
+  "title": "Gemnote",
+  "developer": "Gemnote Inc.",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2024-06-11",
+  "categories": [
+   "Third-party logistics (3PL)"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "tocito": {
+  "handle": "tocito",
+  "title": "Tocito",
+  "developer": "Pompych Studio",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-06-23",
+  "categories": [
+   "Blogs"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "leoadventures-cart-discount": {
+  "handle": "leoadventures-cart-discount",
+  "title": "LeoAdventures ID Discounts",
+  "developer": "Three Remain Productions",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2021-08-04",
+  "categories": [
+   "Discounts",
+   "Loyalty and rewards"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "fullestop-404-shield": {
+  "handle": "fullestop-404-shield",
+  "title": "404 Shield: Redirect Manager",
+  "developer": "Gempulse Infotech Pvt ltd",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-06-04",
+  "categories": [
+   "SEO"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "unlimity-gift-cards": {
+  "handle": "unlimity-gift-cards",
+  "title": "Unlimity Gift Cards",
+  "developer": "UnlimityApps",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-05-16",
+  "categories": [
+   "Gift cards"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "prevoir": {
+  "handle": "prevoir",
+  "title": "Prévoir ",
+  "developer": "Prevoir",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-12-02",
+  "categories": [
+   "Analytics"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "queryra-search-ai": {
+  "handle": "queryra-search-ai",
+  "title": "Queryra – AI Semantic Search",
+  "developer": "Gronix",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-05-06",
+  "categories": [
+   "Search and filters"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "rankingrider": {
+  "handle": "rankingrider",
+  "title": "RankingRider",
+  "developer": "Kaestria",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-05-06",
+  "categories": [
+   "SEO"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "luban-facebook-google-account": {
+  "handle": "luban-facebook-google-account",
+  "title": " Luban–Facebook&Google Account",
+  "developer": "bluevision ",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2020-08-04",
+  "categories": [
+   "Ads",
+   "Analytics"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "fortnox-3": {
+  "handle": "fortnox-3",
+  "title": "Fortnox",
+  "developer": "Oktagon",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-08-04",
+  "categories": [
+   "Accounting"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "notes-snippets": {
+  "handle": "notes-snippets",
+  "title": "SnipNotes: Snippets & WhatsApp",
+  "developer": "Qode Bites",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-05-28",
+  "categories": [
+   "Order editing"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "code-bulk": {
+  "handle": "code-bulk",
+  "title": "Code Bulk Discounts",
+  "developer": "Optizio",
+  "rating": 4.9,
+  "reviews": 40,
+  "launched": "2024-05-24",
+  "categories": [
+   "Discounts"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "wiioerp": {
+  "handle": "wiioerp",
+  "title": "Wiio Dropshipping Fulfillment",
+  "developer": "Wiio Dropshipping",
+  "rating": 4.6,
+  "reviews": 55,
+  "launched": "2020-11-24",
+  "categories": [
+   "Dropshipping"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "bulkperk": {
+  "handle": "bulkperk",
+  "title": "BulkPerk Bundles & Discounts",
+  "developer": "Codersy",
+  "rating": 5,
+  "reviews": 3,
+  "launched": "2025-08-20",
+  "categories": [
+   "Discounts"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "easydeliveryrate": {
+  "handle": "easydeliveryrate",
+  "title": "Easy Delivery Rate",
+  "developer": "EasyApps",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-04-15",
+  "categories": [
+   "Fraud"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "moneyflo-ai": {
+  "handle": "moneyflo-ai",
+  "title": "Moneyflo: E‑comm Profitability",
+  "developer": "FTM Technologies Pvt Ltd",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2023-10-06",
+  "categories": [
+   "Analytics"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "ts-integration": {
+  "handle": "ts-integration",
+  "title": "Kexpress DeliverIt",
+  "developer": "BOA Ideas",
+  "rating": 5,
+  "reviews": 1,
+  "launched": "2021-01-18",
+  "categories": [
+   "Inventory sync"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "heard": {
+  "handle": "heard",
+  "title": "heard Post Purchase NPS Survey",
+  "developer": "Heard",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-12-12",
+  "categories": [
+   "Surveys"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "kaarobar": {
+  "handle": "kaarobar",
+  "title": "Kaarobar: COD Profit & Ops",
+  "developer": "Remap Media",
+  "rating": 5,
+  "reviews": 1,
+  "launched": "2026-07-27",
+  "categories": [
+   "Accounting"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "argora-cart-recovery": {
+  "handle": "argora-cart-recovery",
+  "title": "Argora ‑ Cart Recovery",
+  "developer": "Argora",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-11-12",
+  "categories": [
+   "Abandoned cart"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "ecs-contact-form-builder": {
+  "handle": "ecs-contact-form-builder",
+  "title": "ECS ‑ Contact Form Builder",
+  "developer": "EasycodingSchool",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-05-08",
+  "categories": [
+   "Forms"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "script-scan": {
+  "handle": "script-scan",
+  "title": "Script Scan",
+  "developer": "Matt Gibbins",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-04-28",
+  "categories": [
+   "Site optimization - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "ea-auto-translate-language": {
+  "handle": "ea-auto-translate-language",
+  "title": "EA • Auto Language Translate",
+  "developer": "EasyApps",
+  "rating": 4.8,
+  "reviews": 102,
+  "launched": "2024-08-22",
+  "categories": [
+   "Currency and translation"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "age-verification-10": {
+  "handle": "age-verification-10",
+  "title": "Age Verification ‑ Onlyage 18+",
+  "developer": "Codexade",
+  "rating": 4.8,
+  "reviews": 29,
+  "launched": "2022-05-09",
+  "categories": [
+   "Legal"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "bulk-transporter": {
+  "handle": "bulk-transporter",
+  "title": "Bulk Transporter | Migrate",
+  "developer": "Clarity",
+  "rating": 2.7,
+  "reviews": 2,
+  "launched": "2023-06-05",
+  "categories": [
+   "Bulk editor"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "syncmate-by-assistro": {
+  "handle": "syncmate-by-assistro",
+  "title": "WhatsApp Order Alerts‑SyncMate",
+  "developer": "Assistro",
+  "rating": 4,
+  "reviews": 6,
+  "launched": "2024-03-19",
+  "categories": [
+   "Notifications - Other"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "skyfleet-shipping": {
+  "handle": "skyfleet-shipping",
+  "title": "Skyfleet Shipping",
+  "developer": "Skyfleet",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-07-08",
+  "categories": [
+   "Shipping"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "agentrank-1": {
+  "handle": "agentrank-1",
+  "title": "AgentRank — AI Visibility",
+  "developer": "Karakaya",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-05-26",
+  "categories": [
+   "Analytics"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "ga-audio-player": {
+  "handle": "ga-audio-player",
+  "title": "GA: Sticky Audio Player",
+  "developer": "GoodApps",
+  "rating": 5,
+  "reviews": 2,
+  "launched": "2025-06-24",
+  "categories": [
+   "Animation and effects"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "cross-sell-5": {
+  "handle": "cross-sell-5",
+  "title": "Easy CrossSell",
+  "developer": "World8 Inc.,",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-07-01",
+  "categories": [
+   "Upsell and cross-sell"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "nordic-b2b-portal": {
+  "handle": "nordic-b2b-portal",
+  "title": "B2B Approve: Wholesale Vetting",
+  "developer": "AddonNordic ApS",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-05-28",
+  "categories": [
+   "Wholesale"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "convertopia-smart-search": {
+  "handle": "convertopia-smart-search",
+  "title": "Convertopia Smart Search",
+  "developer": "Convertopia",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-01-20",
+  "categories": [
+   "Search and filters"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "eprel-app-prod": {
+  "handle": "eprel-app-prod",
+  "title": "Eprel EU Energy Label Buddy",
+  "developer": "Nuskrift - Jonas Weichenhain",
+  "rating": 5,
+  "reviews": 2,
+  "launched": "2025-09-01",
+  "categories": [
+   "Badges and icons"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "fulfilnet": {
+  "handle": "fulfilnet",
+  "title": "Fulfilnet",
+  "developer": "Stashworks Pte Ltd",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2022-12-20",
+  "categories": [
+   "Third-party logistics (3PL)"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "fatturazione-it": {
+  "handle": "fatturazione-it",
+  "title": "Fatturazione IT",
+  "developer": "Morando Stefano",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2026-06-09",
+  "categories": [
+   "Invoices and receipts"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "tap2chat": {
+  "handle": "tap2chat",
+  "title": "Tap2Chat ‑ WhatsApp/others",
+  "developer": "Avexsoft",
+  "rating": 5,
+  "reviews": 1,
+  "launched": "2023-07-10",
+  "categories": [
+   "Chat"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "catalogly": {
+  "handle": "catalogly",
+  "title": "Catalogly ‑ PDF Catalog Maker",
+  "developer": "dApplication",
+  "rating": 4.6,
+  "reviews": 41,
+  "launched": "2023-02-27",
+  "categories": [
+   "Image gallery"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "stickit": {
+  "handle": "stickit",
+  "title": "StickIt",
+  "developer": "Dimenso",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-08-11",
+  "categories": [
+   "Cart customization"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "product-and-variant-ids": {
+  "handle": "product-and-variant-ids",
+  "title": "WTE ‑ IDs Exporter",
+  "developer": "webTecheasy FZCO",
+  "rating": 4.9,
+  "reviews": 16,
+  "launched": "2016-10-25",
+  "categories": [
+   "Product variants"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "shiprate-estimator": {
+  "handle": "shiprate-estimator",
+  "title": "ShipRate: Delivery Calculator",
+  "developer": "Optima Solutio, MB",
+  "rating": 5,
+  "reviews": 1,
+  "launched": "2023-08-24",
+  "categories": [
+   "Shipping rates"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "shop-14": {
+  "handle": "shop-14",
+  "title": "かんたんSHOPデータ移行",
+  "developer": "株式会社UnByte",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2021-09-27",
+  "categories": [
+   "Inventory sync"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "inpost-paczkomaty-1": {
+  "handle": "inpost-paczkomaty-1",
+  "title": "InPost Paczkomaty Orlen Paczka",
+  "developer": "Codie",
+  "rating": 4.7,
+  "reviews": 48,
+  "launched": "2023-07-25",
+  "categories": [
+   "Delivery and pickup"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "metafields-translator": {
+  "handle": "metafields-translator",
+  "title": "VT Labs: AI Market Translate",
+  "developer": "VT Labs",
+  "rating": 4.7,
+  "reviews": 3,
+  "launched": "2022-02-07",
+  "categories": [
+   "Currency and translation"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "delivery-date": {
+  "handle": "delivery-date",
+  "title": "1‑Click Delivery Date Picker",
+  "developer": "GetButton Apps Oy",
+  "rating": 4.1,
+  "reviews": 18,
+  "launched": "2017-08-08",
+  "categories": [
+   "Delivery and pickup"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "byrd": {
+  "handle": "byrd",
+  "title": "European Fulfillment | byrd",
+  "developer": "byrd",
+  "rating": 4.5,
+  "reviews": 5,
+  "launched": "2021-09-06",
+  "categories": [
+   "Third-party logistics (3PL)"
+  ],
+  "builtForShopify": false,
+  "seen": "2026-08-31"
+ },
+ "embitel-store-locator": {
+  "handle": "embitel-store-locator",
+  "title": "Embitel : Store Locator",
+  "developer": "Embitel Technologies (I) Pvt Ltd",
+  "rating": 5,
+  "reviews": 1,
+  "launched": "2025-08-08",
+  "categories": [
+   "Store locator"
+  ],
+  "builtForShopify": true,
+  "seen": "2026-08-31"
+ },
+ "instafeed-studio": {
+  "handle": "instafeed-studio",
+  "title": "Instafeed Studio",
+  "developer": "Station",
+  "rating": null,
+  "reviews": 0,
+  "launched": "2025-08-20",
+  "categories": [
+   "Social proof"
   ],
   "builtForShopify": true,
   "seen": "2026-08-31"
