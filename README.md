@@ -47,6 +47,22 @@ nothing in the marketplace is incentivised to tell you.
 [ecosyste.ms]: https://ecosyste.ms
 [libraries.io]: https://libraries.io
 
+## The research this came out of
+
+[**The Distribution Census**](RESEARCH.md) — three marketplaces measured
+directly to answer whether anything new can still get discovered in them.
+2,000 WordPress plugins, 1,199 VS Code extensions, 465 Shopify apps.
+
+- 46 WordPress plugins reached 50k installs since 2023. **Four were independent**,
+  and all four already sold Elementor or Gutenberg addons.
+- The independent share of new VS Code entrants **halved**, 73% → 37%, in three years.
+- **34.7%** of Shopify apps rated 4.8★ or higher still sit under 25 reviews.
+
+Everything is reproducible: the collectors and the raw datasets are in
+[`research/`](research/) and [`data/`](data/). `node research/verify-census.mjs`
+recomputes every published figure from the stored data and exits non-zero if any
+of them drifts.
+
 ## Install
 
 Not on npm yet, so run it straight from this repo:
