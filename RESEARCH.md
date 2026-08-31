@@ -121,8 +121,19 @@ excellent apps are themselves under 25 reviews.**
 > constraint. Discovery is.**
 
 Consistent surrounding economics: **96.1%** offer a free plan or free install,
-the median paid tier is **$20/month**, and **15.1%** carry the "Built for
-Shopify" badge. 53 developers in the sample ship more than one app.
+and the median paid tier is **$20/month**. 53 developers in the sample ship
+more than one app.
+
+> **Withdrawn.** This paragraph previously ended "and **15.1%** carry the 'Built
+> for Shopify' badge". A whole-store sample returns a far higher rate, and 30
+> apps from the original sample re-checked the next day disagreed on 14 of
+> them, always in the same direction — the old detector had false negatives.
+>
+> It is withdrawn rather than corrected because **the collector that produced it
+> was never saved**, so the disagreement cannot be diagnosed, only replaced.
+> That is the whole lesson: keeping the data is not keeping the method, and only
+> the method makes a number checkable. Every collector behind every other figure
+> here is in [`research/`](research/).
 
 ---
 

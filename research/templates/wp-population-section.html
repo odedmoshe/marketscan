@@ -1,0 +1,80 @@
+<h2>The whole directory, not the head</h2>
+<p class="dek">The section above measures the top 2,000 plugins. This one measures {{N_COLLECTED}} of them &mdash; {{COVERAGE}}% of the directory &mdash; because the interesting question was always about the other 97%.</p>
+
+<div class="col">
+<p>A popular-head sample can only answer questions about the head. &ldquo;Can a plugin published today reach anyone&rdquo; is a question about the tail, so the directory was enumerated rather than sampled: <code>query_plugins</code> pages the whole thing 100 at a time, and every record carries the date it was <em>added</em> as well as the date it was last <em>updated</em>.</p>
+
+<p>Getting the population turned out to need two passes, and the reason would quietly bias anyone else's numbers too. The directory reports <strong>two different sizes</strong>: <code>browse=new</code> and <code>browse=updated</code> both count 71,091 plugins, while <code>browse=popular</code> counts 66,998. The 4,093 difference is what a popularity ranking has nothing to sort by &mdash; the plugins with no install base at all. Enumerate through <code>popular</code> and you silently drop the deadest part of the tail, and every rate you compute comes out flattering.</p>
+</div>
+
+<div class="cohorts">
+  <div class="cohort">
+    <div class="lab">The directory, not the head</div>
+    <div class="big">{{STALE12}}%</div>
+    <div class="cap">of collected plugins have had no release in twelve months. The top-2,000 figure is 13.8%. The head is maintained; the directory is not.</div>
+  </div>
+  <div class="cohort now">
+    <div class="lab">Added since January 2024</div>
+    <div class="big">{{COHORT_10K}}%</div>
+    <div class="cap">of those {{COHORT_N}} plugins have reached 10,000 installs &mdash; {{BT_TOTAL}} of them, in two and a half years.</div>
+  </div>
+  <div class="cohort">
+    <div class="lab">What those {{BT_TOTAL}} started with</div>
+    <div class="big">{{MEDIAN_PRIOR}}</div>
+    <div class="cap">median installs their authors <em>already had</em>, across their other plugins, before the new one launched.</div>
+  </div>
+</div>
+
+<div class="col">
+<h3>Something changed in 2026</h3>
+<p>Enumerating by date added surfaced something the popular-head sample could not see, because the plugins involved are invisible to a popularity ranking by construction: <strong>submissions to the directory have roughly quintupled in eighteen months.</strong> January 2025 took in {{RATE_START}} new plugins. {{RATE_END_LABEL}} took in {{RATE_END}}.</p>
+</div>
+
+<div class="block">
+<table>
+  <thead><tr><th style="width:16%">Added in</th><th style="width:14%">plugins</th><th style="width:20%">reached 1,000 installs</th><th>still at zero installs</th></tr></thead>
+  <tbody>
+{{COHORT_TABLE}}
+  </tbody>
+</table>
+</div>
+
+<div class="col">
+<p><strong>The recency objection has to be dealt with first, because it is a real one.</strong> A plugin added last month has had a month to find users; one added in 2019 has had seven years. Some of the collapse in the right-hand column is simply that.</p>
+
+<p>It does not account for the size of it. Take the 2024 cohort, which has had between eighteen months and two and a half years &mdash; long enough by any reasonable standard: {{Z2024}}% of those plugins still have zero installs, against {{Z2019}}% of the 2019 cohort. And the left-hand column has no recency confound at all. A monthly submission count is a monthly submission count.</p>
+
+<p>What is causing it is not in this data, and I am not going to pretend otherwise. The timing coincides with code generation becoming nearly free, which is the obvious hypothesis and remains a hypothesis: nothing here records how any plugin was written. What the data does support is the shape. Supply into the directory is rising steeply, and the share of that supply reaching any user at all is falling just as steeply.</p>
+</div>
+
+<div class="col">
+<h3>Distribution is inherited</h3>
+<p>{{BT_TOTAL}} plugins added since January 2024 have reached 10,000 active installs. That is the complete list rather than a sample of it, and it is short enough to examine one row at a time.</p>
+</div>
+
+<div class="block">
+<table>
+  <thead><tr><th style="width:52%">The author of a breakthrough plugin&hellip;</th><th style="width:8%">n</th><th style="width:14%"></th><th>share</th></tr></thead>
+  <tbody>
+    <tr><td class="who">had shipped something before, of any size</td><td class="n">{{BT_ANY}}</td><td><span class="bar" style="width:{{BAR_ANY}}%"></span></td><td class="how">{{BT_ANY_PCT}}%</td></tr>
+    <tr><td class="who">had already shipped a 10,000+ install plugin</td><td class="n">{{BT_BIG}}</td><td><span class="bar" style="width:{{BAR_BIG}}%"></span></td><td class="how">{{BT_BIG_PCT}}%</td></tr>
+    <tr><td class="who">already had 1,000,000+ installs behind them</td><td class="n">{{BT_1M}}</td><td><span class="bar" style="width:{{BAR_1M}}%"></span></td><td class="how">{{BT_1M_PCT}}%</td></tr>
+    <tr><td class="who" style="color:var(--decay)">had nothing in the directory at all</td><td class="n">{{BT_NONE}}</td><td><span class="bar d" style="width:{{BAR_NONE}}%"></span></td><td class="how">{{BT_NONE_PCT}}%</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="col">
+<p>The last row is the one that matters, and it does not survive being read. Five of those {{BT_NONE}} are established businesses arriving with an audience built somewhere else &mdash; Leadpages, Stripe, Visa, LatePoint and the hosting company MilesWeb. Three are Elementor or Gutenberg add-ons, which is to say they attached themselves to an installed base rather than building one. One, <em>Search &amp; Replace Everything by WPCode</em>, is an Awesome Motive brand that the author field does not connect to Awesome Motive &mdash; so the row is itself an overcount, and every such miss makes it smaller rather than larger.</p>
+
+<p>What is genuinely left is a handful of independents in unusually hot niches: image compression, accessibility, SEO writing, cookie compliance, and <code>llms.txt</code>. Around ten plugins, out of a directory of seventy-one thousand, over two and a half years.</p>
+
+<p><strong>Nothing on the list reached ten thousand installs from a standing start inside the directory.</strong> The earlier section reached that conclusion from 46 plugins in a sample; this reaches it from every plugin the directory will show, and attaches a number: the median breakthrough belonged to someone who already had {{MEDIAN_PRIOR}} installs to announce it to.</p>
+
+<div class="pull">
+  <p>To get distribution here you must already have distribution. The directory does not grant it &mdash; it lets you spend it.</p>
+  <cite>The same conclusion as the sampled section, now measured on the population</cite>
+</div>
+
+<p>There is a second reading, less comfortable and equally supported. Several of the largest recent entrants carry ratings that would sink an independent plugin: 1.5&#9733;, 1.6&#9733;, 1.7&#9733;, 2.1&#9733;, all on hundreds of thousands of installs. Those are plugins bundled by hosts or pushed by platforms onto sites whose owners did not choose them. At the top of the recent cohort, install count and merit have come apart completely.</p>
+</div>

@@ -1,0 +1,35 @@
+<h3>Is the store still enterable?</h3>
+
+<div class="col">
+<p>The section above says discovery is the constraint. It does not say whether that constraint has tightened, because a sample of live apps cannot distinguish an app that arrived last year from one that arrived in 2014. Listing pages publish a launch date. A second sample &mdash; {{SHOP_N}} apps drawn at random from the sitemap the store's own robots.txt advertises, {{SHOP_USABLE}} of them usable &mdash; collects it, which turns review count from a popularity measure into a cohort measure.</p>
+
+<p>The threshold below was fixed before the data was collected, at 25 reviews: the same visibility line the section above uses.</p>
+</div>
+
+<div class="cohorts">
+  <div class="cohort">
+    <div class="lab">Launched before {{SHOP_CUTOFF_LABEL}}</div>
+    <div class="big">{{SHOP_OLDER_VIS}}%</div>
+    <div class="track"><span style="width:{{SHOP_OLDER_VIS}}%"></span></div>
+    <div class="cap">reached 25 reviews or more.</div>
+  </div>
+  <div class="cohort now">
+    <div class="lab">Launched in the last 24 months</div>
+    <div class="big">{{SHOP_RECENT_VIS}}%</div>
+    <div class="track"><span style="width:{{SHOP_RECENT_VIS}}%"></span></div>
+    <div class="cap">reached the same line. {{SHOP_ZERO}}% of that cohort have no reviews at all.</div>
+  </div>
+</div>
+
+<div class="col">
+<p>The median app launched in the last two years has <strong>zero</strong> reviews. The median app launched before that has {{SHOP_OLDER_MED}}. Some of that gap is simply time &mdash; reviews accumulate, and a app from 2016 has had eight more years to collect them. But a factor of {{SHOP_RATIO}} is a great deal more than the extra time explains, and three quarters of the recent cohort have not collected a single one.</p>
+
+<p>This is the same shape the WordPress directory shows, arrived at from a different marketplace with a different metric: <strong>the door is open, and almost nobody gets through it.</strong></p>
+</div>
+
+<div class="col">
+<h3 style="color:var(--decay)">A figure from the earlier draft is withdrawn</h3>
+<p>The paragraph above previously ended &ldquo;and only 15.1% carry the &lsquo;Built for Shopify&rsquo; badge&rdquo;. That number does not survive re-measurement: on this whole-store sample <strong>{{SHOP_BFS}}%</strong> of live apps carry it. Thirty apps from the original sample were re-checked the next day and the detectors disagreed on fourteen of them, always in the same direction.</p>
+
+<p>It is withdrawn rather than corrected, because the collector that produced it was never saved and so the disagreement cannot be debugged &mdash; only replaced. Two further things are worth saying plainly. The samples are different populations, so part of the gap may be real: over half this sample launched within the last two years, and the badge rewards the modern embedded-app architecture that older incumbents never migrated to. Klaviyo, listed since 2012, does not carry it. And a badge held by most of a store is not a signal a merchant can use to choose between two apps.</p>
+</div>

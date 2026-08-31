@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Four software marketplaces measured directly - WordPress, VS Code, Shopify and Chrome - to answer whether anything new can still get discovered in them. Primary data, n=4,164.">
+<meta name="description" content="Four software marketplaces measured directly - WordPress, VS Code, Shopify and Chrome - to answer whether anything new can still get discovered in them. Primary data, n=74,000+.">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://odedmoshe.github.io/marketscan/">
 <meta property="og:title" content="The Distribution Census">
@@ -134,7 +134,7 @@ footer{margin-top:66px;padding-top:22px;border-top:1px solid var(--rule);
 
 <header class="top">
   <div class="eyebrow">
-    <span>Primary data</span><span>4 marketplaces</span><span>n = 4,164</span><span>August 2026</span>
+    <span>Primary data</span><span>4 marketplaces</span><span>n = 74,000+</span><span>August 2026</span>
   </div>
   <h1>The Distribution Census</h1>
   <p class="standfirst">Four software marketplaces, measured directly rather than read about. The question was simple: can something new still get found here? The answer is not the one the marketplaces imply.</p>
@@ -203,6 +203,98 @@ footer{margin-top:66px;padding-top:22px;border-top:1px solid var(--rule);
 <p>A second thing fell out of the same data, filed as an observation rather than an opportunity: among plugins with very large install bases, the worst-rated are overwhelmingly <strong>first-party integrations from large companies</strong>. WooCommerce Tax sits at 2.0★ across 105 ratings on 500k installs; Meta for WooCommerce at 2.1★ on 400k; WordPress Importer at 3.1★ on two million, with <em class="q">zero percent</em> of its support threads resolved. People install them because they are official, not because they are good.</p>
 </div>
 
+<!-- population-section:start -->
+<h2>The whole directory, not the head</h2>
+<p class="dek">The section above measures the top 2,000 plugins. This one measures 71,091 of them &mdash; 100% of the directory &mdash; because the interesting question was always about the other 97%.</p>
+
+<div class="col">
+<p>A popular-head sample can only answer questions about the head. &ldquo;Can a plugin published today reach anyone&rdquo; is a question about the tail, so the directory was enumerated rather than sampled: <code>query_plugins</code> pages the whole thing 100 at a time, and every record carries the date it was <em>added</em> as well as the date it was last <em>updated</em>.</p>
+
+<p>Getting the population turned out to need two passes, and the reason would quietly bias anyone else's numbers too. The directory reports <strong>two different sizes</strong>: <code>browse=new</code> and <code>browse=updated</code> both count 71,091 plugins, while <code>browse=popular</code> counts 66,998. The 4,093 difference is what a popularity ranking has nothing to sort by &mdash; the plugins with no install base at all. Enumerate through <code>popular</code> and you silently drop the deadest part of the tail, and every rate you compute comes out flattering.</p>
+</div>
+
+<div class="cohorts">
+  <div class="cohort">
+    <div class="lab">The directory, not the head</div>
+    <div class="big">58.8%</div>
+    <div class="cap">of collected plugins have had no release in twelve months. The top-2,000 figure is 13.8%. The head is maintained; the directory is not.</div>
+  </div>
+  <div class="cohort now">
+    <div class="lab">Added since January 2024</div>
+    <div class="big">0.4%</div>
+    <div class="cap">of those 21,742 plugins have reached 10,000 installs &mdash; 95 of them, in two and a half years.</div>
+  </div>
+  <div class="cohort">
+    <div class="lab">What those 95 started with</div>
+    <div class="big">420k</div>
+    <div class="cap">median installs their authors <em>already had</em>, across their other plugins, before the new one launched.</div>
+  </div>
+</div>
+
+<div class="col">
+<h3>Something changed in 2026</h3>
+<p>Enumerating by date added surfaced something the popular-head sample could not see, because the plugins involved are invisible to a popularity ranking by construction: <strong>submissions to the directory have roughly quintupled in eighteen months.</strong> January 2025 took in 460 new plugins. July 2026 took in 2,495.</p>
+</div>
+
+<div class="block">
+<table>
+  <thead><tr><th style="width:16%">Added in</th><th style="width:14%">plugins</th><th style="width:20%">reached 1,000 installs</th><th>still at zero installs</th></tr></thead>
+  <tbody>
+    <tr><td>2019</td><td class="n">3,744</td><td class="n">597</td><td class="n">22.7%</td></tr>
+    <tr><td>2020</td><td class="n">4,130</td><td class="n">584</td><td class="n">23.2%</td></tr>
+    <tr><td>2021</td><td class="n">3,481</td><td class="n">434</td><td class="n">27.9%</td></tr>
+    <tr><td>2022</td><td class="n">3,233</td><td class="n">351</td><td class="n">30.5%</td></tr>
+    <tr><td>2023</td><td class="n">1,866</td><td class="n">178</td><td class="n">31.1%</td></tr>
+    <tr><td>2024</td><td class="n">3,324</td><td class="n">223</td><td class="n">38.9%</td></tr>
+    <tr><td>2025</td><td class="n">6,030</td><td class="n">146</td><td class="n">50.3%</td></tr>
+    <tr><td>2026 <span style="color:var(--ink-3)">(8 months)</span></td><td class="n">12,388</td><td class="n">55</td><td class="n" style="color:var(--decay)">80.7%</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="col">
+<p><strong>The recency objection has to be dealt with first, because it is a real one.</strong> A plugin added last month has had a month to find users; one added in 2019 has had seven years. Some of the collapse in the right-hand column is simply that.</p>
+
+<p>It does not account for the size of it. Take the 2024 cohort, which has had between eighteen months and two and a half years &mdash; long enough by any reasonable standard: 38.9% of those plugins still have zero installs, against 22.7% of the 2019 cohort. And the left-hand column has no recency confound at all. A monthly submission count is a monthly submission count.</p>
+
+<p>What is causing it is not in this data, and I am not going to pretend otherwise. The timing coincides with code generation becoming nearly free, which is the obvious hypothesis and remains a hypothesis: nothing here records how any plugin was written. What the data does support is the shape. Supply into the directory is rising steeply, and the share of that supply reaching any user at all is falling just as steeply.</p>
+</div>
+
+<div class="col">
+<h3>Distribution is inherited</h3>
+<p>95 plugins added since January 2024 have reached 10,000 active installs. That is the complete list rather than a sample of it, and it is short enough to examine one row at a time.</p>
+</div>
+
+<div class="block">
+<table>
+  <thead><tr><th style="width:52%">The author of a breakthrough plugin&hellip;</th><th style="width:8%">n</th><th style="width:14%"></th><th>share</th></tr></thead>
+  <tbody>
+    <tr><td class="who">had shipped something before, of any size</td><td class="n">76</td><td><span class="bar" style="width:100%"></span></td><td class="how">80%</td></tr>
+    <tr><td class="who">had already shipped a 10,000+ install plugin</td><td class="n">70</td><td><span class="bar" style="width:92%"></span></td><td class="how">73.7%</td></tr>
+    <tr><td class="who">already had 1,000,000+ installs behind them</td><td class="n">39</td><td><span class="bar" style="width:51%"></span></td><td class="how">41.1%</td></tr>
+    <tr><td class="who" style="color:var(--decay)">had nothing in the directory at all</td><td class="n">19</td><td><span class="bar d" style="width:25%"></span></td><td class="how">20%</td></tr>
+  </tbody>
+</table>
+</div>
+
+<div class="col">
+<p>The last row is the one that matters, and it does not survive being read. Five of those 19 are established businesses arriving with an audience built somewhere else &mdash; Leadpages, Stripe, Visa, LatePoint and the hosting company MilesWeb. Three are Elementor or Gutenberg add-ons, which is to say they attached themselves to an installed base rather than building one. One, <em>Search &amp; Replace Everything by WPCode</em>, is an Awesome Motive brand that the author field does not connect to Awesome Motive &mdash; so the row is itself an overcount, and every such miss makes it smaller rather than larger.</p>
+
+<p>What is genuinely left is a handful of independents in unusually hot niches: image compression, accessibility, SEO writing, cookie compliance, and <code>llms.txt</code>. Around ten plugins, out of a directory of seventy-one thousand, over two and a half years.</p>
+
+<p><strong>Nothing on the list reached ten thousand installs from a standing start inside the directory.</strong> The earlier section reached that conclusion from 46 plugins in a sample; this reaches it from every plugin the directory will show, and attaches a number: the median breakthrough belonged to someone who already had 420k installs to announce it to.</p>
+
+<div class="pull">
+  <p>To get distribution here you must already have distribution. The directory does not grant it &mdash; it lets you spend it.</p>
+  <cite>The same conclusion as the sampled section, now measured on the population</cite>
+</div>
+
+<p>There is a second reading, less comfortable and equally supported. Several of the largest recent entrants carry ratings that would sink an independent plugin: 1.5&#9733;, 1.6&#9733;, 1.7&#9733;, 2.1&#9733;, all on hundreds of thousands of installs. Those are plugins bundled by hosts or pushed by platforms onto sites whose owners did not choose them. At the top of the recent cohort, install count and merit have come apart completely.</p>
+</div>
+<!-- population-section:end -->
+
+
+
 <h2>VS Code: the one door still open</h2>
 <p class="dek">134,919 extensions. Developers as users. Reputation travelling through GitHub rather than hosting deals.</p>
 
@@ -246,8 +338,46 @@ footer{margin-top:66px;padding-top:22px;border-top:1px solid var(--rule);
   <cite>The whole question, answered from the store's own data</cite>
 </div>
 
-<p>The surrounding economics are consistent with a market where being found is the scarce thing: <strong>96.1%</strong> of apps offer a free plan or free install, the median paid tier is <strong>$20/month</strong>, and only 15.1% carry the &ldquo;Built for Shopify&rdquo; badge. Fifty-three developers in the sample ship more than one app, led by POWR.io and Eniture Technology at fifteen apiece.</p>
+<p>The surrounding economics are consistent with a market where being found is the scarce thing: <strong>96.1%</strong> of apps offer a free plan or free install, the median paid tier is <strong>$20/month</strong>. Fifty-three developers in the sample ship more than one app, led by POWR.io and Eniture Technology at fifteen apiece.</p>
 </div>
+
+<!-- shopify-cohort:start -->
+<h3>Is the store still enterable?</h3>
+
+<div class="col">
+<p>The section above says discovery is the constraint. It does not say whether that constraint has tightened, because a sample of live apps cannot distinguish an app that arrived last year from one that arrived in 2014. Listing pages publish a launch date. A second sample &mdash; 1,325 apps drawn at random from the sitemap the store's own robots.txt advertises, 1,277 of them usable &mdash; collects it, which turns review count from a popularity measure into a cohort measure.</p>
+
+<p>The threshold below was fixed before the data was collected, at 25 reviews: the same visibility line the section above uses.</p>
+</div>
+
+<div class="cohorts">
+  <div class="cohort">
+    <div class="lab">Launched before August 2024</div>
+    <div class="big">25.3%</div>
+    <div class="track"><span style="width:25.3%"></span></div>
+    <div class="cap">reached 25 reviews or more.</div>
+  </div>
+  <div class="cohort now">
+    <div class="lab">Launched in the last 24 months</div>
+    <div class="big">2.7%</div>
+    <div class="track"><span style="width:2.7%"></span></div>
+    <div class="cap">reached the same line. 75% of that cohort have no reviews at all.</div>
+  </div>
+</div>
+
+<div class="col">
+<p>The median app launched in the last two years has <strong>zero</strong> reviews. The median app launched before that has 3. Some of that gap is simply time &mdash; reviews accumulate, and a app from 2016 has had eight more years to collect them. But a factor of 9.4 is a great deal more than the extra time explains, and three quarters of the recent cohort have not collected a single one.</p>
+
+<p>This is the same shape the WordPress directory shows, arrived at from a different marketplace with a different metric: <strong>the door is open, and almost nobody gets through it.</strong></p>
+</div>
+
+<div class="col">
+<h3 style="color:var(--decay)">A figure from the earlier draft is withdrawn</h3>
+<p>The paragraph above previously ended &ldquo;and only 15.1% carry the &lsquo;Built for Shopify&rsquo; badge&rdquo;. That number does not survive re-measurement: on this whole-store sample <strong>84.4%</strong> of live apps carry it. Thirty apps from the original sample were re-checked the next day and the detectors disagreed on fourteen of them, always in the same direction.</p>
+
+<p>It is withdrawn rather than corrected, because the collector that produced it was never saved and so the disagreement cannot be debugged &mdash; only replaced. Two further things are worth saying plainly. The samples are different populations, so part of the gap may be real: over half this sample launched within the last two years, and the badge rewards the modern embedded-app architecture that older incumbents never migrated to. Klaviyo, listed since 2012, does not carry it. And a badge held by most of a store is not a signal a merchant can use to choose between two apps.</p>
+</div>
+<!-- shopify-cohort:end -->
 
 <h2>Chrome: how much of a store is still alive</h2>
 <p class="dek">500 extensions, sampled at random from the store's own sitemap.</p>
@@ -285,6 +415,7 @@ footer{margin-top:66px;padding-top:22px;border-top:1px solid var(--rule);
 <p>One caveat I am imposing on myself rather than discovering later. Whether abandonment falls as user count rises is the obvious next question, and it looks like it does &mdash; but this sample yields only 35 extensions above 1,000 users, 13 above 10,000 and 2 above 100,000. A proportion computed on 13 records is a hint, not a finding, and it does not get published as one. Answering it needs a targeted sample of high-install extensions, which the store gives no way to enumerate.</p>
 
 <p>One that clears the bar on its own: <strong>Betaflight Configurator</strong>, 80,000 users, last updated <strong>96 months ago</strong>.</p>
+</div>
 
 <h2>What this adds up to</h2>
 
@@ -307,6 +438,12 @@ footer{margin-top:66px;padding-top:22px;border-top:1px solid var(--rule);
     <li><b>The Chrome sample is drawn from 6 of 41 sitemap shards</b>, and the sitemap repeats each extension once per locale — 239,895 raw URL matches collapsed to 52,396 unique ids. Extension ids are content-independent hashes, so an id range should not correlate with age or popularity, but that is an argument rather than a measurement.</li>
     <li><b>The Chrome collector initially mislabelled removed extensions as live.</b> A removed extension does not 404: it keeps a <code>/detail/</code> URL under the slug <code>empty-title</code> and is served a generic shell. 22 of 500 were affected. They are now counted as delisted, both the collector and the study reclassify them, and the figures above are post-fix.</li>
     <li><b>These are four marketplaces, not all of them.</b> Figma, Obsidian and Slack are unmeasured, and each has a different discovery mechanism that could plausibly behave differently.</li>
+<!-- caveats-v2:start -->
+    <li><b>The WordPress population figures cover 71,091 of the directory's 71,091 listings (100%), not all of them.</b> Enumeration needs two passes over two different orderings because <code>browse=popular</code> both repeats and skips at depth, and because it ranks only 66,998 of the 71,091 — omitting, by construction, the plugins with no install base. The residual gap is concentrated in older, low-install listings, which is the direction that makes the staleness figure a <em>floor</em> rather than a ceiling.</li>
+    <li><b>The author field does not resolve corporate ownership.</b> Plugins are grouped by the API's <code>author</code> string, so a conglomerate publishing under several brand names is counted as several independent authors. <em>Search &amp; Replace Everything by WPCode</em> is an Awesome Motive property that this method scores as a first-time author. Every such miss inflates the independent count, so &ldquo;19 breakthroughs from authors with nothing behind them&rdquo; is an upper bound.</li>
+    <li><b>The zero-install column has a recency confound and it is not fully removable.</b> Newer plugins have had less time to accumulate installs, so part of the rise is mechanical. The comparison that carries weight is the 2024 cohort at 38.9%, which has had eighteen months to two and a half years, against the 2019 cohort at 22.7%. The monthly submission counts have no such confound.</li>
+    <li><b>A third figure has been withdrawn.</b> &ldquo;Only 15.1% carry the Built for Shopify badge&rdquo; does not survive re-measurement — a whole-store sample returns 84.3%, and thirty apps re-checked from the original sample disagreed on fourteen, always in the same direction. It is withdrawn rather than corrected because the collector that produced it was never saved, so the disagreement cannot be diagnosed. <b>Every collector behind the figures on this page is now in <code>research/</code> in the repository</b>, which is the actual fix.</li>
+<!-- caveats-v2:end -->
   </ul>
 </div>
 
