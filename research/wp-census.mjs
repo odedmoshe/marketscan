@@ -55,7 +55,9 @@ const UA = 'marketscan-research/0.2 (marketplace maintenance study; +https://git
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-const DROP_FIELDS = ['description', 'short_description', 'icons', 'tags', 'ratings', 'screenshots', 'sections'];
+// tags are kept: they are the only categorisation the directory publishes, and
+// they are what makes "what else does this job, and is it alive?" answerable.
+const DROP_FIELDS = ['description', 'short_description', 'icons', 'ratings', 'screenshots', 'sections'];
 
 function pageUrl(page) {
   const p = new URLSearchParams();
@@ -87,6 +89,7 @@ export function compact(p) {
     r: p.rating ?? 0,
     nr: p.num_ratings ?? 0,
     t: p.tested || null,
+    tags: p.tags ? Object.keys(p.tags) : [],
     th: p.support_threads ?? 0,
     thr: p.support_threads_resolved ?? 0,
   };
