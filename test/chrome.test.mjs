@@ -7,7 +7,7 @@
 
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { parse, toIso, visibleText } from '../src/sources/chrome.mjs';
+import { parse, toIso, visibleText, isStoreShell } from '../src/sources/chrome.mjs';
 import { verdict } from '../src/health.mjs';
 
 // Shaped after the real served page for uBlock Origin Lite, 2026-08-31.
@@ -84,4 +84,35 @@ test('user counts with commas parse to numbers', () => {
 test('developer capture stops at the next label', () => {
   const r = parse('<body>Offered by Some Dev Version 1.2.3</body>', 'x');
   assert.equal(r.author, 'Some Dev');
+});
+
+// --- the generic shell -----------------------------------------------------
+// Found by sampling 500 extensions: a REMOVED extension does not 404 and does
+// not redirect away from /detail/. It keeps a /detail/ URL with the slug
+// "empty-title" and is served this shell. Seven of 500 were silently recorded
+// as live-with-no-date before this was caught.
+
+const SHELL = `<html><head><title>Chrome Web Store</title></head><body>
+<style>body,html{height:100%;overflow:hidden}</style></body></html>`;
+
+test('the generic store shell is recognised, not parsed as a listing', () => {
+  assert.equal(isStoreShell(SHELL), true);
+});
+
+test('a real listing is not mistaken for the shell', () => {
+  assert.equal(isStoreShell(PAGE), false);
+});
+
+test('a shell-titled page that still has real fields is not a shell', () => {
+  // Defensive: the title alone must not be enough to discard a live listing.
+  const odd = `<html><head><title>Chrome Web Store</title></head><body>
+    <div>18,000,000 users</div><div>Updated August 25, 2026</div></body></html>`;
+  assert.equal(isStoreShell(odd), false);
+});
+
+test('parsing the shell yields no usable fields', () => {
+  const r = parse(SHELL, 'abc');
+  assert.equal(r.lastUpdated, null);
+  assert.equal(r.installs, 0);
+  assert.equal(r.rating, null);
 });

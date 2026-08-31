@@ -41,6 +41,22 @@ export function toIso(dateText) {
   return `${m[3]}-${String(mo).padStart(2, '0')}-${String(Number(m[2])).padStart(2, '0')}`;
 }
 
+/**
+ * True when the store served its generic shell instead of a listing.
+ *
+ * Belt and braces alongside the `empty-title` URL check in `lookup`: the shell
+ * carries the bare title "Chrome Web Store" and none of the listing fields, so
+ * it is identifiable from the body alone. Callers that parse HTML they fetched
+ * themselves — the research collector does — have no `res.url` to inspect, and
+ * a shell parses into a plausible-looking record with a name and no date.
+ */
+export function isStoreShell(html) {
+  const title = (/<title[^>]*>([\s\S]*?)<\/title>/i.exec(html || '')?.[1] || '').trim();
+  if (title !== 'Chrome Web Store') return false;
+  const text = visibleText(html);
+  return !/Updated\s+[A-Za-z]+\s+\d{1,2},\s*\d{4}/.test(text) && !/[\d,]+\s*users/i.test(text);
+}
+
 /** Strip executable content first, then tags, then collapse whitespace. */
 export function visibleText(html) {
   return String(html || '')
@@ -99,9 +115,19 @@ export async function lookup(id) {
   const url = `https://chromewebstore.google.com/detail/${id}`;
   const res = await request(url, { headers: { Accept: 'text/html' } });
 
-  // See the header note: removal does not 404 here. If we did not land on a
-  // detail page, the extension is not in the store.
-  if (!/\/detail\//.test(res.url || '')) {
+  // See the header note: removal does not 404 here. Two distinct shapes, and
+  // the second was found only by sampling the store at scale:
+  //
+  //   1. An unknown id redirects away from /detail/ entirely (store homepage).
+  //   2. A REMOVED extension keeps a /detail/ URL but gets the slug
+  //      "empty-title" and is served a generic shell whose <title> is just
+  //      "Chrome Web Store", with no fields at all.
+  //
+  // Checking only for /detail/ passes case 2, which then parses into a record
+  // with a name and no date — indistinguishable from a live listing whose
+  // markup changed. In a 500-extension sample that silently mislabelled 7.
+  const finalUrl = res.url || '';
+  if (!/\/detail\//.test(finalUrl) || /\/detail\/empty-title\//.test(finalUrl)) {
     return {
       source: 'chrome',
       id,
